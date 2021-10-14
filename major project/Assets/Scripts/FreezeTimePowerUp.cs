@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class FreezeTimePowerUp : MonoBehaviour
 {
-   // GameObject GameManager;
+    private GameObject GameManager;
+    private Timer timer;
     public float pauseTime = 5f;
      void OnCollisionEnter(Collision collision)
     {
@@ -17,10 +18,13 @@ public class FreezeTimePowerUp : MonoBehaviour
     IEnumerator PickUp(Collision player)
     {
         //GameManager.GetComponent<Timer>().paused = true;
+        timer = GameManager.GetComponent<Timer>();
+        timer.paused = true;
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<Collider>().enabled = false;
         yield return new WaitForSeconds(pauseTime);
         //GameManager.GetComponent<Timer>().paused = false;
+        timer.paused = false;
         Destroy(gameObject);
 
     }
