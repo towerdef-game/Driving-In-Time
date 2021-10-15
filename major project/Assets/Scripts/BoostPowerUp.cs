@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class BoostPowerUp : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float pauseTime = 5f;
+
+    private void Start()
     {
         
     }
-
-    // Update is called once per frame
-    void Update()
+    void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject.tag == "Player")
+        {
+            StartCoroutine(PickUp(collision));
+        }
+    }
+
+    IEnumerator PickUp(Collision player)
+    {
+        GameObject.FindObjectOfType<CarController>();
+        ;
+        GetComponent<MeshRenderer>().enabled = false;
+        GetComponent<Collider>().enabled = false;
+        yield return new WaitForSeconds(pauseTime);
+        GameObject.FindObjectOfType<CarController>();
+        Destroy(gameObject);
+
     }
 }
