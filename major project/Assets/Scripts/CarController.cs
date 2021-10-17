@@ -13,7 +13,7 @@ public class CarController : MonoBehaviour
     private float turninput;
 
     public float airDrag;
-    private float grounddrag;
+    private float grounddrag = 5f;
 
     private bool isgrounded;
 
