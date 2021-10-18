@@ -9,7 +9,7 @@ public class Camerascript : MonoBehaviour
     [SerializeField] private float translateSpeed;
     [SerializeField] private float rotationspeed;
 
-     void Update()
+     void LateUpdate()
     {
         HandleTranslation();
         Handlerotation();
