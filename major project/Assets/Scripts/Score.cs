@@ -6,12 +6,12 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-    public float score = 0;
-    public TextMeshProUGUI scoreText;
+    public GameManager manager;
+//public TextMeshProUGUI scoreText;
     // Start is called before the first frame update
     void Start()
     {
-        score = 0;
+      //  score = 0;
     }
 
     // Update is called once per frame
@@ -23,10 +23,10 @@ public class Score : MonoBehaviour
     {
         if(collision.gameObject.tag == "ObjectScore")
         {
-            Debug.Log("Collided");
-            score += 10;
-            scoreText.text = score.ToString();
-            Destroy(collision.gameObject);
+           // Debug.Log("Collided");
+           manager.score += 10;
+         //   manager.targetsalive--;
+        
             
         }
         
