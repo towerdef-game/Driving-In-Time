@@ -5,6 +5,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public GameManager manager;
+    public float pointvalue;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +19,9 @@ public class Target : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "ObjectScore")
+        if (other.gameObject.tag == "car")
         {
-            // Debug.Log("Collided");
+             Debug.Log("Collided");
             manager.score += 10;
             manager.targetsalive--;
             Destroy(this);

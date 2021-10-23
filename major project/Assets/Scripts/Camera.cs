@@ -5,7 +5,7 @@ using UnityEngine;
 public class Camera : MonoBehaviour
 {
     public GameObject car;
-    public GameObject camera;
+    public GameObject camer;
     public Transform[] camlocations;
     public float loactionindicator;
 
@@ -14,7 +14,7 @@ public class Camera : MonoBehaviour
     void Start()
     {
         car = GameObject.FindGameObjectWithTag("Player");
-        camera = car.transform.Find("camera").gameObject;
+        camer = car.transform.Find("camera").gameObject;
 
     }
 }
