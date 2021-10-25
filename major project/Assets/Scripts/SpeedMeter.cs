@@ -21,7 +21,7 @@ public class SpeedMeter : MonoBehaviour
     private void Update()
     {
         
-        speed = targetCar.velocity.magnitude ;
+        speed = targetCar.velocity.magnitude;
        // Debug.Log(speed);
         if (speedText != null)
             speedText.text = ((int)speed) + " km/h";
