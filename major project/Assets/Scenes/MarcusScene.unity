@@ -1477,11 +1477,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470465214}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3be469b9b2987be48b655c01183f7d28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+  specialpoints: 0
+  speiclaunlock: 0
+  scoreText: {fileID: 442265946}
+  targetsalive: 0
 --- !u!4 &1470465216
 Transform:
   m_ObjectHideFlags: 0
@@ -1955,8 +1960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70cb600b407f6ea44a32ac8c7df8be3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
-  scoreText: {fileID: 442265946}
+  manager: {fileID: 1470465215}
 --- !u!1 &1938641363
 GameObject:
   m_ObjectHideFlags: 0

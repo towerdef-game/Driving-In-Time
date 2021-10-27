@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 
@@ -11,9 +12,10 @@ public class GameManager : MonoBehaviour
     public float speiclaunlock;
    public TextMeshProUGUI scoreText;
     public float targetsalive;
+  
     private void Start()
     {
-       
+        score = 0;
     }
     public void Endgame()
     {
@@ -21,7 +23,9 @@ public class GameManager : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        scoreText.text = "Score: " + score;
+       
+       //scoreText.text = "Score: " + score;
+        scoreText.text = score.ToString();
     }
     public void Update()
     {
