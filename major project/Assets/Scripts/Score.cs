@@ -30,6 +30,13 @@ public class Score : MonoBehaviour
         
             
         }
+
+
+        if(collision.gameObject.tag == "NonEnemy")
+        {
+            manager.scoreNonEnemy += 1;
+            Destroy(collision.gameObject);
+        }
         
     }
 }
