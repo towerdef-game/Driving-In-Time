@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 
@@ -11,9 +12,13 @@ public class GameManager : MonoBehaviour
     public float speiclaunlock;
    public TextMeshProUGUI scoreText;
     public float targetsalive;
+    public float scoreNonEnemy = 0;
+    public bool spawnEnemies = true;
+    public GameObject enemyPrefab;
     private void Start()
     {
-       
+        score = 0;
+        scoreNonEnemy = 0;
     }
     public void Endgame()
     {
@@ -21,7 +26,9 @@ public class GameManager : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        scoreText.text = "Score: " + score;
+       
+       //scoreText.text = "Score: " + score;
+        scoreText.text = score.ToString();
     }
     public void Update()
     {
@@ -33,6 +40,21 @@ public class GameManager : MonoBehaviour
         {
             Endgame();
             Debug.Log("noenemies");
+        }
+
+    if(scoreNonEnemy >= 5 && spawnEnemies ==  true)
+        {
+            
+            Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+            scoreNonEnemy = 0;
+
+
+            spawnEnemies = false;
+        }
+
+     if(scoreNonEnemy <= 5)
+        {
+            spawnEnemies = true;
         }
     }
 }

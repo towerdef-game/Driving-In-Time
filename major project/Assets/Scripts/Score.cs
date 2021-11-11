@@ -23,11 +23,19 @@ public class Score : MonoBehaviour
     {
         if(collision.gameObject.tag == "ObjectScore")
         {
-           // Debug.Log("Collided");
-           manager.score += 10;
-         //   manager.targetsalive--;
+           //Debug.Log("Collided");
+            manager.score += 10;
+            //   manager.targetsalive--;
+            Destroy(collision.gameObject);
         
             
+        }
+
+
+        if(collision.gameObject.tag == "NonEnemy")
+        {
+            manager.scoreNonEnemy += 1;
+            Destroy(collision.gameObject);
         }
         
     }
