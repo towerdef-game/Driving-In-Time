@@ -23,7 +23,8 @@ public class GameManager : MonoBehaviour
     }
     public void Endgame()
     {
-        SceneManager.LoadScene(1);
+        // SceneManager.LoadScene(1);
+    //    Debug.Log("noenemies");
     }
     private void FixedUpdate()
     {
@@ -40,7 +41,7 @@ public class GameManager : MonoBehaviour
     if(targetsalive <= 0)
         {
             Endgame();
-            Debug.Log("noenemies");
+        //    Debug.Log("noenemies");
         }
 
     if(NonEnemy >= 5 && spawnEnemies ==  true)

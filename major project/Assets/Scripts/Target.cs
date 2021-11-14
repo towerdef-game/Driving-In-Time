@@ -7,31 +7,41 @@ public class Target : MonoBehaviour
     public GameManager manager;
     public Material mat;
     public float pointvalue;
+    private bool disolve = false; 
     public float currentdisolve = 0f;
-    public float one = 1f;
+
+  
     // Start is called before the first frame update
     void Start()
     {
-        manager.targetsalive++; 
+        manager.targetsalive++;
+        mat.SetFloat("_dispell", 0f);
+      
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+    if (disolve == true)
+        {
+            currentdisolve = Mathf.Lerp(currentdisolve, 1, 0.5f * Time.deltaTime);
+            mat.SetFloat("_dispell", currentdisolve);
+        }
     }
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "car")
         {
              Debug.Log("Collided");
-            manager.score += 10;
+            manager.score += pointvalue;
             manager.targetsalive--;
-            currentdisolve = Mathf.Lerp(currentdisolve, one, Time.deltaTime);
-            mat.SetFloat("_dispell", currentdisolve);
-            // mat.SetFloat("dispell", one);
-            Destroy(this);
+            disolve = true;
+              Destroy(gameObject,3.5f);
+         
+       
 
         }
     }
+   
+   
 }
