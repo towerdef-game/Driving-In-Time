@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     public float NonEnemy = 0;
     public bool spawnEnemies = true;
     public GameObject enemyPrefab;
+
+    private bool canend = false;
     private void Start()
     {
         score = 0;
@@ -23,7 +25,7 @@ public class GameManager : MonoBehaviour
     }
     public void Endgame()
     {
-        // SceneManager.LoadScene(1);
+         SceneManager.LoadScene(1);
     //    Debug.Log("noenemies");
     }
     private void FixedUpdate()
@@ -41,7 +43,8 @@ public class GameManager : MonoBehaviour
     if(targetsalive <= 0)
         {
             Endgame();
-        //    Debug.Log("noenemies");
+            //    Debug.Log("noenemies");
+            canend = true;
         }
 
     if(NonEnemy >= 5 && spawnEnemies ==  true)
