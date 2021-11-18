@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class MenuScript : MonoBehaviour
 {
     int currentScene;
+    public GameObject menu;
     void Start()
     {
         
@@ -23,5 +24,21 @@ public class MenuScript : MonoBehaviour
     {
         currentScene++;
         SceneManager.LoadScene(currentScene);
+    }
+
+    public void QuitButton()
+    {
+
+    }
+
+    public void ReturnToMenu()
+    {
+        currentScene--;
+        SceneManager.LoadScene(currentScene);
+    }
+    public void Resume()
+    {
+        menu.SetActive(false);
+        Time.timeScale = 1;
     }
 }
