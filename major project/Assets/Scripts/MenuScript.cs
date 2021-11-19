@@ -33,8 +33,9 @@ public class MenuScript : MonoBehaviour
 
     public void ReturnToMenu()
     {
-        currentScene--;
-        SceneManager.LoadScene(currentScene);
+        // currentScene--;
+        Debug.Log("clicked");
+        SceneManager.LoadScene(0);
     }
     public void Resume()
     {
