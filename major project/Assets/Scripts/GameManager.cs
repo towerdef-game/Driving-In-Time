@@ -18,6 +18,10 @@ public class GameManager : MonoBehaviour
     public GameObject enemyPrefab;
 
     private bool canend = false;
+
+
+    public static float powerUpTime = 10f;
+    public Transform car;
     private void Start()
     {
         score = 0;
@@ -30,12 +34,29 @@ public class GameManager : MonoBehaviour
     }
     private void FixedUpdate()
     {
-       
-       //scoreText.text = "Score: " + score;
+        //gaintmode
+        if (GaintMode.gaintMode == true && powerUpTime > 0)
+        {
+            powerUpTime -= 1 * Time.deltaTime;
+        }
+        else if (powerUpTime < 0 && GaintMode.gaintMode != false)
+        {
+            GaintMode.gaintMode = false;
+            car.localScale = new Vector3(1, 1, 1);
+            GaintMode.speed.speed /= 5;
+        }
+
+        //scoreText.text = "Score: " + score;
         scoreText.text ="Score: " + score.ToString();
     }
     public void Update()
     {
+
+       
+
+
+
+
         if(specialpoints >= speiclaunlock)
         {
             //do something
