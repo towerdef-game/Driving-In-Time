@@ -8,6 +8,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject portal;
     public float score = 0;
     public float specialpoints;
     public float speiclaunlock;
@@ -29,7 +30,7 @@ public class GameManager : MonoBehaviour
     }
     public void Endgame()
     {
-         SceneManager.LoadScene(1);
+      //   SceneManager.LoadScene(1);
     //    Debug.Log("noenemies");
     }
     private void FixedUpdate()
@@ -63,8 +64,9 @@ public class GameManager : MonoBehaviour
         }
     if(targetsalive <= 0)
         {
-            Endgame();
+            //    Endgame();
             //    Debug.Log("noenemies");
+            portal.SetActive(true);
             canend = true;
         }
 
