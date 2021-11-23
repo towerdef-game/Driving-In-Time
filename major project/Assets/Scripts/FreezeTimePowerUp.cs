@@ -7,6 +7,7 @@ public class FreezeTimePowerUp : MonoBehaviour
     //private GameObject GameManager;
     //private Timer timer;
     public float pauseTime = 5f;
+    public Timer timer;
 
     private void Start()
     {

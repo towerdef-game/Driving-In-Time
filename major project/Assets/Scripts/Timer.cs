@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     
     
         public float timeRemaining = 10;
+    public GameManager manager;
         public bool Running = false;
         public bool paused = false;
     //public Text timeText;
@@ -35,6 +36,7 @@ public class Timer : MonoBehaviour
                    
                     timeRemaining = 0;
                     Running = false;
+                     manager.Endgame();
                 }
             }
         }
