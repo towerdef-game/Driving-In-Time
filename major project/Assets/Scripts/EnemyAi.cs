@@ -12,7 +12,7 @@ public class EnemyAi : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         speed = Random.Range(10, 15);
-        target = gameObject.transform.Find("Car").transform;
+        target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame

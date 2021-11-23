@@ -1182,7 +1182,7 @@ GameObject:
   - component: {fileID: 450161008}
   m_Layer: 8
   m_Name: Coillder
-  m_TagString: car
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3181,6 +3181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be469b9b2987be48b655c01183f7d28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  portal: {fileID: 0}
   score: 0
   specialpoints: 0
   speiclaunlock: 0

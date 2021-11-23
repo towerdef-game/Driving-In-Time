@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
     }
     public void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "ObjectScore")
+        if(collision.gameObject.tag == "Target")
         {
            //Debug.Log("Collided");
             manager.score += 10;
