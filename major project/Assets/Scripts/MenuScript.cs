@@ -22,13 +22,13 @@ public class MenuScript : MonoBehaviour
 
    public  void PlayButton()
     {
-        currentScene++;
-        SceneManager.LoadScene(currentScene);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 1;
     }
 
     public void QuitButton()
     {
-
+        Application.Quit();    
     }
 
     public void ReturnToMenu()
@@ -36,6 +36,7 @@ public class MenuScript : MonoBehaviour
         // currentScene--;
         Debug.Log("clicked");
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
     public void Resume()
     {
