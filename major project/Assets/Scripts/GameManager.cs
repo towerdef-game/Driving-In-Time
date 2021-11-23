@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     }
     public void Endgame()
     {
-      //   SceneManager.LoadScene(1);
+         SceneManager.LoadScene(1);
     //    Debug.Log("noenemies");
     }
     private void FixedUpdate()
