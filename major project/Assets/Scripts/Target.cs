@@ -9,14 +9,14 @@ public class Target : MonoBehaviour
     public float pointvalue;
     private bool disolve = false; 
     public float currentdisolve = 0f;
-
+    private CapsuleCollider cap;
   
     // Start is called before the first frame update
     void Start()
     {
         manager.targetsalive++;
         mat.SetFloat("_dispell", 0f);
-      
+        cap = gameObject.GetComponent<CapsuleCollider>();
     }
 
     // Update is called once per frame
@@ -33,6 +33,7 @@ public class Target : MonoBehaviour
         if (other.gameObject.tag == "car")
         {
              Debug.Log("Collided");
+            Destroy(cap);
             manager.score += pointvalue;
             manager.targetsalive--;
             disolve = true;

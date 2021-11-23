@@ -34,12 +34,13 @@ public class DestroyPowerUp : MonoBehaviour
 
         for (int i = 0; i < coll.Length; i++)
         {
-           // if (coll[i].gameObject.GetComponent<EnemyExplode>())
-            //{
-                
-           // }
+            if (coll[i].gameObject.GetComponent<TargetEnemy>())
+            //if (coll[i].gameObject.tag == "Target")
+            {
+                coll[i].gameObject.GetComponent<TargetEnemy>().TakeDamage();
+            }
         }
-        Destroy(gameObject, 1f);
+        Destroy(gameObject);
     }
 
     private void OnDrawGizmosSelected()
