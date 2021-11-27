@@ -23,11 +23,11 @@ public class Target : MonoBehaviour
     void Update()
     {
         // currently disolves all when activated
-    //if (disolve == true)
-    //    {
-    //        currentdisolve = Mathf.Lerp(currentdisolve, 1, 0.5f * Time.deltaTime);
-    //        mat.SetFloat("_dispell", currentdisolve);
-    //    }
+    if (disolve == true)
+        {
+            currentdisolve = Mathf.Lerp(currentdisolve, 1, 0.5f * Time.deltaTime);
+            mat.SetFloat("_dispell", currentdisolve);
+        }
     }
     public void OnTriggerEnter(Collider other)
     {
@@ -40,8 +40,8 @@ public class Target : MonoBehaviour
             disolve = true;
 
             // temporary change to instant while disolve isnt working
-            //   Destroy(gameObject,3.5f);
-            Destroy(gameObject);
+              Destroy(gameObject,3.5f);
+           // Destroy(gameObject);
        
 
         }
