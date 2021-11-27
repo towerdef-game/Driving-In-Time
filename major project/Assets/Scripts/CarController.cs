@@ -38,7 +38,7 @@ public class CarController : MonoBehaviour
     void Update()
     {
         moveInput = Input.GetAxisRaw("Vertical");
-        turninput = Input.GetAxisRaw("Horizontal");
+        turninput = Input.GetAxisRaw("Mouse X");
 
 
         // false value if it greater then 0 its speed if its not its reverseSPD
