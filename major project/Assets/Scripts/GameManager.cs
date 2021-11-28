@@ -107,5 +107,6 @@ public class GameManager : MonoBehaviour
         {
             alive = true;
         }
+        Debug.Log(totalTargets + " total" + targetsalive + "current");
     }
 }
