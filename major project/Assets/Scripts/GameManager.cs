@@ -20,18 +20,25 @@ public class GameManager : MonoBehaviour
 
     private bool canend = false;
 
-
+    //gaint powerup 
     public static float powerUpTime = 10f;
     public Transform car;
+
+
+    // scoretotal count
+    float totalTargets;
+    bool alive;
     private void Start()
     {
         score = 0;
         NonEnemy = 0;
+      //  totalTargets = targetsalive*10;
+
     }
     public void Endgame()
     {
-         SceneManager.LoadScene(1);
-    //    Debug.Log("noenemies");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //    Debug.Log("noenemies");
     }
     private void FixedUpdate()
     {
@@ -48,7 +55,7 @@ public class GameManager : MonoBehaviour
         }
 
         //scoreText.text = "Score: " + score;
-        scoreText.text ="Score: " + score.ToString();
+        scoreText.text ="Score: " + score.ToString() +"/"+totalTargets;
     }
     public void Update()
     {
@@ -83,6 +90,22 @@ public class GameManager : MonoBehaviour
      if(NonEnemy <= 5)
         {
             spawnEnemies = true;
+        }
+
+    }
+
+
+    public void LateUpdate()
+    {
+
+        if (alive)
+        {
+          totalTargets = targetsalive * 10;
+            alive = false;
+        }
+        if (targetsalive <= 0)
+        {
+            alive = true;
         }
     }
 }

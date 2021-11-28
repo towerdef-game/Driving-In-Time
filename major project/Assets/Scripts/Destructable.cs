@@ -7,7 +7,7 @@ public class Destructable : MonoBehaviour
    
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("car"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             if (GaintMode.gaintMode == true)
             {

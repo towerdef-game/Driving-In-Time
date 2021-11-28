@@ -20,7 +20,7 @@ public class GaintMode : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("car"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("hit car");
            car.localScale = new Vector3(10, 10, 10);

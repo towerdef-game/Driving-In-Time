@@ -22,6 +22,7 @@ public class Target : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // currently disolves all when activated
     if (disolve == true)
         {
             currentdisolve = Mathf.Lerp(currentdisolve, 1, 0.5f * Time.deltaTime);
@@ -30,15 +31,17 @@ public class Target : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "car")
+        if (other.gameObject.tag == "Player")
         {
              Debug.Log("Collided");
             Destroy(cap);
             manager.score += pointvalue;
             manager.targetsalive--;
             disolve = true;
+
+            // temporary change to instant while disolve isnt working
               Destroy(gameObject,3.5f);
-         
+           // Destroy(gameObject);
        
 
         }
