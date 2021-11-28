@@ -27,11 +27,12 @@ public class GameManager : MonoBehaviour
 
     // scoretotal count
     float totalTargets;
+    bool alive;
     private void Start()
     {
         score = 0;
         NonEnemy = 0;
-        totalTargets = targetsalive*10;
+      //  totalTargets = targetsalive*10;
 
     }
     public void Endgame()
@@ -89,6 +90,22 @@ public class GameManager : MonoBehaviour
      if(NonEnemy <= 5)
         {
             spawnEnemies = true;
+        }
+
+    }
+
+
+    public void LateUpdate()
+    {
+
+        if (alive)
+        {
+          totalTargets = targetsalive * 10;
+            alive = false;
+        }
+        if (targetsalive <= 0)
+        {
+            alive = true;
         }
     }
 }
