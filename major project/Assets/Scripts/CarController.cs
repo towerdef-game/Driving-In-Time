@@ -47,8 +47,8 @@ public class CarController : MonoBehaviour
         transform.position = sphereRB.transform.position;
 
         //rotate car left or right and doesn't move unles going forward or back
-        float newrotation = turninput * turnspeed * Time.deltaTime * Input.GetAxisRaw("Vertical");
-        transform.Rotate(0, newrotation, 0, Space.World);
+        float newrotation = turninput * turnspeed  * Input.GetAxisRaw("Vertical");
+        transform.Rotate(0, newrotation*Time.deltaTime, 0, Space.World);
 
         //reduces drag to give illusion of gravity this is basically a true or false statement
         sphereRB.drag = isgrounded ? grounddrag : airDrag;

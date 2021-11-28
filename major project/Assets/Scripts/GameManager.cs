@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
 
     // scoretotal count
     float totalTargets;
-    bool alive;
+    bool alive=true;
     private void Start()
     {
         score = 0;
@@ -101,12 +101,13 @@ public class GameManager : MonoBehaviour
         if (alive)
         {
           totalTargets = targetsalive * 10;
+            Debug.Log(totalTargets + " total" + targetsalive + "current");
             alive = false;
         }
-        if (targetsalive <= 0)
-        {
-            alive = true;
-        }
-        Debug.Log(totalTargets + " total" + targetsalive + "current");
+        //if (targetsalive <= 0)
+        //{
+        //    alive = true;
+        //}
+        
     }
 }
