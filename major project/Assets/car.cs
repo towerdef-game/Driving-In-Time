@@ -27,6 +27,12 @@ public class car : MonoBehaviour
     [SerializeField] private Transform backleftwheeltransform;
     [SerializeField] private Transform backrightwheeltransform;
 
+    public Vector3 Try = new Vector3(0,-0.9f,0);
+    public Rigidbody rig;
+     void Start()
+    {
+        rig.centerOfMass = Try; 
+    }
     private void FixedUpdate()
     {
         GetInput();
