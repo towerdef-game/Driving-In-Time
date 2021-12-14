@@ -6547,6 +6547,24 @@ PrefabInstance:
       objectReference: {fileID: 1074843828}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fd2e99e6fdc9064486c978a9eeff44f, type: 3}
+--- !u!1 &577575178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9108797560341415114, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+  m_PrefabInstance: {fileID: 9108797560600812901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &577575182
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577575178}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3759303, y: 1.7837982, z: 7.3140106}
+  m_Center: {x: 0.014314175, y: 0.634825, z: 1.2117081}
 --- !u!4 &582686238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2086584094274082999, guid: 28e10a5f6e063a34ab67fa8b49ca369e, type: 3}
@@ -27090,9 +27108,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9108797558909349935, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_Mass
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797558909349935, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797558962761337, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_Mass
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797558962761337, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797559340448887, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_Mass
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797559340448887, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 9108797560341415114, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
       propertyPath: m_Name
       value: Car mark 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797560341415114, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797560341415124, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9108797560341415126, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
       propertyPath: m_RootOrder
@@ -27138,5 +27188,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9108797560341415127, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: Try.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797560341415127, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: Try.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797560502505544, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_Mass
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797560502505544, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1.1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8035745677305207420, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
