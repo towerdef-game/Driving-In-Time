@@ -17,11 +17,19 @@ public class FreezeTimePowerUp : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            StartCoroutine(PickUp(collision));
+          //  StartCoroutine(PickUp(collision));
         }
     }
 
-    IEnumerator PickUp(Collision player)
+     void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            StartCoroutine(PickUp(other));
+        }
+    }
+
+    IEnumerator PickUp(Collider player)
     {
         GameObject.FindObjectOfType<Timer>().paused = true;
         //GameManager.GetComponent<Timer>().paused = true;

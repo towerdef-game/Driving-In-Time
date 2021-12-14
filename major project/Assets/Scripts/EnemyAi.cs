@@ -26,4 +26,11 @@ public class EnemyAi : MonoBehaviour
             agent.SetDestination(target.position);
         }
     }
+     void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "player")
+        {
+
+        }
+    }
 }

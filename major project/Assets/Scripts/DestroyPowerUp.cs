@@ -19,9 +19,12 @@ public class DestroyPowerUp : MonoBehaviour
 
 
     }
-    void OnCollisionEnter(Collision collision)
+   
+
+     void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Player")
+
+        if (other.gameObject.tag == "Player")
         {
             Explode();
         }
