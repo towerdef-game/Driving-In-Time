@@ -17203,7 +17203,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9108797558909349935, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
       propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 1.6
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797558909349935, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteSlip
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 9108797558962761337, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
       propertyPath: m_Mass
@@ -17211,7 +17215,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9108797558962761337, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
       propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 1.6
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108797558962761337, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteSlip
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 9108797559340448887, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
       propertyPath: m_Mass
@@ -17227,7 +17235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9108797560341415114, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9108797560341415114, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
       propertyPath: m_TagString
@@ -20539,7 +20547,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9cb15c08202ee3548a58e055fd197a94, type: 3}
   m_Name: 
