@@ -28453,7 +28453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a66b5c97d9ce4429fecc0667f341ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCar: {fileID: 1087589769}
+  targetCar: {fileID: 1479652955}
   maxSpeedCar: 160
   minSpeed: 597
   maxSpeed: 361
@@ -32637,6 +32637,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3759303, y: 1.7837982, z: 7.3140106}
   m_Center: {x: 0.014314175, y: 0.634825, z: 1.2117081}
+--- !u!54 &1479652955 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 9108797560341415125, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
+  m_PrefabInstance: {fileID: 808696018}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1479652958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9108797560341415126, guid: 849c7b290dbd9ce4783ea490bdebc2a1, type: 3}
