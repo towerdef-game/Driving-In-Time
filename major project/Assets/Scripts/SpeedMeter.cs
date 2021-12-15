@@ -20,14 +20,13 @@ public class SpeedMeter : MonoBehaviour
     private float speed = 0.0f;
     private void Update()
     {
-
-        speed = targetCar.velocity.magnitude * 3.6f;
-
+        
+        speed = targetCar.velocity.magnitude;
+       // Debug.Log(speed);
         if (speedText != null)
             speedText.text = ((int)speed) + " km/h";
         if (arrow != null)
-            arrow.localEulerAngles =
-                new Vector3(0, 0, Mathf.Lerp(minSpeed, maxSpeed, speed / maxSpeed));
+            arrow.localEulerAngles =new Vector3(0, 0, Mathf.Lerp(minSpeed, maxSpeed, speed/160 )) ;
         //speed = Mathf.Clamp(speed, minSpeed, maxSpeed);
     }
 }
