@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8529070313314671003}
   - component: {fileID: 4752005518812010046}
   - component: {fileID: 7356195265414210292}
+  - component: {fileID: 8983821689097524828}
   m_Layer: 0
   m_Name: Elaborate fence
   m_TagString: Untagged
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8983821689097524828
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9013542261283291937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 50.012703, y: 1.0783694, z: 26.000006}
+  m_Center: {x: -0.00634861, y: -0.03918458, z: 13.000003}
