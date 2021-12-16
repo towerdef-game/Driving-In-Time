@@ -328,6 +328,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &28411427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 28411426}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &28411428
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28411427}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &34042289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2988,6 +3009,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 182341924}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (4)
@@ -3677,6 +3702,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081362991}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -6345,6 +6374,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1298663066}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -6658,6 +6691,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &297756665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 297756664}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &297756666
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297756665}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &299646510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7155,6 +7209,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081362991}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (4)
@@ -7320,6 +7378,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2079747317}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -7676,6 +7738,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1043379369}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -8296,6 +8362,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1298663066}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -9046,6 +9116,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 932721226}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -9211,6 +9285,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1960211289}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (4)
@@ -9438,6 +9516,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &425041242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 425041241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &425041243
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425041242}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &426168049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9619,6 +9718,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1298663066}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -14112,6 +14215,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081362991}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -14207,6 +14314,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 932721226}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (3)
@@ -16114,6 +16225,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1960211289}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -16601,6 +16716,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1426238144}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -17017,6 +17136,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 932721226}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (6)
@@ -18562,6 +18685,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &771546710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 771546709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &771546711
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771546710}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.6660001, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &773508501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19183,6 +19327,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &792712829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 792712828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &792712830
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792712829}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!4 &801896292 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2086584094274082999, guid: 28e10a5f6e063a34ab67fa8b49ca369e, type: 3}
@@ -19431,6 +19596,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1426238144}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -19958,6 +20127,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &834383590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 834383589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &834383591
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834383590}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &844283826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20245,6 +20435,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1960211289}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (3)
@@ -21325,6 +21519,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1426238144}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -21872,6 +22070,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1558356818}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -22956,6 +23158,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2133883422}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -23334,6 +23540,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 182341924}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -25193,6 +25403,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 182341924}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -25622,6 +25836,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &1075506999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 1075506998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1075507000
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075506999}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1 &1079692712 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5294551991851662807, guid: 8fd2e99e6fdc9064486c978a9eeff44f, type: 3}
@@ -25863,6 +26098,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1043379369}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -27084,6 +27323,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 932721226}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -27245,6 +27488,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &1119450192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 1119450191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1119450193
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119450192}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1119500136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27417,6 +27681,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1298663066}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (3)
@@ -28517,6 +28785,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011512365}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -30421,6 +30693,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &1258778794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 1258778793}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1258778795
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258778794}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1259138887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31786,6 +32079,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &1299369559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 1299369558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1299369560
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299369559}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1309556448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31896,6 +32210,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 182341924}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (3)
@@ -32058,6 +32376,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2079747317}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -32446,6 +32768,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &1330009359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 1330009358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1330009360
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330009359}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1 &1331933884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5294551991851662807, guid: 8fd2e99e6fdc9064486c978a9eeff44f, type: 3}
@@ -32541,6 +32884,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011512365}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -33853,6 +34200,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081362991}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (5)
@@ -33948,6 +34299,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1558356818}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -34477,6 +34832,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 182341924}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (5)
@@ -34646,6 +35005,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1558356818}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -35658,6 +36021,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1960211289}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (5)
@@ -38120,6 +38487,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081362991}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (6)
@@ -38756,6 +39127,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2133883422}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -39042,6 +39417,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8150874684088097539, guid: 18fc46e5c97578a47a55db0560857864, type: 3}
   m_PrefabInstance: {fileID: 1574720409}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1574720411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8815349849856393657, guid: 18fc46e5c97578a47a55db0560857864, type: 3}
+  m_PrefabInstance: {fileID: 1574720409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1574720412
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574720411}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 25.000002, y: 0.776, z: 16.854}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 16.854}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1576391446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39743,6 +40139,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 182341924}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (1)
@@ -40368,6 +40768,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 182341924}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (6)
@@ -40644,6 +41048,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1043379369}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -41475,6 +41883,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011512365}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (5)
@@ -41698,6 +42110,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 932721226}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (5)
@@ -42687,6 +43103,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011512365}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (4)
@@ -46014,6 +46434,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081362991}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -46144,6 +46568,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1960211289}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -46309,6 +46737,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2079747317}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -46516,6 +46948,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1298663066}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (4)
@@ -46743,6 +47179,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081362991}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (3)
@@ -47163,6 +47603,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011512365}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (3)
@@ -47398,6 +47842,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &1950496721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 1950496720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1950496722
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950496721}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1955397550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48594,6 +49059,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1960211289}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -48954,6 +49423,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011512365}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building
@@ -50855,6 +51328,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &2052927005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 2052927004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &2052927006
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052927005}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1 &2061358753 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5294551991851662807, guid: 8fd2e99e6fdc9064486c978a9eeff44f, type: 3}
@@ -51265,6 +51759,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 932721226}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (2)
@@ -51631,6 +52129,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &2084856323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 2084856322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &2084856324
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084856323}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &2085306232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52175,6 +52694,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1298663066}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (5)
@@ -52340,6 +52863,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011512365}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (6)
@@ -52716,6 +53243,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 932721226}
     m_Modifications:
+    - target: {fileID: 491932736328553917, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
+      propertyPath: m_Carve
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790049898955637238, guid: fe8dc588fb63bd8458a45553659225b9, type: 3}
       propertyPath: m_Name
       value: Fancier building (4)
@@ -53328,6 +53859,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+--- !u!1 &2134507967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8a9b78d7c943bf4eb84d6911e7374ff, type: 3}
+  m_PrefabInstance: {fileID: 2134507966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &2134507968
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134507967}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.333, y: 27.000002, z: 30.501001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.667, y: 0, z: 29.501001}
+  m_TimeToStationary: 0.5
 --- !u!1 &2138633665
 GameObject:
   m_ObjectHideFlags: 0
