@@ -110,4 +110,46 @@ public class GameManager : MonoBehaviour
         //}
         
     }
+
+
+    //controlled using lists 
+
+    public void OnSceneLoaded(Scene s, LoadSceneMode mode)
+    {
+      //  player.transform.position = GameObject.Find("PlayerSpawn").transform.position;
+    }
+
+
+
+    //save state
+    // controlled using lists as the options
+    //public List<Sprite> playerCars;
+
+
+    public void SaveState()
+    {
+
+        string s = "";
+        s += "0" + "|";
+       // saving things like choices or numbers  s+=score.ToString()+"|"
+        PlayerPrefs.SetString("SaveState", s);
+    }
+
+    public void LoadState(Scene s, LoadSceneMode mode)
+    {
+
+        SceneManager.sceneLoaded -= LoadState;
+
+        if (!PlayerPrefs.HasKey("SaveState"))
+            return;
+
+        string[] data = PlayerPrefs.GetString("SaveState").Split('|');
+
+        //Change player skin
+        
+       
+       
+
+        Debug.Log("LoadState");
+    }
 }

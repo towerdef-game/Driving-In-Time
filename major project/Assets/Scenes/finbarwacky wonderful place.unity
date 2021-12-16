@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: a2add5089f2fb7244a242f1690df5155, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -11168,6 +11168,7 @@ GameObject:
   - component: {fileID: 1074843827}
   - component: {fileID: 1074843826}
   - component: {fileID: 1074843828}
+  - component: {fileID: 1074843829}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -11228,6 +11229,19 @@ MonoBehaviour:
   spawnEnemies: 1
   enemyPrefab: {fileID: 0}
   car: {fileID: 0}
+--- !u!114 &1074843829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074843825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b66b53c51ce1ce4cb4af68dc8d5fb72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thunderStrike: {fileID: 7997023171698791910, guid: 07cd36c59e62a8e40b19801a8940605a, type: 3}
 --- !u!1001 &1076452790
 PrefabInstance:
   m_ObjectHideFlags: 0
