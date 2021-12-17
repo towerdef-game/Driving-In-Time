@@ -41,4 +41,13 @@ public class wander : MonoBehaviour
             agent.SetDestination(randomnavmeshlocation());
         }  
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "NonEnemy")
+        {
+            agent.SetDestination(randomnavmeshlocation());
+            Debug.Log("hit");
+        }
+    }
+
 }
