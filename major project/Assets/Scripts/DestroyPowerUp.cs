@@ -26,14 +26,7 @@ public class DestroyPowerUp : MonoBehaviour
 
         if (other.gameObject.tag == "Player")
         {
-            // Explode();
-            if (other.gameObject.GetComponent<power_up_state>().canpickup == true)
-            {
-                other.gameObject.GetComponent<power_up_state>()._state = power_up_state.powers_manage.blast;
-                //   power_up_state._state = powers_manage.blast;
-                // power_up_state.powers_manage.blast;
-                Destroy(gameObject);
-            }
+            Explode();
         }
     }
 
