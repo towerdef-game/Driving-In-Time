@@ -13,7 +13,7 @@ public class CarController : MonoBehaviour
     private float turninput;
 
     public float airDrag;
-    private float grounddrag;
+    private float grounddrag = 5f;
 
     private bool isgrounded;
 
@@ -38,7 +38,7 @@ public class CarController : MonoBehaviour
     void Update()
     {
         moveInput = Input.GetAxisRaw("Vertical");
-        turninput = Input.GetAxisRaw("Horizontal");
+        turninput = Input.GetAxisRaw("Mouse X");
 
 
         // false value if it greater then 0 its speed if its not its reverseSPD
@@ -47,8 +47,8 @@ public class CarController : MonoBehaviour
         transform.position = sphereRB.transform.position;
 
         //rotate car left or right and doesn't move unles going forward or back
-        float newrotation = turninput * turnspeed * Time.deltaTime * Input.GetAxisRaw("Vertical");
-        transform.Rotate(0, newrotation, 0, Space.World);
+        float newrotation = turninput * turnspeed  * Input.GetAxisRaw("Vertical");
+        transform.Rotate(0, newrotation*Time.deltaTime, 0, Space.World);
 
         //reduces drag to give illusion of gravity this is basically a true or false statement
         sphereRB.drag = isgrounded ? grounddrag : airDrag;
