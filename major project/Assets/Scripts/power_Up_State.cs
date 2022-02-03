@@ -19,7 +19,8 @@ public class power_Up_State : MonoBehaviour
     public GameObject aruaeffect;
     public VisualEffect arua;
     public Vector4 green;
-
+    public Vector4 blue; 
+    public Vector4 red;
     public powers_manage _state;
     private void Start()
     {
@@ -38,13 +39,13 @@ public class power_Up_State : MonoBehaviour
             case powers_manage.speedup:
                 speedup();
                 aruaeffect.SetActive(true);
-                arua.SetVector4("Color", green);
+                arua.SetVector4("Color", blue);
                 Debug.Log("hi from the speed up state");
                 break;
             case powers_manage.blast:
                 blast();
                 aruaeffect.SetActive(true);
-                arua.SetVector4("color", green);
+                arua.SetVector4("color", red);
                 Debug.Log("hi from the blast state");
                 break;
             case powers_manage.slowdown:
@@ -66,6 +67,7 @@ public class power_Up_State : MonoBehaviour
         canpickup = false;
         if (Input.GetKeyDown("e"))
         {
+            _state = powers_manage.nopower;
             boosters.SetActive(true);
             Debug.Log("speeding up");
         }
