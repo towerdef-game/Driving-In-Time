@@ -11,6 +11,7 @@ public class power_Up_State : MonoBehaviour
 
     public float pauseTime = 5f;
     public Timer timer;
+    public float time;
 
     public GameObject Car;
     public GameObject boosters;
@@ -24,7 +25,7 @@ public class power_Up_State : MonoBehaviour
     public powers_manage _state;
     private void Start()
     {
-        arua.GetVector4("color");
+      //  arua.GetVector4("color");
     }
     void Update()
     {
@@ -67,12 +68,16 @@ public class power_Up_State : MonoBehaviour
         canpickup = false;
         if (Input.GetKeyDown("e"))
         {
+            StartCoroutine("boosttime", 2f);
             _state = powers_manage.nopower;
             boosters.SetActive(true);
             Debug.Log("speeding up");
         }
     }
-
+     private IEnumerator boosttime(float time)
+    {
+        yield return StartCoroutine("");
+    }
     void blast()
     {
         canpickup = false;
