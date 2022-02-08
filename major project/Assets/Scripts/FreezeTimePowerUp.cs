@@ -13,13 +13,13 @@ public class FreezeTimePowerUp : MonoBehaviour
     {
         //timer = GameManager.GetComponent<Timer>();
     }
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
+   // void OnCollisionEnter(Collision collision)
+   // {
+       // if (collision.gameObject.tag == "Player")
+        //{
           //  StartCoroutine(PickUp(collision));
-        }
-    }
+       // }
+   // }
 
      void OnTriggerEnter(Collider other)
     {
@@ -31,12 +31,13 @@ public class FreezeTimePowerUp : MonoBehaviour
 
     IEnumerator PickUp(Collider player)
     {
+     
         GameObject.FindObjectOfType<Timer>().paused = true;
-        //GameManager.GetComponent<Timer>().paused = true;
-        //timer = GameManager.GetComponent<Timer>();
-       // timer.paused = true;
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<Collider>().enabled = false;
+        //GameManager.GetComponent<Timer>().paused = true;
+        //timer = GameManager.GetComponent<Timer>();
+        // timer.paused = true;
         yield return new WaitForSeconds(pauseTime);
         //GameManager.GetComponent<Timer>().paused = false;
         //timer.paused = false;
