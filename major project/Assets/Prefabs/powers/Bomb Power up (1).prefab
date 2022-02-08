@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 402921515564416098}
   - component: {fileID: 152506139805309835}
   - component: {fileID: 152506139805309828}
+  - component: {fileID: 8561054805991279132}
   m_Layer: 0
   m_Name: Bomb Power up (1)
   m_TagString: Untagged
@@ -62,6 +63,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radiusExplosion: 16
+--- !u!136 &8561054805991279132
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070913705428149976}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 9.966493
+  m_Height: 42.803864
+  m_Direction: 2
+  m_Center: {x: 0, y: 20.168182, z: -4.256964}
 --- !u!1 &1224666766425587499
 GameObject:
   m_ObjectHideFlags: 0
