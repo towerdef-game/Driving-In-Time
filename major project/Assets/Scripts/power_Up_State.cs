@@ -28,6 +28,7 @@ public class power_Up_State : MonoBehaviour
     public Vector4 blue; 
     public Vector4 red;
     public powers_manage _state;
+    public bool fstperview;
     private void Start()
     {
         //  arua.GetVector4("color");
@@ -42,30 +43,42 @@ public class power_Up_State : MonoBehaviour
                 canpickup = true;
                 aruaeffect.SetActive(false);
                 boosters.SetActive(false);
-                blastlight.SetActive(false);
-                speedlight.SetActive(false);
-                clocklight.SetActive(false);
+              if(fstperview == true)
+                {
+                    blastlight.SetActive(false);
+                    speedlight.SetActive(false);
+                    clocklight.SetActive(false);
+                }
+               
                 break;
             case powers_manage.speedup:
                 speedup();
-                aruaeffect.SetActive(true);
-                speedlight.SetActive(true);
+                aruaeffect.SetActive(true);             
                 arua.SetVector4("Color", blue);
+                if (fstperview == true)
+                {
+                    speedlight.SetActive(true);
+                }
                 Debug.Log("hi from the speed up state");
                 break;
             case powers_manage.blast:
                 arua.SetVector4("Color", red);
-                blast();
-                blastlight.SetActive(true);
+                blast();               
                 aruaeffect.SetActive(true);
-              
+                if (fstperview == true)
+                {
+                    blastlight.SetActive(true);
+                }
                 Debug.Log("hi from the blast state");
                 break;
             case powers_manage.slowdown:
                 arua.SetVector4("Color", green);
                 slowdown();
                 aruaeffect.SetActive(true);
-                clocklight.SetActive(true);
+                if (fstperview == true){
+                    clocklight.SetActive(true);
+                }
+               
                 Debug.Log("hi from the slow down state");
                 break;
 
