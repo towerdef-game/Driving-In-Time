@@ -25,7 +25,17 @@ public class FreezeTimePowerUp : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            StartCoroutine(PickUp(other));
+            if (other.gameObject.tag == "Player")
+            {
+                // Explode();
+                if (other.gameObject.GetComponent<power_Up_State>().canpickup == true)
+                {
+                    other.gameObject.GetComponent<power_Up_State>()._state = power_Up_State.powers_manage.slowdown;
+                    //   power_up_state._state = powers_manage.blast;
+                    // power_up_state.powers_manage.blast;
+                    Destroy(gameObject);
+                }
+            }
         }
     }
 
