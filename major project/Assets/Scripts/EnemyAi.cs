@@ -27,20 +27,23 @@ public class EnemyAi : MonoBehaviour
     {
         Vector3 dist =  target.position-transform.position;
         shotTime -= 1 * Time.deltaTime;
-        if((dist.x<sightRadius || dist.z < sightRadius ) && (dist.x> shootRadius || dist.z>shootRadius))
+
+        if ((shootRadius > dist.x || shootRadius > dist.z) && shotTime < 0)
         {
-            Debug.Log("well okay then");
+            transform.LookAt(target.position);
+            Instantiate(enemyBullet, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
+            shotTime = 5f;
+        } else if ((dist.x<sightRadius &&  dist.x>shootRadius))
+        {
+            
             agent.speed = speed;
             agent.SetDestination(target.position);
         }
 
-        if((shootRadius>dist.x || shootRadius> dist.z)&& shotTime<0)
+        if((dist.x > shootRadius && dist.z > shootRadius && shootRadius > dist.x && shootRadius > dist.z))
         {
-            transform.LookAt(target.position);
-         Instantiate(enemyBullet, transform.position+ new Vector3(0,0,2), Quaternion.identity);
-            shotTime = 5f;
-         }
-
+            Debug.Log("cant run?" +dist.x+" is bigger than"+shootRadius + " and some how" + dist.x + " is smaller than" + shootRadius);
+        }
         // how can both if statements be running? 
    }
         
