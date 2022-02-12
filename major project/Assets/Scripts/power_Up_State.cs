@@ -41,19 +41,19 @@ public class power_Up_State : MonoBehaviour
                 speedup();
                 aruaeffect.SetActive(true);
                 arua.SetVector4("Color", blue);
-                Debug.Log("hi from the speed up state");
+             //   Debug.Log("hi from the speed up state");
                 break;
             case powers_manage.blast:
                 blast();
                 aruaeffect.SetActive(true);
                 arua.SetVector4("color", red);
-                Debug.Log("hi from the blast state");
+             //   Debug.Log("hi from the blast state");
                 break;
             case powers_manage.slowdown:
                 slowdown();
                 aruaeffect.SetActive(true);
                 arua.SetVector4("color", green);
-                Debug.Log("hi from the slow down state");
+              //  Debug.Log("hi from the slow down state");
                 break;
 
 
