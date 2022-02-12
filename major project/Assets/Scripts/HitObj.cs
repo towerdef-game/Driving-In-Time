@@ -20,15 +20,19 @@ public class HitObj : MonoBehaviour
     {
         // other.col
         Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.rigidbody.isKinematic = false;
+            car.AddForce(collision.rigidbody.velocity);
+        }
 
-
-       // if (collision.gameObject.CompareTag("Collidable"))
-       // {
+      if (collision.gameObject.CompareTag("Collidable"))
+        {
             collision.rigidbody.isKinematic = false;
             collision.rigidbody.AddForce(car.velocity);
             //hitPerson.Play();
 
-       // }
+        }
         // Debug.Log("hit?");
 
     }
