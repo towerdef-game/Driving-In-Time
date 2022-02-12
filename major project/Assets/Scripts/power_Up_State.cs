@@ -14,7 +14,9 @@ public class power_Up_State : MonoBehaviour
     public Timer timer;
     public float time;
     private Rigidbody rigid;
-
+    public GameObject speedlight;
+    public GameObject blastlight;
+    public GameObject clocklight;
     public float boost;
     public GameObject Car;
     public GameObject boosters;
@@ -40,16 +42,21 @@ public class power_Up_State : MonoBehaviour
                 canpickup = true;
                 aruaeffect.SetActive(false);
                 boosters.SetActive(false);
+                blastlight.SetActive(false);
+                speedlight.SetActive(false);
+                clocklight.SetActive(false);
                 break;
             case powers_manage.speedup:
                 speedup();
                 aruaeffect.SetActive(true);
+                speedlight.SetActive(true);
                 arua.SetVector4("Color", blue);
                 Debug.Log("hi from the speed up state");
                 break;
             case powers_manage.blast:
                 arua.SetVector4("Color", red);
                 blast();
+                blastlight.SetActive(true);
                 aruaeffect.SetActive(true);
               
                 Debug.Log("hi from the blast state");
@@ -58,7 +65,7 @@ public class power_Up_State : MonoBehaviour
                 arua.SetVector4("Color", green);
                 slowdown();
                 aruaeffect.SetActive(true);
-               
+                clocklight.SetActive(true);
                 Debug.Log("hi from the slow down state");
                 break;
 
