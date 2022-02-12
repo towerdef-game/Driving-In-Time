@@ -28,7 +28,7 @@ public class EnemyAi : MonoBehaviour
         Vector3 dist =  target.position-transform.position;
         shotTime -= 1 * Time.deltaTime;
 
-        if ((shootRadius > dist.x || shootRadius > dist.z) && shotTime < 0)
+        if (shootRadius > dist.x  && shotTime < 0)
         {
             transform.LookAt(target.position);
             Instantiate(enemyBullet, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
