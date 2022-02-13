@@ -14,6 +14,8 @@ public class EnemyAi : MonoBehaviour
 
     public GameObject enemyBullet;
     private Rigidbody enemy;
+
+   public Vector3 range;
     void Start()
     {
         enemy = GetComponent<Rigidbody>();
@@ -26,24 +28,26 @@ public class EnemyAi : MonoBehaviour
     void Update()
     {
         Vector3 dist =  target.position-transform.position;
+        Vector3 minDist = target.position + target.position/10 - transform.position;
         shotTime -= 1 * Time.deltaTime;
 
-        if (shootRadius > dist.x  && shotTime < 0)
+        if ((shootRadius > Mathf.Abs(dist.x) && Mathf.Abs(dist.z) < shootRadius) && shotTime < 0)
         {
             transform.LookAt(target.position);
             Instantiate(enemyBullet, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
             shotTime = 5f;
-        } else if ((dist.x<sightRadius &&  dist.x>shootRadius))
+            agent.SetDestination(transform.position);
+        } 
+        if ( Mathf.Abs(dist.x)> shootRadius || Mathf.Abs(dist.z) > shootRadius)
         {
             
             agent.speed = speed;
             agent.SetDestination(target.position);
         }
 
-        if((dist.x > shootRadius && dist.z > shootRadius && shootRadius > dist.x && shootRadius > dist.z))
-        {
-            Debug.Log("cant run?" +dist.x+" is bigger than"+shootRadius + " and some how" + dist.x + " is smaller than" + shootRadius);
-        }
+       
+            Debug.Log("cant run?" + Mathf.Abs(dist.x) + " is bigger than"+shootRadius + " and some how" + Mathf.Abs(dist.z) + " is smaller than" + shootRadius);
+        
         // how can both if statements be running? 
    }
         
