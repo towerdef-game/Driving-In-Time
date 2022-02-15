@@ -36,21 +36,7 @@ public class DestroyPowerUp : MonoBehaviour
             }
     }
 
-    public void Explode()
-    {
 
-        Collider[] coll = Physics.OverlapSphere(transform.position, radiusExplosion);
-
-        for (int i = 0; i < coll.Length; i++)
-        {
-            if (coll[i].gameObject.GetComponent<TargetEnemy>())
-            //if (coll[i].gameObject.tag == "Target")
-            {
-                coll[i].gameObject.GetComponent<TargetEnemy>().TakeDamage();
-            }
-        }
-        Destroy(gameObject);
-    }
 
     private void OnDrawGizmosSelected()
     {

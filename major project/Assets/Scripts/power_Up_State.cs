@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
+using UnityEngine.ParticleSystemJobs;
 
 public class power_Up_State : MonoBehaviour
 {
@@ -12,11 +13,15 @@ public class power_Up_State : MonoBehaviour
     public float pauseTime = 5f;
     public Timer timer;
     public float time;
-
+    private Rigidbody rigid;
+    public GameObject speedlight;
+    public GameObject blastlight;
+    public GameObject clocklight;
+    public float boost;
     public GameObject Car;
     public GameObject boosters;
     public float radiusExplosion = 16f;
-
+    public ParticleSystem explosion;
     public GameObject aruaeffect;
     public VisualEffect arua;
     public Vector4 green;
@@ -25,7 +30,8 @@ public class power_Up_State : MonoBehaviour
     public powers_manage _state;
     private void Start()
     {
-      //  arua.GetVector4("color");
+        //  arua.GetVector4("color");
+        rigid = GetComponent<Rigidbody>();
     }
     void Update()
     {
@@ -36,24 +42,31 @@ public class power_Up_State : MonoBehaviour
                 canpickup = true;
                 aruaeffect.SetActive(false);
                 boosters.SetActive(false);
+                blastlight.SetActive(false);
+                speedlight.SetActive(false);
+                clocklight.SetActive(false);
                 break;
             case powers_manage.speedup:
                 speedup();
                 aruaeffect.SetActive(true);
+                speedlight.SetActive(true);
                 arua.SetVector4("Color", blue);
-             //   Debug.Log("hi from the speed up state");
+                Debug.Log("hi from the speed up state");
                 break;
             case powers_manage.blast:
+                arua.SetVector4("Color", red);
                 blast();
+                blastlight.SetActive(true);
                 aruaeffect.SetActive(true);
-                arua.SetVector4("color", red);
-             //   Debug.Log("hi from the blast state");
+              
+                Debug.Log("hi from the blast state");
                 break;
             case powers_manage.slowdown:
+                arua.SetVector4("Color", green);
                 slowdown();
                 aruaeffect.SetActive(true);
-                arua.SetVector4("color", green);
-              //  Debug.Log("hi from the slow down state");
+                clocklight.SetActive(true);
+                Debug.Log("hi from the slow down state");
                 break;
 
 
@@ -68,16 +81,14 @@ public class power_Up_State : MonoBehaviour
         canpickup = false;
         if (Input.GetKeyDown("e"))
         {
-            StartCoroutine("boosttime", 2f);
+            rigid.AddForce(transform.forward * boost, ForceMode.Impulse);
+            // StartCoroutine("boosttime", 2f);
             _state = powers_manage.nopower;
             boosters.SetActive(true);
             Debug.Log("speeding up");
         }
     }
-     private IEnumerator boosttime(float time)
-    {
-        yield return StartCoroutine("");
-    }
+    
     void blast()
     {
         canpickup = false;
@@ -85,7 +96,7 @@ public class power_Up_State : MonoBehaviour
         {
 
             Collider[] coll = Physics.OverlapSphere(transform.position, radiusExplosion);
-
+            explosion.Play();
             for (int i = 0; i < coll.Length; i++)
             {
                 if (coll[i].gameObject.GetComponent<TargetEnemy>())
