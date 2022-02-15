@@ -32,7 +32,7 @@ public class Bullet : MonoBehaviour
 
        // Debug.Log(carPastPos);
         float step = speed * Time.deltaTime; // calculate distance to move
-        transform.position = Vector3.MoveTowards(transform.position, carPastPos- new Vector3 (0,1,0), step);
+        transform.position = Vector3.MoveTowards(transform.position, carPastPos, step);
 
 
         Destroy(this.gameObject, 10f);
