@@ -26,25 +26,17 @@ public class DestroyPowerUp : MonoBehaviour
 
         if (other.gameObject.tag == "Player")
         {
-            Explode();
-        }
-    }
-
-    public void Explode()
-    {
-
-        Collider[] coll = Physics.OverlapSphere(transform.position, radiusExplosion);
-
-        for (int i = 0; i < coll.Length; i++)
-        {
-            if (coll[i].gameObject.GetComponent<TargetEnemy>())
-            //if (coll[i].gameObject.tag == "Target")
+            if (other.gameObject.GetComponent<power_Up_State>().canpickup == true)
             {
-                coll[i].gameObject.GetComponent<TargetEnemy>().TakeDamage();
+                other.gameObject.GetComponent<power_Up_State>()._state = power_Up_State.powers_manage.blast;
+                //   power_up_state._state = powers_manage.blast;
+                // power_up_state.powers_manage.blast;
+                Destroy(gameObject);
             }
-        }
-        Destroy(gameObject);
+            }
     }
+
+
 
     private void OnDrawGizmosSelected()
     {
