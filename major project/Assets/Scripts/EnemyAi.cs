@@ -46,7 +46,7 @@ public class EnemyAi : MonoBehaviour
         }
 
        
-            Debug.Log("cant run?" + Mathf.Abs(dist.x) + " is bigger than"+shootRadius + " and some how" + Mathf.Abs(dist.z) + " is smaller than" + shootRadius);
+        //    Debug.Log("cant run?" + Mathf.Abs(dist.x) + " is bigger than"+shootRadius + " and some how" + Mathf.Abs(dist.z) + " is smaller than" + shootRadius);
         
         // how can both if statements be running? 
    }
