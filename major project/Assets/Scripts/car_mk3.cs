@@ -43,8 +43,9 @@ public class car_mk3 : MonoBehaviour
         movevehicle();
         steering();
         getfriction();
-       adjustfriction();
-        checkwheelspin();
+        //   adjustfriction();
+        // checkwheelspin();
+        drift();
      //   Calculateenginepower();
     }
   //  private void Calculateenginepower()
@@ -151,7 +152,61 @@ public class car_mk3 : MonoBehaviour
             slip[i] = wheelHit.sidewaysSlip;
         }
     }
-   
+    private float driftFactor;
+    private void drift()
+    {
+        float driftsmoothfactor = .7f * Time.deltaTime;
+
+        if (IM.handbrake)
+        {
+            sidewaysfriction = wheels[0].sidewaysFriction;
+            forwardfriction = wheels[0].forwardFriction;
+
+            float velocity = 0;
+            sidewaysfriction.extremumValue = sidewaysfriction.asymptoteValue = forwardfriction.extremumValue = forwardfriction.asymptoteValue =
+                Mathf.SmoothDamp(forwardfriction.asymptoteValue, driftFactor * handbreakfrictionmultiplyer, ref velocity, driftsmoothfactor);
+
+            for(int i = 0; i<4; i++)
+            {
+                wheels[i].sidewaysFriction = sidewaysfriction;
+                wheels[i].forwardFriction = forwardfriction;
+            }
+            sidewaysfriction.extremumValue = sidewaysfriction.asymptoteValue = forwardfriction.extremumValue = forwardfriction.asymptoteValue = 1.1f;
+
+            for(int i = 0; i <2; i++)
+            {
+                wheels[i].sidewaysFriction = sidewaysfriction;
+                wheels[i].forwardFriction = forwardfriction;
+            }
+            rigid.AddForce(transform.forward * (KPH / 400) * 10000);
+        }
+        //when handbrake is being held
+        else
+        {
+            sidewaysfriction = wheels[0].sidewaysFriction;
+            forwardfriction = wheels[0].forwardFriction;
+
+            forwardfriction.extremumValue = forwardfriction.asymptoteValue = sidewaysfriction.extremumValue = sidewaysfriction.asymptoteValue = ((KPH * handbreakfrictionmultiplyer) / 300) + 1;
+
+            for (int i = 0; i < 4; i++)
+            {
+                wheels[i].sidewaysFriction = sidewaysfriction;
+                wheels[i].forwardFriction = forwardfriction;
+            }
+        }
+
+        for (int i = 2;i<4; i++)
+        {
+            WheelHit wheelHit;
+
+            wheels[i].GetGroundHit(out wheelHit);
+
+            if (wheelHit.sidewaysSlip < 0) driftFactor = (1 + -IM.horizontonal) * Mathf.Abs(wheelHit.sidewaysSlip);
+
+            if (wheelHit.sidewaysSlip > 0) driftFactor = (1 + IM.horizontonal) * Mathf.Abs(wheelHit.sidewaysSlip);
+
+        }
+    }
     void adjustfriction()
     {
         if (IM.handbrake)
