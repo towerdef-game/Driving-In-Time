@@ -25131,6 +25131,7 @@ GameObject:
   - component: {fileID: 2035307386}
   - component: {fileID: 2035307385}
   - component: {fileID: 2035307384}
+  - component: {fileID: 2035307393}
   - component: {fileID: 2035307391}
   - component: {fileID: 2035307392}
   m_Layer: 0
@@ -25259,6 +25260,7 @@ MonoBehaviour:
   blue: {x: 0, y: 255, z: 255, w: 255}
   red: {x: 255, y: 0, z: 5, w: 255}
   _state: 0
+  fstperview: 0
 --- !u!54 &2035307388
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25418,6 +25420,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2035307393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035307383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1907fdee9356aeb478c7354485789602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grounded: 1
+  rotationSpeed: 100
 --- !u!4 &2037334119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4a414917649c1844a62c6ea79ac6459, type: 3}
