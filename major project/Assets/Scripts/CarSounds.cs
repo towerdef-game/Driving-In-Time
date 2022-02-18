@@ -32,7 +32,7 @@ public class CarSounds : MonoBehaviour
     void Update()
     {
         timer -= 1 * Time.deltaTime;
-        Debug.Log(car.velocity.magnitude);
+       // Debug.Log(car.velocity.magnitude);
         if (car.velocity.magnitude >previousSpeed)
         {
             previousSpeed = car.velocity.magnitude;
@@ -83,8 +83,6 @@ public class CarSounds : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        
-    }
+
+  
 }

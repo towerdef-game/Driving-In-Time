@@ -40,7 +40,7 @@ public class EnemyAi : MonoBehaviour
         } 
         if ( Mathf.Abs(dist.x)> shootRadius || Mathf.Abs(dist.z) > shootRadius)
         {
-            
+           //agent.stoppingDistance use this 
             agent.speed = speed;
             agent.SetDestination(target.position);
         }
