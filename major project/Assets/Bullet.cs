@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-   
-   
 
+
+    Health hp;
     public float speed = 20f;
   
     private Vector3 carPastPos;
@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
        
-
+      
       
         carPastPos = GameObject.FindGameObjectWithTag("Player").transform.position;
         

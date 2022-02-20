@@ -23,7 +23,7 @@ public class CarRotate : MonoBehaviour
         else { grounded = true; }
 
 
-        Debug.Log(gameObject.transform.rotation);
+       // Debug.Log(gameObject.transform.rotation);
 
         
         if (!grounded)

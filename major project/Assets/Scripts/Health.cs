@@ -51,7 +51,7 @@ public class Health : MonoBehaviour
     public void OnCollisionEnter(Collision collision)
     {
         Debug.Log("working");
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Bullet")
         {
             Debug.Log("health lost");
             health--;
