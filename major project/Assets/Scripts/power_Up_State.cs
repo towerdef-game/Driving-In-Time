@@ -140,13 +140,13 @@ public class power_Up_State : MonoBehaviour
         //GameManager.GetComponent<Timer>().paused = true;
         //timer = GameManager.GetComponent<Timer>();
         // timer.paused = true;
-        GetComponent<MeshRenderer>().enabled = false;
-        GetComponent<Collider>().enabled = false;
+        //GetComponent<MeshRenderer>().enabled = false;
+       // GetComponent<Collider>().enabled = false;
         yield return new WaitForSeconds(pauseTime);
         //GameManager.GetComponent<Timer>().paused = false;
         //timer.paused = false;
         GameObject.FindObjectOfType<Timer>().paused = false;
-        Destroy(gameObject);
+        //Destroy(gameObject);
 
     }
 }
