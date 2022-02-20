@@ -50,8 +50,11 @@ MonoBehaviour:
   agent: {fileID: 2344971129309298371}
   target: {fileID: 0}
   speed: 10
-  sightRadius: 0
+  sightRadius: 77777
+  shootRadius: 10
+  shotTime: 5
   enemyBullet: {fileID: 4320478706991902068, guid: 152c9b4a47bbb954a866ebeefc501799, type: 3}
+  range: {x: 0, y: 0, z: 0}
 --- !u!114 &7480858498808461844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,7 +78,7 @@ GameObject:
   - component: {fileID: 5467765116325608736}
   m_Layer: 0
   m_Name: Enemy_drone
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

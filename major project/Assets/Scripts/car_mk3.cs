@@ -139,7 +139,7 @@ public class car_mk3 : MonoBehaviour
     }
     private void adddownforce()
     {
-        rigid.AddForce(-transform.up * downforce * rigid.velocity.magnitude);
+      rigid.AddForce(-transform.up * downforce * rigid.velocity.magnitude);
     }
 
     private void getfriction()

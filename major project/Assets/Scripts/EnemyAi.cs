@@ -20,7 +20,7 @@ public class EnemyAi : MonoBehaviour
     {
         enemy = GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();
-        speed = Random.Range(10, 15);
+        speed = Random.Range(10, 14);
         target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
