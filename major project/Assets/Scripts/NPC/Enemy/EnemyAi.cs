@@ -16,12 +16,19 @@ public class EnemyAi : MonoBehaviour
     private Rigidbody enemy;
 
    public Vector3 range;
+
+
+    AudioSource enemySounds;
+   public AudioClip siren, shoot, fly;
     void Start()
     {
+        enemySounds = GetComponent<AudioSource>();
         enemy = GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();
         speed = Random.Range(10, 14);
         target = GameObject.FindGameObjectWithTag("Player").transform;
+        enemySounds.clip =siren;
+        enemySounds.Play();
     }
 
     // Update is called once per frame
@@ -37,6 +44,7 @@ public class EnemyAi : MonoBehaviour
             Instantiate(enemyBullet, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
             shotTime = 5f;
             agent.SetDestination(transform.position);
+            enemySounds.PlayOneShot(shoot);
         } 
         if ( Mathf.Abs(dist.x)> shootRadius || Mathf.Abs(dist.z) > shootRadius)
         {
