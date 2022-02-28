@@ -5,7 +5,8 @@ using UnityEngine;
 public class tutorial : MonoBehaviour
 {
     public GameObject[] popups;
-    private int index;
+   [HideInInspector]
+    public int index;
     public GameObject phone;
 
     // Start is called before the first frame update
