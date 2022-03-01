@@ -21,13 +21,18 @@ public class CarSounds : MonoBehaviour
     public AudioClip stanby;
     public AudioClip honk;
     public AudioClip ablity;
+<<<<<<< Updated upstream
     power_Up_State poweredUp;
 
+=======
+
+    power_Up_State powerState; 
+>>>>>>> Stashed changes
     void Start()
     {
         poweredUp = GetComponent<power_Up_State>();
         audioSource = GetComponent<AudioSource>();
-  
+        powerState = GetComponent<power_Up_State>();
         car = GetComponent<Rigidbody>();
 
     }
@@ -80,11 +85,18 @@ public class CarSounds : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
+<<<<<<< Updated upstream
             if (poweredUp._state != power_Up_State.powers_manage.nopower)
             {
                 audioSource.PlayOneShot(ablity);
             }
 
+=======
+            if (powerState._state != power_Up_State.powers_manage.nopower)
+            {
+                audioSource.PlayOneShot(ablity);
+            }
+>>>>>>> Stashed changes
 
         }
     }
