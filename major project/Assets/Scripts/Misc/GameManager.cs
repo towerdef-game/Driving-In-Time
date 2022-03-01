@@ -152,4 +152,8 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("LoadState");
     }
+    public void death()
+    {
+        SceneManager.LoadScene("death");
+    }
 }
