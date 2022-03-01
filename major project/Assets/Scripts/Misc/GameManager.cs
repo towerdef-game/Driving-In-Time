@@ -17,7 +17,8 @@ public class GameManager : MonoBehaviour
     public float NonEnemy = 0;
     public bool spawnEnemies = true;
     public GameObject enemyPrefab;
-
+    public GameObject lose;
+    public car_mk3 player;
     private bool canend = false;
 
     //gaint powerup 
@@ -154,6 +155,8 @@ public class GameManager : MonoBehaviour
     }
     public void death()
     {
-        SceneManager.LoadScene("death");
+        // SceneManager.LoadScene("death");
+        lose.SetActive(true);
+        player.enabled = false;
     }
 }

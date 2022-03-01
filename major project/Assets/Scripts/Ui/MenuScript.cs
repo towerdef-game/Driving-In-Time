@@ -38,6 +38,10 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene(0);
         Time.timeScale = 1;
     }
+    public void restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
     public void Resume()
     {
         menu.SetActive(false);
