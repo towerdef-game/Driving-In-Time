@@ -21,8 +21,11 @@ public class CarSounds : MonoBehaviour
     public AudioClip stanby;
     public AudioClip honk;
     public AudioClip ablity;
+    power_Up_State poweredUp;
+
     void Start()
     {
+        poweredUp = GetComponent<power_Up_State>();
         audioSource = GetComponent<AudioSource>();
   
         car = GetComponent<Rigidbody>();
@@ -77,7 +80,10 @@ public class CarSounds : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            audioSource.PlayOneShot(ablity, 0.7F);
+            if (poweredUp._state != power_Up_State.powers_manage.nopower)
+            {
+                audioSource.PlayOneShot(ablity);
+            }
 
 
         }
