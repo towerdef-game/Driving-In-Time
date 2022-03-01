@@ -117,6 +117,13 @@ public class power_Up_State : MonoBehaviour
                 {
                     coll[i].gameObject.GetComponent<TargetEnemy>().TakeDamage();
                 }
+                else
+                {
+                    if(coll[i].gameObject.tag == "NonEnemy")
+                    {
+                        Destroy(coll[i].gameObject);
+                    }
+                }
             }
             _state = powers_manage.nopower;
 
