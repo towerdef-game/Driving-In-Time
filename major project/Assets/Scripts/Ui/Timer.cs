@@ -36,7 +36,7 @@ public class Timer : MonoBehaviour
                    
                     timeRemaining = 0;
                     Running = false;
-                     manager.Endgame();
+                     manager.death();
                 }
             }
         }
