@@ -11,13 +11,14 @@ public class Bullet : MonoBehaviour
   
     private Vector3 carPastPos;
 
-
+    AudioSource explode;
+    public AudioClip boom;
 
 
     void Start()
     {
-       
-      
+        explode = GetComponent<AudioSource>();
+        explode.clip = boom;
       
         carPastPos = GameObject.FindGameObjectWithTag("Player").transform.position;
         
@@ -30,7 +31,7 @@ public class Bullet : MonoBehaviour
         //Vector3 dist = target.position - transform.position;
 
 
-       // Debug.Log(carPastPos);
+       Debug.Log(carPastPos);
         float step = speed * Time.deltaTime; // calculate distance to move
         transform.position = Vector3.MoveTowards(transform.position, carPastPos, step);
 
@@ -47,12 +48,12 @@ public class Bullet : MonoBehaviour
               if (other.gameObject.CompareTag("Player"))
         {
             //health loss code here ? 
-               other.rigidbody.AddExplosionForce( 550000, transform.position, 10, 10, ForceMode.Force);
+               other.rigidbody.AddExplosionForce( 100000, transform.position, 10, 10, ForceMode.Force);
         }
 
-            //other.rigidbody.AddForce(enemy.velocity * 1000000);
-           //for some reason wont collide with floor maybe because of its mesh collider?
-
+        //other.rigidbody.AddForce(enemy.velocity * 1000000);
+        //for some reason wont collide with floor maybe because of its mesh collider?
+        explode.Play();
             Destroy(this.gameObject);
         // one mil force? wot m8
 

@@ -268,6 +268,8 @@ GameObject:
   - component: {fileID: 8906093223137162902}
   - component: {fileID: 8906093223137162901}
   - component: {fileID: 8906093223137162900}
+  - component: {fileID: 7371529843490191951}
+  - component: {fileID: 7972927401553510676}
   - component: {fileID: 8906093223137162861}
   - component: {fileID: 8906093223137162899}
   - component: {fileID: 8906093223137162860}
@@ -444,6 +446,40 @@ MonoBehaviour:
   horizontonal: 0
   handbrake: 0
   ebreak: 0
+--- !u!114 &7371529843490191951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8906093223137162907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17eb4ca74eddf1244adae8b6be847374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  numberOfHearts: 0
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+--- !u!114 &7972927401553510676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8906093223137162907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26129b3ad9a1b6643ac147b65db10603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstperson: 0
+  povcam: {fileID: 0}
+  thirdperson: {fileID: 0}
+  firstpersonui: {fileID: 0}
+  thirdpersonui: {fileID: 0}
 --- !u!114 &8906093223137162861
 MonoBehaviour:
   m_ObjectHideFlags: 0
