@@ -7,6 +7,8 @@ public class IntroCameraswap : MonoBehaviour
 {
     public Camera introCamera;
     public Camera carCamera;
+    public car_mk3 car;
+    public switchcamera switcher;
     public BezierCurveCamera bezierCurve;
     private bool finished = false;
     public GameObject firstPersonUi;
@@ -33,5 +35,7 @@ public class IntroCameraswap : MonoBehaviour
         introCamera.enabled = false;
         carCamera.enabled = true;
         firstPersonUi.SetActive(true);
+        car.enabled = true;
+        switcher.enabled = true;
     }
 }
