@@ -3662,7 +3662,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.75
     m_AsymptoteValue: 0.75
-    m_Stiffness: 0.8
+    m_Stiffness: 1.2
   m_Enabled: 1
 --- !u!64 &268979093
 MeshCollider:
@@ -4923,7 +4923,7 @@ MonoBehaviour:
   green: {x: 9, y: 171, z: 5, w: 255}
   blue: {x: 0, y: 255, z: 255, w: 255}
   red: {x: 255, y: 0, z: 0, w: 255}
-  _state: 2
+  _state: 0
   fstperview: 1
 --- !u!114 &354041618
 MonoBehaviour:
@@ -21417,7 +21417,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.75
     m_AsymptoteValue: 0.75
-    m_Stiffness: 2
+    m_Stiffness: 1.2
   m_Enabled: 1
 --- !u!64 &1129172626
 MeshCollider:
@@ -23375,7 +23375,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.75
     m_AsymptoteValue: 0.75
-    m_Stiffness: 2
+    m_Stiffness: 1.2
   m_Enabled: 1
 --- !u!4 &1244140342
 Transform:
@@ -29460,7 +29460,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.75
     m_AsymptoteValue: 0.75
-    m_Stiffness: 0.8
+    m_Stiffness: 1.2
   m_Enabled: 1
 --- !u!64 &1675060746
 MeshCollider:
