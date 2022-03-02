@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 1, g: 0.2688679, b: 0.59410155, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.002
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0054880157, g: 0.005279146, b: 0.0054880157, a: 1}
+  m_IndirectSpecularColor: {r: 0.000424769, g: 0.00040860265, b: 0.000424769, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -64063,7 +64063,7 @@ GameObject:
   - component: {fileID: 2023399263}
   - component: {fileID: 2023399265}
   m_Layer: 0
-  m_Name: prototpye car
+  m_Name: PLAYER CAR
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
