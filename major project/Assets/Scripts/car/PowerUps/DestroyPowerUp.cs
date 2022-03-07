@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroyPowerUp : MonoBehaviour
 {
-    public float radiusExplosion = 16f;
+   // public float radiusExplosion = 16f;
     
     // Start is called before the first frame update
     void Start()
@@ -38,9 +38,5 @@ public class DestroyPowerUp : MonoBehaviour
 
 
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, radiusExplosion);
-    }
+  
 }

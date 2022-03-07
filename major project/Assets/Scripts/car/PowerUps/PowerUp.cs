@@ -13,9 +13,9 @@ public class PowerUp : MonoBehaviour
         {
             //for (int i = 0; i < spawnPowerUpsLocations.Length; i++)
             //{
-                Instantiate(spawnPowerUps[Random.Range(0, spawnPowerUps.Length)], spawnPowerUpsLocations[i]);
+            //  Instantiate(spawnPowerUps[Random.Range(0, spawnPowerUps.Length)], spawnPowerUpsLocations[i]);
             //}
-                
+            Instantiate(spawnPowerUps[Random.Range(0, spawnPowerUps.Length)], spawnPowerUpsLocations[i].position,transform.rotation);
         }  
     }
 
