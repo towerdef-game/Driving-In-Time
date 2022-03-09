@@ -13,7 +13,7 @@ public class respawn : MonoBehaviour
     public void Start()
     {
         Instantiate(power, transform.position, transform.rotation);
-      //  power.transform.parent = this.gameObject.transform;
+        power.transform.parent = gameObject.transform;
     }
     public void timer()
     {
