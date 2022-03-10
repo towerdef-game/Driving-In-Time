@@ -5,11 +5,13 @@ using UnityEngine;
 public class DestroyPowerUp : MonoBehaviour
 {
     public float radiusExplosion = 16f;
-    
+
+    //FinbarRespawn spawn;
     // Start is called before the first frame update
     void Start()
     {
-        
+      
+        //spawn.GetComponentInParent<FinbarRespawn>();
     }
 
     // Update is called once per frame
@@ -32,6 +34,7 @@ public class DestroyPowerUp : MonoBehaviour
                 //   power_up_state._state = powers_manage.blast;
                 // power_up_state.powers_manage.blast;
                 Destroy(gameObject);
+                //spawn.isSpawned = false;
             }
             }
     }
