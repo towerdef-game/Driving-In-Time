@@ -5,6 +5,7 @@ using UnityEngine;
 public class nontarget : MonoBehaviour
 {
     public GameManager manager;
+    public GameObject body;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,10 +24,13 @@ public class nontarget : MonoBehaviour
             Debug.Log("Collided");
 
             manager.NonEnemy++;
-           
+            Instantiate(body,transform.position,transform.rotation);
+            GameObject clone = Instantiate(body, transform.position, Quaternion.identity);
+            Rigidbody rag = clone.GetComponent<Rigidbody>();
+          //  rag.AddForce(collision.rigidbody.velocity);
             Destroy(gameObject);
 
-
+            
 
         }
     }
