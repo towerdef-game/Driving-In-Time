@@ -6,6 +6,7 @@ public class Hit : MonoBehaviour
 {
     Rigidbody car;
     AudioSource hitPerson;
+   
     void Start()
     {
         car = GetComponent<Rigidbody>();
@@ -39,12 +40,13 @@ public class Hit : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Collidable"))
         {
-
+       
             collision.rigidbody.AddForce(car.velocity);
          hitPerson.Play();
-           
+            
+
         }
-       // Debug.Log("hit?");
-       
+        // Debug.Log("hit?");
+
     }
 }
