@@ -25,6 +25,9 @@ public class nontarget : MonoBehaviour
 
             manager.NonEnemy++;
             Instantiate(body,transform.position,transform.rotation);
+            GameObject clone = Instantiate(body, transform.position, Quaternion.identity);
+            Rigidbody rag = clone.GetComponent<Rigidbody>();
+          //  rag.AddForce(collision.rigidbody.velocity);
             Destroy(gameObject);
 
             
