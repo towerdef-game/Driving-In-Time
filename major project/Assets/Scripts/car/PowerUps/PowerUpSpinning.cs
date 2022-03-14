@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class PowerUpSpinning : MonoBehaviour
 {
+    //FinbarRespawn spawned;
+    //GameObject parent;
+
+   
     public float spinSpeed = 1f;
-    // Start is called before the first frame update
+    
     void Start()
     {
-        
+      //  parent.GetComponentInParent<FinbarRespawn>();
+        //spawned.GetComponentInParent<FinbarRespawn>();
+       
+        //spawned.isSpawned = true;
     }
 
     // Update is called once per frame

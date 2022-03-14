@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-
+using FMODUnity;
 public class CarSounds : MonoBehaviour
 {
 
@@ -21,43 +21,63 @@ public class CarSounds : MonoBehaviour
     public AudioClip stanby;
     public AudioClip honk;
     public AudioClip ablity;
+
+    public StudioEventEmitter motor;
+
+    FMOD.Studio.EventInstance instance;
+    power_Up_State powerState; 
+
     void Start()
     {
+        motor = GetComponent<StudioEventEmitter>();
         audioSource = GetComponent<AudioSource>();
-  
+        powerState = GetComponent<power_Up_State>();
         car = GetComponent<Rigidbody>();
-
+       
     }
     
     void Update()
     {
-        timer -= 1 * Time.deltaTime;
-       // Debug.Log(car.velocity.magnitude);
-        if (car.velocity.magnitude >previousSpeed)
-        {
-            previousSpeed = car.velocity.magnitude;
-            if (timer <= 0)
-            {
-                audioSource.clip = accel;
-                audioSource.Play();
-                timer = 2;
-            }
 
+
+        //motor.Params.SetValue(car.velocity.magnitude);
+        motor.SetParameter("velocity", car.velocity.magnitude/100);
+        if (car.velocity.magnitude >= 1)
+        {
+            motor.SetParameter("isAccel", 1f);
         }
-        else   if (car.velocity.magnitude< previousSpeed)
-        {
-            previousSpeed = car.velocity.magnitude;
+        else motor.SetParameter("isAccel", 0);
 
-            if (timer <= 0)
-            {
 
-                audioSource.clip = slow;
-                audioSource.Play();
-                //audioSource.PlayOneShot(slow,2f);
-                timer = 2;
-            }
+        timer -= 1 * Time.deltaTime;
+       Debug.Log(car.velocity.magnitude/100);
+        //if (car.velocity.magnitude >previousSpeed)
+        //{
+        //    previousSpeed = car.velocity.magnitude;
+        //    if (timer <= 0)
+        //    {
+        //        audioSource.clip = accel;
+        //        audioSource.Play();
+        //        timer = 2;
+        //    }
 
-        } else if(car.velocity.magnitude<=0.3f)
+        //}
+        //else   if (car.velocity.magnitude< previousSpeed)
+        //{
+        //    previousSpeed = car.velocity.magnitude;
+
+        //    if (timer <= 0)
+        //    {
+
+        //        audioSource.clip = slow;
+        //        audioSource.Play();
+        //        //audioSource.PlayOneShot(slow,2f);
+        //        timer = 2;
+        //    }
+
+        //} else
+        //
+        if(car.velocity.magnitude<=0.1f)
         {
             if (timer <= 0)
             {
@@ -71,13 +91,20 @@ public class CarSounds : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.H))
         {
-            Debug.Log("works");
+          // Debug.Log("works");
             audioSource.PlayOneShot(honk, 2F);
         }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            audioSource.PlayOneShot(ablity, 0.7F);
+
+
+
+            if (powerState._state != power_Up_State.powers_manage.nopower)
+            {
+             //   Debug.Log("works? audio");
+                audioSource.PlayOneShot(ablity);
+            }
 
 
         }
