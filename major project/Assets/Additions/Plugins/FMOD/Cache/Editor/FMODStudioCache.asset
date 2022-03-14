@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Major Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637823873266994604
+  lastModified: 637828243951398098
   FileSizes:
   - Name: Desktop
-    Value: 896
+    Value: 1322
   Exists: 1
 --- !u!114 &-6090670536727361460
 MonoBehaviour:
@@ -35,10 +35,63 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Major Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637823873266973366
+  lastModified: 637828243951378094
   FileSizes:
   - Name: Desktop
-    Value: 135680
+    Value: 1127744
+  Exists: 1
+--- !u!114 &-2852027227557634845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Explosion
+  Guid:
+    Data1: 981123794
+    Data2: 1162497712
+    Data3: 1210339488
+    Data4: -656990176
+  Banks:
+  - {fileID: -6090670536727361460}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-255677575435540723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Enemy/shooting
+  m_EditorClassIdentifier: 
+  Name: shooting
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1804993521
+    data2: 2608850392
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -57,12 +110,17 @@ MonoBehaviour:
   - {fileID: -6090670536727361460}
   EditorEvents:
   - {fileID: 8507123238491790586}
+  - {fileID: 8520676017676815486}
+  - {fileID: 6198820190981684149}
+  - {fileID: 1928327114386295749}
+  - {fileID: 6823563060347200255}
+  - {fileID: -2852027227557634845}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6090670536727361460}
   StringsBanks:
   - {fileID: -8956409082016518638}
-  cacheTime: 637823873266994604
+  cacheTime: 637828243951398098
   cacheVersion: 10
 --- !u!114 &382022276655719100
 MonoBehaviour:
@@ -87,6 +145,86 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &838836291819092479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Car/skid
+  m_EditorClassIdentifier: 
+  Name: skid
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2738156055
+    data2: 1836470059
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
+  Exists: 1
+--- !u!114 &1928327114386295749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/hitObject
+  m_EditorClassIdentifier: 
+  Path: event:/hitObject
+  Guid:
+    Data1: -986570945
+    Data2: 1283749814
+    Data3: 1293656460
+    Data4: -1925883422
+  Banks:
+  - {fileID: -6090670536727361460}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 9094606036822369555}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2152665670422459363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Car/honk
+  m_EditorClassIdentifier: 
+  Name: honk
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4238432344
+    data2: 4169572606
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
   Exists: 1
 --- !u!114 &3263281347461235201
 MonoBehaviour:
@@ -114,6 +252,33 @@ MonoBehaviour:
   - Value A
   - Value B
   Exists: 1
+--- !u!114 &4854737790757869013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/powerUp/powerUpType
+  m_EditorClassIdentifier: 
+  Name: powerUpType
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 706234908
+    data2: 2065763735
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
+  - Value C
+  Exists: 1
 --- !u!114 &5406910176528751426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,6 +303,63 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6198820190981684149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/powerUp
+  m_EditorClassIdentifier: 
+  Path: event:/powerUp
+  Guid:
+    Data1: 1551341086
+    Data2: 1160217001
+    Data3: 90738576
+    Data4: 1212863382
+  Banks:
+  - {fileID: -6090670536727361460}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4854737790757869013}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6823563060347200255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Car
+  m_EditorClassIdentifier: 
+  Path: event:/Car
+  Guid:
+    Data1: 584381624
+    Data2: 1149914803
+    Data3: 1146538916
+    Data4: -1041024213
+  Banks:
+  - {fileID: -6090670536727361460}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2152665670422459363}
+  - {fileID: 838836291819092479}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11906
 --- !u!114 &8507123238491790586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,4 +389,59 @@ MonoBehaviour:
   - {fileID: 3263281347461235201}
   MinDistance: 1
   MaxDistance: 20
-  Length: 15687
+  Length: 16100
+--- !u!114 &8520676017676815486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy
+  Guid:
+    Data1: 1319704584
+    Data2: 1223790536
+    Data3: -1149754733
+    Data4: 53494520
+  Banks:
+  - {fileID: -6090670536727361460}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -255677575435540723}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51184
+--- !u!114 &9094606036822369555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/hitObject/objectType
+  m_EditorClassIdentifier: 
+  Name: objectType
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 1663516311
+    data2: 2140682265
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
+  - Value C
+  Exists: 1
