@@ -26,18 +26,20 @@ public class IntroCameraswap : MonoBehaviour
     {
         if(bezierCurve.param >= 1 && !finished)
         {
-            finished = true;
-            SwapCameras();
+          //  finished = true;
+          //  SwapCameras();
+            
         }
     }
 
     public void SwapCameras()
     {
-        introCamera.enabled = false;
-        carCamera.enabled = true;
-        firstPersonUi.SetActive(true);
-        car.enabled = true;
-        switcher.enabled = true;
-        time.enabled = true;
+         introCamera.enabled = false;
+           carCamera.enabled = true;
+          firstPersonUi.SetActive(true);
+           car.enabled = true;
+          switcher.enabled = true;
+          time.enabled = true;
+        this.enabled = false;
     }
 }

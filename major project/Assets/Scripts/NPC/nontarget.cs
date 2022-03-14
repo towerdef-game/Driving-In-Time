@@ -6,6 +6,7 @@ public class nontarget : MonoBehaviour
 {
     public GameManager manager;
     public GameObject body;
+    private Rigidbody crash;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +23,14 @@ public class nontarget : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Collided");
-
+            crash = other.GetComponent<Rigidbody>();
             manager.NonEnemy++;
-            Instantiate(body,transform.position,transform.rotation);
-            GameObject clone = Instantiate(body, transform.position, Quaternion.identity);
+          //  Instantiate(body,transform.position,transform.rotation);
+         //   GameObject clone = Instantiate(body, transform.position , Quaternion.identity);
+          GameObject clone = Instantiate(body, new Vector3(transform.localPosition.x, transform.localPosition.y+2f, transform.localPosition.z), Quaternion.identity);
             Rigidbody rag = clone.GetComponent<Rigidbody>();
-          //  rag.AddForce(collision.rigidbody.velocity);
+            
+            rag.AddForce(crash.velocity*2);
             Destroy(gameObject);
 
             
