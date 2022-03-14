@@ -4,26 +4,16 @@ using UnityEngine;
 
 public class DestroyPowerUp : MonoBehaviour
 {
-    public float radiusExplosion = 16f;
-
-    //FinbarRespawn spawn;
+    // public float radiusExplosion = 16f;
+  //  public respawn pow;
+    public powerup_respawn pow;
     // Start is called before the first frame update
-    void Start()
+      public void Start()
     {
-      
-        //spawn.GetComponentInParent<FinbarRespawn>();
+      //  pow = GetComponentInParent<respawn>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-
-
-    }
-   
-
-     void OnTriggerEnter(Collider other)
+       public  void OnTriggerEnter(Collider other)
     {
 
         if (other.gameObject.tag == "Player")
@@ -33,17 +23,14 @@ public class DestroyPowerUp : MonoBehaviour
                 other.gameObject.GetComponent<power_Up_State>()._state = power_Up_State.powers_manage.blast;
                 //   power_up_state._state = powers_manage.blast;
                 // power_up_state.powers_manage.blast;
+                // pow.timer();
+                pow.timer();
                 Destroy(gameObject);
-                //spawn.isSpawned = false;
             }
             }
     }
 
 
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, radiusExplosion);
-    }
+  
 }

@@ -42,7 +42,7 @@ public class EnemyAi : MonoBehaviour
         {
             transform.LookAt(target.position);
             Instantiate(enemyBullet, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
-            shotTime = 10f;
+            shotTime = 5f;
             agent.SetDestination(transform.position);
             enemySounds.PlayOneShot(shoot);
         } 

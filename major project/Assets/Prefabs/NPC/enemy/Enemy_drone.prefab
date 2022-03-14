@@ -64,8 +64,8 @@ MonoBehaviour:
   target: {fileID: 0}
   speed: 10
   sightRadius: 77777
-  shootRadius: 25
-  shotTime: 10
+  shootRadius: 10
+  shotTime: 5
   enemyBullet: {fileID: 4320478706991902068, guid: 152c9b4a47bbb954a866ebeefc501799, type: 3}
   range: {x: 0, y: 0, z: 0}
   siren: {fileID: 8300000, guid: ab767d4755f44f34c92f256607f8fb62, type: 3}
@@ -83,38 +83,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b5bd178da002b54985519ec646cda89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7397982477744716672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7888504833498500954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1319704584
-      Data2: 1223790536
-      Data3: -1149754733
-      Data4: 53494520
-    Path: event:/Enemy
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: shooting
-    Value: 0
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &8251078113082738105
 GameObject:
   m_ObjectHideFlags: 0
