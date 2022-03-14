@@ -11,6 +11,7 @@ public class Health : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+    public GameManager manager;
 
      void Update()
     {
@@ -44,7 +45,8 @@ public class Health : MonoBehaviour
 
         if(health <= 0)
         {
-            Destroy(gameObject);
+            // Destroy(gameObject);
+            manager.death();
         }
     }
 
