@@ -27,7 +27,7 @@ public class EnemyAi : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         speed = Random.Range(10, 14);
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        enemySounds.clip =siren;
+     //   enemySounds.clip =siren;
         enemySounds.Play();
     }
 
