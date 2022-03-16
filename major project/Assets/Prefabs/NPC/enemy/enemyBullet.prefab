@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4320478706991902067}
   - component: {fileID: 4320478706991902066}
   - component: {fileID: 4320478706991902069}
-  - component: {fileID: 2014499335728700383}
+  - component: {fileID: -3661351004428794569}
   m_Layer: 0
   m_Name: enemyBullet
   m_TagString: Bullet
@@ -111,7 +111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   boom: {fileID: 0}
---- !u!114 &2014499335728700383
+  explosion: {fileID: -3661351004428794569}
+--- !u!114 &-3661351004428794569
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,7 +136,7 @@ MonoBehaviour:
   PlayEvent: 2
   StopEvent: 0
   AllowFadeout: 1
-  TriggerOnce: 1
+  TriggerOnce: 0
   Preload: 0
   Params: []
   OverrideAttenuation: 0
