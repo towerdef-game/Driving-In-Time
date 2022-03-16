@@ -26,6 +26,7 @@ public class RadarPulse : MonoBehaviour
 
     void Update()
     {
+        sweepTransfrom.eulerAngles -= new Vector3(0, 0, rotateSpeed * Time.deltaTime);
         RemoveAllBlips();
         DisplayBlips(redBlipTag, blipRedPrefab);
         DisplayBlips(greenBlipTag, blipGreenPrefab);
