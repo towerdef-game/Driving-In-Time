@@ -6745,14 +6745,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sweepTransfrom: {fileID: 1160068630}
   rotateSpeed: 180
-  radarDistance: 20
-  blipSize: 3
-  usePlayerDirection: 0
+  distanceOfRadar: 20
+  sizeOdBlips: 15
+  playerDirection: 1
   player: {fileID: 783726235}
-  blipRedPrefab: {fileID: 1557822739647886243, guid: 02f9e73ac07998f48a1bdef622012dc6, type: 3}
-  blipGreenPrefab: {fileID: 3541821462051480655, guid: d105840592988e243a3f512b17b036a2, type: 3}
-  redBlipTag: Enemy
-  greenBlipTag: NPC
+  civilianPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 0}
+  greenTag: NPC
+  redTag: Enemy
 --- !u!114 &1604054128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8473,14 +8473,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sweepTransfrom: {fileID: 1160068630}
   rotateSpeed: 180
-  radarDistance: 20
-  blipSize: 3
-  usePlayerDirection: 0
+  distanceOfRadar: 20
+  sizeOdBlips: 3
+  playerDirection: 1
   player: {fileID: 783726235}
-  blipRedPrefab: {fileID: 1557822739647886243, guid: 02f9e73ac07998f48a1bdef622012dc6, type: 3}
-  blipGreenPrefab: {fileID: 3541821462051480655, guid: d105840592988e243a3f512b17b036a2, type: 3}
-  redBlipTag: Enemy
-  greenBlipTag: NPC
+  civilianPrefab: {fileID: 3541821462051480655, guid: d105840592988e243a3f512b17b036a2, type: 3}
+  enemyPrefab: {fileID: 1557822739647886243, guid: 02f9e73ac07998f48a1bdef622012dc6, type: 3}
+  greenTag: NPC
+  redTag: Enemy
 --- !u!114 &1942736453
 MonoBehaviour:
   m_ObjectHideFlags: 0
