@@ -7,7 +7,6 @@ public class nontarget : MonoBehaviour
     public GameManager manager;
     public GameObject body;
     private Rigidbody crash;
-    public float pushforce;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,10 +27,10 @@ public class nontarget : MonoBehaviour
             manager.NonEnemy++;
           //  Instantiate(body,transform.position,transform.rotation);
          //   GameObject clone = Instantiate(body, transform.position , Quaternion.identity);
-          GameObject clone = Instantiate(body, transform.position, Quaternion.identity);
+          GameObject clone = Instantiate(body, new Vector3(transform.localPosition.x, transform.localPosition.y+2f, transform.localPosition.z), Quaternion.identity);
             Rigidbody rag = clone.GetComponent<Rigidbody>();
             
-            rag.AddForce(crash.velocity*pushforce);
+            rag.AddForce(crash.velocity*2);
             Destroy(gameObject);
 
             
