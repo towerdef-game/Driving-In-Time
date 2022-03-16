@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using FMODUnity;
 public class EnemyAi : MonoBehaviour
 {
     public NavMeshAgent agent;
@@ -20,6 +21,8 @@ public class EnemyAi : MonoBehaviour
 
     AudioSource enemySounds;
    public AudioClip siren, shoot, fly;
+
+    public StudioEventEmitter enemyS;
     void Start()
     {
         enemySounds = GetComponent<AudioSource>();
