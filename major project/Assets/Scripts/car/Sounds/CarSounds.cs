@@ -33,8 +33,9 @@ public class CarSounds : MonoBehaviour
 
     }
     
-    void Update()
+    void Update() 
     {
+        motor.SetParameter("velocity", car.velocity.magnitude);
         timer -= 1 * Time.deltaTime;
        // Debug.Log(car.velocity.magnitude);
         if (car.velocity.magnitude >previousSpeed)

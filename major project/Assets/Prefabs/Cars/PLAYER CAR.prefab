@@ -6514,6 +6514,7 @@ GameObject:
   - component: {fileID: 8005942304915844995}
   - component: {fileID: 1882407876299386864}
   - component: {fileID: -2782117280817134036}
+  - component: {fileID: 329732348372712022}
   m_Layer: 0
   m_Name: PLAYER CAR
   m_TagString: Player
@@ -6529,7 +6530,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8005942304915845001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.4, y: 0.77, z: -186.75}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8005942303325473063}
@@ -6703,7 +6704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstperson: 1
-  povcam: {fileID: 8005942304227333693}
+  povcam: {fileID: 0}
   thirdperson: {fileID: 0}
   firstpersonui: {fileID: 0}
   thirdpersonui: {fileID: 0}
@@ -6782,7 +6783,7 @@ MonoBehaviour:
     Path: event:/motor
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -6820,6 +6821,20 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &329732348372712022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8005942304915845001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 8005942304915845001}
+  ListenerNumber: -1
 --- !u!1 &8005942305056890998
 GameObject:
   m_ObjectHideFlags: 0
