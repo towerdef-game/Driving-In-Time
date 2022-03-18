@@ -19465,6 +19465,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8005942304915845001, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
   m_PrefabInstance: {fileID: 1615988079}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &616378937 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8005942304915844998, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
+  m_PrefabInstance: {fileID: 1615988079}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616378927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb1e7d2f21bf4547af9c1798efd2e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &616378940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8005942304915845002, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
@@ -30321,7 +30332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08e486217f3a4574084649221090db5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carcontroller: {fileID: 0}
+  carcontroller: {fileID: 616378937}
   needle: {fileID: 1056057982}
   vehiclespeed: 0
 --- !u!1001 &1058099581
