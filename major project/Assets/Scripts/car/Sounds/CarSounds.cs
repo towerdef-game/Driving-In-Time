@@ -13,21 +13,22 @@ public class CarSounds : MonoBehaviour
     Vector3 carmoving;
     float previousSpeed;
     float timer;
-    AudioSource audioSource;
+    //AudioSource audioSource;
 
    // AudioSource soundsource;
    // for some reason didnt work even though itwas the exact same as The other one?
-    public AudioClip accel;
-    public AudioClip slow;
-    public AudioClip stanby;
-    public AudioClip honk;
-    public AudioClip ablity;
+    //public AudioClip accel;
+    //public AudioClip slow;
+    //public AudioClip stanby;
+    //public AudioClip honk;
+    //public AudioClip ablity;
 
     public StudioEventEmitter motor;
+    public StudioEventEmitter carSounds;
     void Start()
     {
         
-        audioSource = GetComponent<AudioSource>();
+        //audioSource = GetComponent<AudioSource>();
   
         car = GetComponent<Rigidbody>();
 
@@ -43,7 +44,7 @@ public class CarSounds : MonoBehaviour
             previousSpeed = car.velocity.magnitude;
             if (timer <= 0)
             {
-                audioSource.clip = accel;
+                //audioSource.clip = accel;
                // motor.Play();
                 timer = 2;
             }
@@ -56,8 +57,8 @@ public class CarSounds : MonoBehaviour
             if (timer <= 0)
             {
 
-                audioSource.clip = slow;
-                audioSource.Play();
+                //audioSource.clip = slow;
+                //audioSource.Play();
                 //audioSource.PlayOneShot(slow,2f);
                 timer = 2;
             }
@@ -67,8 +68,8 @@ public class CarSounds : MonoBehaviour
             if (timer <= 0)
             {
 
-                audioSource.clip = stanby;
-                audioSource.Play();
+                //audioSource.clip = stanby;
+                //audioSource.Play();
                 //audioSource.PlayOneShot(stanby, 2F);
                 timer = 2;
             }
@@ -77,12 +78,14 @@ public class CarSounds : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H))
         {
             Debug.Log("works");
-            audioSource.PlayOneShot(honk, 2F);
+
+            //audioSource.PlayOneShot(honk, 2F);
         }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            audioSource.PlayOneShot(ablity, 0.7F);
+            //  audioSource.PlayOneShot(ablity, 0.7F);
+            carSounds.SetParameter("honk", 1);
 
 
         }

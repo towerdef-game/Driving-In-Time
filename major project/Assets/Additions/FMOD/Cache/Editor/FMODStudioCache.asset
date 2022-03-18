@@ -1,5 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8029708151381673792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Car/velocity
+  m_EditorClassIdentifier: 
+  Name: velocity
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2524379914
+    data2: 3264721042
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6426070294833818406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +195,7 @@ MonoBehaviour:
   Path: ../../Major_project/major project/Assets/FmodMajorProjectFile/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637828243951398098
+  lastModified: 637831595284534247
   FileSizes:
   - Name: Desktop
     Value: 1322
@@ -282,7 +306,7 @@ MonoBehaviour:
   - {fileID: 4180905082851033665}
   StringsBanks:
   - {fileID: -2703296916866631065}
-  cacheTime: 637828243951398098
+  cacheTime: 637831595284534247
   cacheVersion: 10
 --- !u!114 &1817660869632431380
 MonoBehaviour:
@@ -340,6 +364,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: -5481007620781659530}
   - {fileID: -3299165738949345454}
+  - {fileID: -8029708151381673792}
   MinDistance: 1
   MaxDistance: 20
   Length: 11906
@@ -358,10 +383,10 @@ MonoBehaviour:
   Path: ../../Major_project/major project/Assets/FmodMajorProjectFile/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637828243951378094
+  lastModified: 637831595284514250
   FileSizes:
   - Name: Desktop
-    Value: 1127744
+    Value: 1128032
   Exists: 1
 --- !u!114 &6779551072873753784
 MonoBehaviour:
