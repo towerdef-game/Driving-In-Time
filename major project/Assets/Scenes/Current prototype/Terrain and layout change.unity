@@ -19465,6 +19465,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8005942304915845001, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
   m_PrefabInstance: {fileID: 1615988079}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &616378929 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -2782117280817134036, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
+  m_PrefabInstance: {fileID: 1615988079}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616378927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &616378934 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8005942304915845003, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
+  m_PrefabInstance: {fileID: 1615988079}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616378927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26129b3ad9a1b6643ac147b65db10603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &616378937 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8005942304915844998, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
@@ -27361,6 +27383,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6281211152255246121, guid: 5763cc00d34d3ea439518c26d3a9ae3e, type: 3}
   m_PrefabInstance: {fileID: 942578487}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &944924854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8005942303832312063, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
+  m_PrefabInstance: {fileID: 1615988079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!2083052967 &944924857 stripped
+VisualEffect:
+  m_CorrespondingSourceObject: {fileID: 8005942303832312058, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
+  m_PrefabInstance: {fileID: 1615988079}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &949121882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31090,7 +31122,7 @@ MonoBehaviour:
   carCamera: {fileID: 0}
   car: {fileID: 0}
   time: {fileID: 1074843826}
-  switcher: {fileID: 0}
+  switcher: {fileID: 616378934}
   bezierCurve: {fileID: 513994505}
   firstPersonUi: {fileID: 1140960046}
 --- !u!1001 &1075506998
@@ -49453,11 +49485,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2086584094274082999, guid: 28e10a5f6e063a34ab67fa8b49ca369e, type: 3}
   m_PrefabInstance: {fileID: 1960295563}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1581228819 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8005942303325473062, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
-  m_PrefabInstance: {fileID: 1615988079}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1582478709
 GameObject:
   m_ObjectHideFlags: 0
@@ -50282,7 +50309,7 @@ PrefabInstance:
     - target: {fileID: 8005942304915844999, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
       propertyPath: arua
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 944924857}
     - target: {fileID: 8005942304915844999, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
       propertyPath: time
       value: 5
@@ -50294,15 +50321,19 @@ PrefabInstance:
     - target: {fileID: 8005942304915844999, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
       propertyPath: boosters
       value: 
-      objectReference: {fileID: 1581228819}
+      objectReference: {fileID: 0}
     - target: {fileID: 8005942304915844999, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
       propertyPath: explosion
       value: 
       objectReference: {fileID: 1676101558}
     - target: {fileID: 8005942304915844999, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8005942304915844999, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
       propertyPath: aruaeffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 944924854}
     - target: {fileID: 8005942304915844999, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
       propertyPath: blastlight
       value: 
@@ -50337,7 +50368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8005942304915845002, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.31552982
+      value: 0.72
       objectReference: {fileID: 0}
     - target: {fileID: 8005942304915845002, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
       propertyPath: m_LocalPosition.z
@@ -50387,6 +50418,10 @@ PrefabInstance:
       propertyPath: thirdpersonui
       value: 
       objectReference: {fileID: 722129933}
+    - target: {fileID: 8005942304915845052, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
+      propertyPath: carSounds
+      value: 
+      objectReference: {fileID: 616378929}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b0fdd32f6e0fd94998513a038c1da02, type: 3}
 --- !u!54 &1615988080 stripped
@@ -54224,7 +54259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08e486217f3a4574084649221090db5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carcontroller: {fileID: 0}
+  carcontroller: {fileID: 616378937}
   needle: {fileID: 1097515766}
   vehiclespeed: 0
 --- !u!1001 &1776286807
