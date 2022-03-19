@@ -31,7 +31,7 @@ public class EnemyAi : MonoBehaviour
         speed = Random.Range(10, 14);
         target = GameObject.FindGameObjectWithTag("Player").transform;
         //enemySounds.clip =siren;
-        enemySounds.Play();
+      //  enemySounds.Play();
     }
 
     // Update is called once per frame
