@@ -7,7 +7,7 @@ using UnityEngine.ParticleSystemJobs;
 public class power_Up_State : MonoBehaviour
 {
 
-    public enum powers_manage { nopower, speedup, blast, slowdown }
+    public enum powers_manage { nopower, speedup, blast, slowdown,pillar }
     public bool canpickup = true;
 
     public float pauseTime = 5f;
@@ -29,10 +29,13 @@ public class power_Up_State : MonoBehaviour
     public Vector4 red;
     public powers_manage _state;
     public bool fstperview;
+  //  public GameObject[] ob;
+    public ParticleSystem[] pillars;
     private void Start()
     {
         //  arua.GetVector4("color");
         rigid = GetComponent<Rigidbody>();
+      
     }
     void Update()
     {
@@ -81,14 +84,24 @@ public class power_Up_State : MonoBehaviour
                
                 Debug.Log("hi from the slow down state");
                 break;
-
+            case powers_manage.pillar:
+                see();
+                break;
 
         }
 
     }
 
 
-
+    void see()
+    {
+  
+        for (int i = 0; i < pillars.Length; i++)
+        {
+            pillars[i].Play();
+        }
+        _state = powers_manage.nopower;
+    }
     void speedup()
     {
         canpickup = false;

@@ -8,6 +8,7 @@ public class IntroCameraswap : MonoBehaviour
     public Camera introCamera;
     public Camera carCamera;
     public car_mk3 car;
+    public Timer time;
     public switchcamera switcher;
     public BezierCurveCamera bezierCurve;
     private bool finished = false;
@@ -25,17 +26,20 @@ public class IntroCameraswap : MonoBehaviour
     {
         if(bezierCurve.param >= 1 && !finished)
         {
-            finished = true;
-            SwapCameras();
+          //  finished = true;
+          //  SwapCameras();
+            
         }
     }
 
     public void SwapCameras()
     {
-        introCamera.enabled = false;
-        carCamera.enabled = true;
-        firstPersonUi.SetActive(true);
-        car.enabled = true;
-        switcher.enabled = true;
+         introCamera.enabled = false;
+           carCamera.enabled = true;
+          firstPersonUi.SetActive(true);
+           car.enabled = true;
+          switcher.enabled = true;
+          time.enabled = true;
+        this.enabled = false;
     }
 }

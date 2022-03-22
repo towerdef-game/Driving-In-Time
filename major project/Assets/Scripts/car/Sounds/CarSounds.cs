@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using FMODUnity;
 
 public class CarSounds : MonoBehaviour
 {
@@ -21,8 +22,11 @@ public class CarSounds : MonoBehaviour
     public AudioClip stanby;
     public AudioClip honk;
     public AudioClip ablity;
+
+    public StudioEventEmitter motor;
     void Start()
     {
+        
         audioSource = GetComponent<AudioSource>();
   
         car = GetComponent<Rigidbody>();
@@ -39,7 +43,7 @@ public class CarSounds : MonoBehaviour
             if (timer <= 0)
             {
                 audioSource.clip = accel;
-                audioSource.Play();
+               // motor.Play();
                 timer = 2;
             }
 

@@ -35,7 +35,7 @@ public class BezierCurveCamera : MonoBehaviour
         while (param < 1)
         {
             param += Time.deltaTime * speedModifier;
-
+            
             fighterPosition = Mathf.Pow(1 - param, 3) * p0 +
                 3 * Mathf.Pow(1 - param, 2) * param * p1 +
                 3 * (1 - param) * Mathf.Pow(param, 2) * p2 +

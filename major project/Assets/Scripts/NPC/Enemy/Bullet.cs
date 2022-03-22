@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class Bullet : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class Bullet : MonoBehaviour
 
     AudioSource explode;
     public AudioClip boom;
-
+    public StudioEventEmitter explosion;
 
     void Start()
     {
