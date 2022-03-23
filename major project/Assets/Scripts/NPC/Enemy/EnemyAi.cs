@@ -19,18 +19,18 @@ public class EnemyAi : MonoBehaviour
    public Vector3 range;
 
 
-    AudioSource enemySounds;
+    //AudioSource enemySounds;
    public AudioClip siren, shoot, fly;
 
-    public StudioEventEmitter enemyS;
+    public StudioEventEmitter enemySounds;
     void Start()
     {
-        enemySounds = GetComponent<AudioSource>();
+       // enemySounds = GetComponent<AudioSource>();
         enemy = GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();
         speed = Random.Range(10, 14);
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        enemySounds.clip =siren;
+        //enemySounds.clip =siren;
         enemySounds.Play();
     }
 
@@ -43,11 +43,17 @@ public class EnemyAi : MonoBehaviour
 
         if ((shootRadius > Mathf.Abs(dist.x) && Mathf.Abs(dist.z) < shootRadius) && shotTime < 0)
         {
-            transform.LookAt(target.position);
-            Instantiate(enemyBullet, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
-            shotTime = 5f;
-            agent.SetDestination(transform.position);
-            enemySounds.PlayOneShot(shoot);
+
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, target.position, out hit))
+            {
+                transform.LookAt(target.position);
+                Instantiate(enemyBullet, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
+                shotTime = 5f;
+                agent.SetDestination(transform.position);
+                enemySounds.SetParameter("shoot", 1);
+            }
+            else enemySounds.SetParameter("shoot", 0);
         } 
         if ( Mathf.Abs(dist.x)> shootRadius || Mathf.Abs(dist.z) > shootRadius)
         {
