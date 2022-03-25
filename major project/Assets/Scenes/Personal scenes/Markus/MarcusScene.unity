@@ -3312,7 +3312,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783726231}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3476f67db9e8ffa41abf1c470b9ed414, type: 3}
   m_Name: 
@@ -3323,6 +3323,7 @@ MonoBehaviour:
   timerIsOnToSpawn: 0
   playerPosition: {fileID: 783726235}
   respawnPosition: {x: 0, y: 0, z: 0}
+  grounded: 0
 --- !u!1 &843153081
 GameObject:
   m_ObjectHideFlags: 0
@@ -6421,6 +6422,7 @@ MonoBehaviour:
   timerIsOnToSpawn: 0
   playerPosition: {fileID: 1479374936}
   respawnPosition: {x: 0, y: 0, z: 0}
+  grounded: 0
 --- !u!54 &1479374932
 Rigidbody:
   m_ObjectHideFlags: 0

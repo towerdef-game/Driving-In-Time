@@ -42,6 +42,9 @@ public class RespawnPlayer : MonoBehaviour
 
         if (timerIsOnToSpawn)
         {
+            
+          
+
             if (remainingTimeTillSpawn > 0)
             {
                 remainingTimeTillSpawn -= Time.deltaTime;
@@ -49,9 +52,10 @@ public class RespawnPlayer : MonoBehaviour
             }
             else
             {
-                
+                remainingTime = 15;
                 remainingTimeTillSpawn = 3;
                 playerPosition.position = respawnPosition;
+                timerIsOn = true;
                 timerIsOnToSpawn = false;
             }
         }
@@ -67,7 +71,8 @@ public class RespawnPlayer : MonoBehaviour
             //Debug.Log("hit trigger");
 
             timerIsOnToSpawn = true;
-            
+            timerIsOn = false;
+
         }
     }
 }

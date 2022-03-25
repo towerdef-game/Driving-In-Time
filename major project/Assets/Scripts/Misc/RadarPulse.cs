@@ -14,8 +14,8 @@ public class RadarPulse : MonoBehaviour
     public Transform player;
     public GameObject civilianPrefab;
     public GameObject enemyPrefab;
-    public string greenTag = "NPC";
-    public string redTag = "Enemy";
+    public string greenTag = "NonEnemy";
+    public string redTag = "Target";
 
     private float widthOfTheRadar, heightOfTheRadar, widthOfTheBlip, heightOfTheBlip;
 
