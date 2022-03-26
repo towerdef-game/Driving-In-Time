@@ -103,6 +103,8 @@ GameObject:
   - component: {fileID: 851743234184090680}
   - component: {fileID: 851743234184090687}
   - component: {fileID: 851743234184090686}
+  - component: {fileID: -692101361181978872}
+  - component: {fileID: -8212441207754859390}
   m_Layer: 0
   m_Name: CarUpdate
   m_TagString: Player
@@ -238,11 +240,6 @@ MonoBehaviour:
   - {fileID: 3276666555631083029}
   - {fileID: 3276666555218830707}
   - {fileID: 3276666555113232384}
-  wheelmesh:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   KPH: 0
   totalpower: 1250
   turnradius: 6
@@ -335,6 +332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motor: {fileID: 851743234184090680}
   carSounds: {fileID: 851743234184090687}
+  powerUps: {fileID: -8212441207754859390}
 --- !u!114 &851743234184090681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,8 +419,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 851743234184090685}
   ListenerNumber: -1
+--- !u!114 &-692101361181978872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851743234184090685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -259024964
+      Data2: 1076163420
+      Data3: 112494995
+      Data4: 402026110
+    Path: event:/sonar
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &-8212441207754859390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851743234184090685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: PowerUp
+  EventReference:
+    Guid:
+      Data1: 1551341086
+      Data2: 1160217001
+      Data3: 90738576
+      Data4: 1212863382
+    Path: event:/powerUp
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &3276666555113232390
 GameObject:
   m_ObjectHideFlags: 0

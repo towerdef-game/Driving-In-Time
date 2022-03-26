@@ -104,9 +104,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9881406b-8feb-48ac-9d6d-497f54344c73}">
-		<property name="volume">
-			<value>-25</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{b947a332-3ac7-4d16-b585-c9f48650e1c7}</destination>
 		</relationship>
@@ -163,6 +160,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1936ca60-c64c-4bd7-9fd2-3b19281d1654}">
+		<property name="volume">
+			<value>-20</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -186,9 +186,6 @@
 		<property name="transitionOffset">
 			<value>1</value>
 		</property>
-		<property name="looping">
-			<value>2</value>
-		</property>
 		<relationship name="timeline">
 			<destination>{14cce725-a736-4128-a8df-0631d17bd752}</destination>
 		</relationship>
@@ -197,7 +194,6 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{6f2243b2-ab47-4244-a946-8f06b4e917cb}</destination>
-			<destination>{4bf7dc74-b4a2-4674-8a71-287f7c76861a}</destination>
 		</relationship>
 	</object>
 	<object class="LoopRegion" id="{394f30a3-27f1-4b13-b9e1-e44cf52567c3}">
@@ -209,9 +205,6 @@
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
-		</property>
-		<property name="looping">
-			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{14cce725-a736-4128-a8df-0631d17bd752}</destination>
@@ -304,17 +297,6 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{77f05ab4-0178-4cf3-8f93-05e378e54265}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{4bf7dc74-b4a2-4674-8a71-287f7c76861a}">
-		<property name="minimum">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{df7610b1-3d93-445f-bb9a-54d065a15db9}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{289992b0-eb1d-4fc3-8d6c-5954c02f2890}">

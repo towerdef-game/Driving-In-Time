@@ -25,6 +25,7 @@ public class CarSounds : MonoBehaviour
 
     public StudioEventEmitter motor;
     public StudioEventEmitter carSounds;
+    public StudioEventEmitter powerUps;
     void Start()
     {
         
@@ -76,11 +77,12 @@ public class CarSounds : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.V))
         {
             Debug.Log("works");
          carSounds.SetParameter("honk", 1);
-           // RuntimeManager.PlayOneShot("event:/Car",transform.position);
+            carSounds.SetParameter("honk", 0);
+            // RuntimeManager.PlayOneShot("event:/Car",transform.position);
             //audioSource.PlayOneShot(honk, 2F);
         }
 
@@ -92,6 +94,15 @@ public class CarSounds : MonoBehaviour
         }
     }
 
-  
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PowerUp"))
+        {
+            Debug.Log("im real please save me");
+            int shotgun = Random.Range(1, 4);
+            powerUps.SetParameter("random", shotgun);
+            powerUps.Play();
+        }
+    }
 
 }

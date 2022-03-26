@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using FMODUnity;
 
 
 public class GameManager : MonoBehaviour
@@ -30,12 +31,17 @@ public class GameManager : MonoBehaviour
     // scoretotal count
     float totalTargets;
     bool alive=true;
+
+
+    //music
+    StudioEventEmitter musicselection;
+ 
     private void Start()
     {
         score = 0;
         NonEnemy = 0;
       //  totalTargets = targetsalive*10;
-
+      Debug.Log(SceneManager.GetActiveScene().buildIndex+"this scene");
     }
     public void Endgame()
     {
