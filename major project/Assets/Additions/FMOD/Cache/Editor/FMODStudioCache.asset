@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/FmodMajorProjectFile/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637838354217563477
+  lastModified: 637838861612396179
   FileSizes:
   - Name: Desktop
-    Value: 1322
+    Value: 1432
   Exists: 1
 --- !u!114 &-8029708151381673792
 MonoBehaviour:
@@ -59,10 +59,10 @@ MonoBehaviour:
   Path: Assets/FmodMajorProjectFile/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637838354217543468
+  lastModified: 637838861612376173
   FileSizes:
   - Name: Desktop
-    Value: 1169824
+    Value: 1293856
   Exists: 1
 --- !u!114 &-6426070294833818406
 MonoBehaviour:
@@ -106,7 +106,7 @@ MonoBehaviour:
   Name: powerUpType
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 3
   Default: 0
   ID:
     data1: 706234908
@@ -117,6 +117,7 @@ MonoBehaviour:
   - Value A
   - Value B
   - Value C
+  - Value D
   Exists: 1
 --- !u!114 &-5542847230727501983
 MonoBehaviour:
@@ -266,12 +267,13 @@ MonoBehaviour:
   - {fileID: -7457326703652236643}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: -5902666411558181263}
+  - {fileID: 4627123599904504063}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 10000
 --- !u!114 &-463305328325247810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,13 +323,42 @@ MonoBehaviour:
   - {fileID: 1817660869632431380}
   - {fileID: 2296791932077389477}
   - {fileID: -6426070294833818406}
+  - {fileID: 881599293698233740}
+  - {fileID: 8825743763200962080}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7457326703652236643}
   StringsBanks:
   - {fileID: -8614054561226034600}
-  cacheTime: 637838354217563477
+  cacheTime: 637838861612396179
   cacheVersion: 10
+--- !u!114 &881599293698233740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Target
+  m_EditorClassIdentifier: 
+  Path: event:/Target
+  Guid:
+    Data1: 1160361332
+    Data2: 1335068104
+    Data3: -2050429258
+    Data4: 1197905341
+  Banks:
+  - {fileID: -7457326703652236643}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2482
 --- !u!114 &1817660869632431380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,6 +419,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11906
+--- !u!114 &4627123599904504063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/powerUp/Random
+  m_EditorClassIdentifier: 
+  Name: Random
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 83489473
+    data2: 1802254619
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6779551072873753784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -470,3 +525,30 @@ MonoBehaviour:
   - Value A
   - Value B
   Exists: 1
+--- !u!114 &8825743763200962080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sonar
+  m_EditorClassIdentifier: 
+  Path: event:/sonar
+  Guid:
+    Data1: -259024964
+    Data2: 1076163420
+    Data3: 112494995
+    Data4: 402026110
+  Banks:
+  - {fileID: -7457326703652236643}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
