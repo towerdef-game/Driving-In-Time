@@ -117,7 +117,7 @@
 			<value>30</value>
 		</property>
 		<property name="length">
-			<value>0.98299319727891143</value>
+			<value>0.90000000000000002</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{ecac78d0-debd-42bf-86f3-bde27f5373a0}</destination>
@@ -131,7 +131,7 @@
 			<value>50</value>
 		</property>
 		<property name="start">
-			<value>0.98297052154195008</value>
+			<value>0.90000000000000002</value>
 		</property>
 		<property name="length">
 			<value>1.4999999999999996</value>
@@ -206,6 +206,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{0fe1e22a-e1ed-4404-ac82-35e37deecf9b}">
 		<relationship name="effects">
+			<destination>{5f5a7772-c8d6-4c21-8801-9755f4d69de4}</destination>
 			<destination>{995023c0-b252-4607-adc5-170fb861c07e}</destination>
 			<destination>{9451b92f-af3a-432b-9362-5e2a570a0873}</destination>
 		</relationship>
@@ -215,7 +216,7 @@
 	<object class="SpatialiserEffect" id="{64490905-4de7-4b44-b073-597281577446}" />
 	<object class="AutomationPoint" id="{b5406831-9500-47ce-a5b4-5b82d9e657b2}">
 		<property name="position">
-			<value>0.98297052154195008</value>
+			<value>0.90000000000000002</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -234,7 +235,7 @@
 	</object>
 	<object class="AutomationPoint" id="{20a3a1f5-37b0-40db-b446-e6b8224faa23}">
 		<property name="position">
-			<value>0.98297052154195008</value>
+			<value>0.90000000000000002</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -251,6 +252,7 @@
 			<value>1</value>
 		</property>
 	</object>
+	<object class="ThreeEQEffect" id="{5f5a7772-c8d6-4c21-8801-9755f4d69de4}" />
 	<object class="MixerBusFader" id="{995023c0-b252-4607-adc5-170fb861c07e}" />
 	<object class="PitchShifterEffect" id="{9451b92f-af3a-432b-9362-5e2a570a0873}">
 		<property name="pitch">
