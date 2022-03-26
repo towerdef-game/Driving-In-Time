@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d22bd033-9b9d-40cf-9d2f-b79b16eabafb}">
+		<property name="name">
+			<value>honkPressed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b4452065-5cf8-4ecb-a284-986700b5021c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f0548814-b4d5-4cf0-9573-e7d35a695b35}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f0548814-b4d5-4cf0-9573-e7d35a695b35}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -19,7 +19,7 @@ public class power_Up_State : MonoBehaviour
     public GameObject clocklight;
     public float boost;
     public GameObject Car;
-    public GameObject boosters;
+  //  public GameObject boosters;
     public float radiusExplosion = 16f;
     public ParticleSystem explosion;
     public GameObject aruaeffect;
@@ -45,7 +45,7 @@ public class power_Up_State : MonoBehaviour
             case powers_manage.nopower:
                 canpickup = true;
                 aruaeffect.SetActive(false);
-                boosters.SetActive(false);
+               // boosters.SetActive(false);
               if(fstperview == true)
                 {
                     blastlight.SetActive(false);
@@ -110,7 +110,7 @@ public class power_Up_State : MonoBehaviour
             rigid.AddForce(transform.forward * boost, ForceMode.Impulse);
             // StartCoroutine("boosttime", 2f);
             _state = powers_manage.nopower;
-            boosters.SetActive(true);
+           // boosters.SetActive(true);
             Debug.Log("speeding up");
         }
     }
