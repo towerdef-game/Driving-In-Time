@@ -34,14 +34,17 @@ public class GameManager : MonoBehaviour
 
 
     //music
-    StudioEventEmitter musicselection;
+   
  
     private void Start()
     {
         score = 0;
         NonEnemy = 0;
       //  totalTargets = targetsalive*10;
-      Debug.Log(SceneManager.GetActiveScene().buildIndex+"this scene");
+     // Debug.Log(SceneManager.GetActiveScene().buildIndex+"this scene");
+        //if()
+       // int scene =SceneManager.GetActiveScene().buildIndex;
+       
     }
     public void Endgame()
     {
