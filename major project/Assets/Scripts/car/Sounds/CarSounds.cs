@@ -37,6 +37,7 @@ public class CarSounds : MonoBehaviour
     void Update() 
     {
         motor.SetParameter("velocity", car.velocity.magnitude);
+        carSounds.SetParameter("velocity", car.velocity.magnitude);
         timer -= 1 * Time.deltaTime;
        // Debug.Log(car.velocity.magnitude);
         if (car.velocity.magnitude >previousSpeed)
@@ -78,19 +79,19 @@ public class CarSounds : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H))
         {
             Debug.Log("works");
-
+         carSounds.SetParameter("honk", 1);
+           // RuntimeManager.PlayOneShot("event:/Car",transform.position);
             //audioSource.PlayOneShot(honk, 2F);
         }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
             //  audioSource.PlayOneShot(ablity, 0.7F);
-            carSounds.SetParameter("honk", 1);
-
+            
 
         }
     }
 
-
   
+
 }
