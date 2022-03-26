@@ -602,6 +602,7 @@ GameObject:
   - component: {fileID: 4688841330346148813}
   - component: {fileID: 4688841330346148811}
   - component: {fileID: 4688841330346148852}
+  - component: {fileID: -647662837466393880}
   m_Layer: 0
   m_Name: Target 1
   m_TagString: Target
@@ -771,6 +772,36 @@ MonoBehaviour:
   skinnedMesh: {fileID: 4538330582226912156}
   vfx: {fileID: 4688841329548080978}
   refreshrate: 0.02
+--- !u!114 &-647662837466393880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4688841330346148803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1160361332
+      Data2: 1335068104
+      Data3: -2050429258
+      Data4: 1197905341
+    Path: event:/Target
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 40
 --- !u!1 &4834014232870242961
 GameObject:
   m_ObjectHideFlags: 0
