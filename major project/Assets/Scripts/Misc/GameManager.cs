@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
-using FMODUnity;
 
 
 public class GameManager : MonoBehaviour
@@ -14,7 +13,6 @@ public class GameManager : MonoBehaviour
     public float specialpoints;
     public float speiclaunlock;
    public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI fpscoretext;
     public float targetsalive;
     public float NonEnemy = 0;
     public bool spawnEnemies = true;
@@ -31,20 +29,12 @@ public class GameManager : MonoBehaviour
     // scoretotal count
     float totalTargets;
     bool alive=true;
-
-
-    //music
-   
- 
     private void Start()
     {
         score = 0;
         NonEnemy = 0;
       //  totalTargets = targetsalive*10;
-     // Debug.Log(SceneManager.GetActiveScene().buildIndex+"this scene");
-        //if()
-       // int scene =SceneManager.GetActiveScene().buildIndex;
-       
+
     }
     public void Endgame()
     {
@@ -67,7 +57,6 @@ public class GameManager : MonoBehaviour
 
         //scoreText.text = "Score: " + score;
         scoreText.text ="Score: " + score.ToString() +"/"+totalTargets;
-        fpscoretext.text = "Score: " + score.ToString() + "/" + totalTargets;
     }
     public void Update()
     {

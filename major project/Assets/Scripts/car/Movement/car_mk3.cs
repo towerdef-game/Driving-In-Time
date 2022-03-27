@@ -19,7 +19,7 @@ public class car_mk3 : MonoBehaviour
   
     private input_manager IM;
     public WheelCollider[] wheels = new WheelCollider[4];
-   // public GameObject[] wheelmesh = new GameObject[4];
+    public GameObject[] wheelmesh = new GameObject[4];
     private Rigidbody rigid;
     public float KPH;
     private float tempo;
@@ -128,8 +128,8 @@ public class car_mk3 : MonoBehaviour
         for (int i = 0; i < 4; i++)
         {
             wheels[i].GetWorldPose(out wheelposition, out wheelrottaion);
-           // wheelmesh[i].transform.position = wheelposition;
-          //  wheelmesh[i].transform.rotation = wheelrottaion;
+            wheelmesh[i].transform.position = wheelposition;
+            wheelmesh[i].transform.rotation = wheelrottaion;
         }
     }
     private void getobjects()

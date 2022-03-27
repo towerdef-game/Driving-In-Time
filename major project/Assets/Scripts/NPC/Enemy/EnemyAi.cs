@@ -11,7 +11,7 @@ public class EnemyAi : MonoBehaviour
     public float speed=10f;
     public float sightRadius;
     public float shootRadius;
-    public float shotTime = 3;
+    public float shotTime;
 
     public GameObject enemyBullet;
     private Rigidbody enemy;
@@ -46,19 +46,18 @@ public class EnemyAi : MonoBehaviour
         agent.speed = speed;
         agent.SetDestination(target.position);
         RaycastHit hit;
-        //if (Physics.Raycast(transform.position, target.position, out hit) && hit.transform.tag == "Player")
-        //{
-            //Debug.Log(hit.collider.name);
+        if (Physics.Raycast(transform.position, target.position-transform.position, out hit) && hit.transform.tag == "Player")
+        {
+            Debug.Log(hit.collider.name);
             transform.LookAt(target.position);
             if (shotTime <= 0)
             {
                 Instantiate(enemyBullet, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
-                shotTime = 10f;
-                    enemySounds.SetParameter("shooting", 1);
+                shotTime = 5f;
             }
-        else enemySounds.SetParameter("shooting", 0);
-        
-        //} else enemySounds.SetParameter("shoot", 0);
+            agent.SetDestination(transform.position);
+            enemySounds.SetParameter("shoot", 1);
+        } else enemySounds.SetParameter("shoot", 0);
             //} 
             //if (Mathf.Abs(dist.x) > shootRadius || Mathf.Abs(dist.z) > shootRadius)
             //{
