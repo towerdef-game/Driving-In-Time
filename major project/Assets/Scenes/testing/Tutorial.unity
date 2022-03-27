@@ -557,6 +557,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40167149}
   m_CullTransparentMesh: 1
+--- !u!4 &85497737 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3276666556302144184, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+  m_PrefabInstance: {fileID: 1418604205}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &101996888
 GameObject:
   m_ObjectHideFlags: 0
@@ -4943,7 +4948,7 @@ MonoBehaviour:
   distanceOfRadar: 70
   sizeOdBlips: 2
   playerDirection: 1
-  player: {fileID: 0}
+  player: {fileID: 1418604223}
   civilianPrefab: {fileID: 3541821462051480655, guid: d105840592988e243a3f512b17b036a2, type: 3}
   enemyPrefab: {fileID: 1557822739647886243, guid: 02f9e73ac07998f48a1bdef622012dc6, type: 3}
   greenTag: NonEnemy
@@ -5793,6 +5798,11 @@ GameObject:
 --- !u!1 &1418604207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7717860247657511643, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+  m_PrefabInstance: {fileID: 1418604205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1418604223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 43399209668497031, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
   m_PrefabInstance: {fileID: 1418604205}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1423708311
@@ -8952,8 +8962,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cb15c08202ee3548a58e055fd197a94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToFollow: {fileID: 0}
-  offset: {x: 0, y: 3, z: -8}
+  objectToFollow: {fileID: 85497737}
+  offset: {x: 2, y: 8, z: 0}
   followSpeed: 10
   lookSpeed: 10
 --- !u!114 &2088136809
