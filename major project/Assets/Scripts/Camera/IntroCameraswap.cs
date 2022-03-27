@@ -26,8 +26,8 @@ public class IntroCameraswap : MonoBehaviour
     {
         if(bezierCurve.param >= 1 && !finished)
         {
-          //  finished = true;
-          //  SwapCameras();
+            finished = true;
+            SwapCameras();
             
         }
     }
