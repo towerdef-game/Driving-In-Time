@@ -12,14 +12,14 @@ public class Bullet : MonoBehaviour
   
     private Vector3 carPastPos;
 
-    AudioSource explode;
-    public AudioClip boom;
+    //AudioSource explode;
+    //public AudioClip boom;
     public StudioEventEmitter explosion;
 
     void Start()
     {
-        explode = GetComponent<AudioSource>();
-        explode.clip = boom;
+        //explode = GetComponent<AudioSource>();
+        //explode.clip = boom;
       
         carPastPos = GameObject.FindGameObjectWithTag("Player").transform.position;
         
@@ -54,7 +54,7 @@ public class Bullet : MonoBehaviour
 
         //other.rigidbody.AddForce(enemy.velocity * 1000000);
         //for some reason wont collide with floor maybe because of its mesh collider?
-        explode.Play();
+        //explode.Play();
             Destroy(this.gameObject);
         // one mil force? wot m8
 

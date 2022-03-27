@@ -7,7 +7,6 @@ public class nontarget : MonoBehaviour
     public GameManager manager;
     public GameObject body;
     private Rigidbody crash;
-    public float pushforce;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,19 +18,21 @@ public class nontarget : MonoBehaviour
     {
         
     }
-    public void OnTriggerEnter(Collider other)
+    public void OnCollisionEnter(Collision other)
     {
+        
+
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Collided");
-            crash = other.GetComponent<Rigidbody>();
+            
             manager.NonEnemy++;
           //  Instantiate(body,transform.position,transform.rotation);
          //   GameObject clone = Instantiate(body, transform.position , Quaternion.identity);
-          GameObject clone = Instantiate(body, transform.position, Quaternion.identity);
+          GameObject clone = Instantiate(body, new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z), Quaternion.identity);
             Rigidbody rag = clone.GetComponent<Rigidbody>();
             
-            rag.AddForce(crash.velocity*pushforce);
+            rag.AddForce(other.rigidbody.velocity*2);
             Destroy(gameObject);
 
             

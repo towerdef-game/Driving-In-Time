@@ -13,28 +13,32 @@ public class CarSounds : MonoBehaviour
     Vector3 carmoving;
     float previousSpeed;
     float timer;
-    AudioSource audioSource;
+    //AudioSource audioSource;
 
    // AudioSource soundsource;
    // for some reason didnt work even though itwas the exact same as The other one?
-    public AudioClip accel;
-    public AudioClip slow;
-    public AudioClip stanby;
-    public AudioClip honk;
-    public AudioClip ablity;
+    //public AudioClip accel;
+    //public AudioClip slow;
+    //public AudioClip stanby;
+    //public AudioClip honk;
+    //public AudioClip ablity;
 
     public StudioEventEmitter motor;
+    public StudioEventEmitter carSounds;
+    public StudioEventEmitter powerUps;
     void Start()
     {
         
-        audioSource = GetComponent<AudioSource>();
+        //audioSource = GetComponent<AudioSource>();
   
         car = GetComponent<Rigidbody>();
 
     }
     
-    void Update()
+    void Update() 
     {
+        motor.SetParameter("velocity", car.velocity.magnitude);
+        carSounds.SetParameter("velocity", car.velocity.magnitude);
         timer -= 1 * Time.deltaTime;
        // Debug.Log(car.velocity.magnitude);
         if (car.velocity.magnitude >previousSpeed)
@@ -42,7 +46,7 @@ public class CarSounds : MonoBehaviour
             previousSpeed = car.velocity.magnitude;
             if (timer <= 0)
             {
-                audioSource.clip = accel;
+                //audioSource.clip = accel;
                // motor.Play();
                 timer = 2;
             }
@@ -55,8 +59,8 @@ public class CarSounds : MonoBehaviour
             if (timer <= 0)
             {
 
-                audioSource.clip = slow;
-                audioSource.Play();
+                //audioSource.clip = slow;
+                //audioSource.Play();
                 //audioSource.PlayOneShot(slow,2f);
                 timer = 2;
             }
@@ -66,27 +70,39 @@ public class CarSounds : MonoBehaviour
             if (timer <= 0)
             {
 
-                audioSource.clip = stanby;
-                audioSource.Play();
+                //audioSource.clip = stanby;
+                //audioSource.Play();
                 //audioSource.PlayOneShot(stanby, 2F);
                 timer = 2;
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.V))
         {
             Debug.Log("works");
-            audioSource.PlayOneShot(honk, 2F);
+         carSounds.SetParameter("honk", 1);
+            carSounds.SetParameter("honk", 0);
+            // RuntimeManager.PlayOneShot("event:/Car",transform.position);
+            //audioSource.PlayOneShot(honk, 2F);
         }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            audioSource.PlayOneShot(ablity, 0.7F);
-
+            //  audioSource.PlayOneShot(ablity, 0.7F);
+            
 
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PowerUp"))
+        {
+            Debug.Log("im real please save me");
+            int shotgun = Random.Range(1, 4);
+            powerUps.SetParameter("random", shotgun);
+            powerUps.Play();
+        }
+    }
 
-  
 }

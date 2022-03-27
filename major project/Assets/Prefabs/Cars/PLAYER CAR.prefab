@@ -6513,6 +6513,8 @@ GameObject:
   - component: {fileID: 8005942304915845052}
   - component: {fileID: 8005942304915844995}
   - component: {fileID: 1882407876299386864}
+  - component: {fileID: -2782117280817134036}
+  - component: {fileID: 329732348372712022}
   m_Layer: 0
   m_Name: PLAYER CAR
   m_TagString: Player
@@ -6528,7 +6530,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8005942304915845001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.4, y: 0.77, z: -186.75}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8005942303325473063}
@@ -6702,7 +6704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstperson: 1
-  povcam: {fileID: 8005942304227333693}
+  povcam: {fileID: 0}
   thirdperson: {fileID: 0}
   firstpersonui: {fileID: 0}
   thirdpersonui: {fileID: 0}
@@ -6739,11 +6741,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5d8970c9daff2047af80423e5309a24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accel: {fileID: 8300000, guid: 8e49bfd4b2438ad4da30118ceb0eb8d4, type: 3}
-  slow: {fileID: 8300000, guid: e4d999fea89885e40b3db48f8daff219, type: 3}
-  stanby: {fileID: 8300000, guid: de2a766e36f1e7b4787a6b12cdd30909, type: 3}
-  honk: {fileID: 8300000, guid: 48597e4e16262ad44983dab31e47326a, type: 3}
-  ablity: {fileID: 0}
+  motor: {fileID: 1882407876299386864}
+  carSounds: {fileID: 0}
 --- !u!114 &8005942304915844995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6773,21 +6772,65 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 942710664
+      Data2: 1251500903
+      Data3: 2110626232
+      Data4: 1249524541
+    Path: event:/motor
   Event: 
-  PlayEvent: 0
-  StopEvent: 16
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &-2782117280817134036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8005942304915845001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 584381624
+      Data2: 1149914803
+      Data3: 1146538916
+      Data4: -1041024213
+    Path: event:/Car
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &329732348372712022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8005942304915845001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 8005942304915845001}
+  ListenerNumber: -1
 --- !u!1 &8005942305056890998
 GameObject:
   m_ObjectHideFlags: 0
