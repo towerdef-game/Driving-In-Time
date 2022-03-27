@@ -26,64 +26,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7492082, y: 2.1240215, z: 3.66074}
   m_Center: {x: 0.012801766, y: 0.8996694, z: -0.11541957}
---- !u!195 &2344971129309298371
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7888504833498500954}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &2892011611972646952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7888504833498500954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 551fb889ddd94d24ab167151905dc079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 2344971129309298371}
-  target: {fileID: 0}
-  speed: 10
-  sightRadius: 77777
-  shootRadius: 10
-  shotTime: 5
-  enemyBullet: {fileID: 4320478706991902068, guid: 152c9b4a47bbb954a866ebeefc501799, type: 3}
-  range: {x: 0, y: 0, z: 0}
-  siren: {fileID: 8300000, guid: ab767d4755f44f34c92f256607f8fb62, type: 3}
-  shoot: {fileID: 8300000, guid: ed07173b94701a845aa413d6340aaeeb, type: 3}
-  fly: {fileID: 0}
-  enemyS: {fileID: 0}
---- !u!114 &7480858498808461844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7888504833498500954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b5bd178da002b54985519ec646cda89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2014574867706111165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +56,64 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!195 &2344971129309298371
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888504833498500954}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 15
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &2892011611972646952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888504833498500954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551fb889ddd94d24ab167151905dc079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 2344971129309298371}
+  target: {fileID: 0}
+  speed: 10
+  sightRadius: 77777
+  shootRadius: 10
+  shotTime: 5
+  enemyBullet: {fileID: 4320478706991902068, guid: 152c9b4a47bbb954a866ebeefc501799, type: 3}
+  range: {x: 0, y: 0, z: 0}
+  siren: {fileID: 8300000, guid: ab767d4755f44f34c92f256607f8fb62, type: 3}
+  shoot: {fileID: 8300000, guid: ed07173b94701a845aa413d6340aaeeb, type: 3}
+  fly: {fileID: 0}
+  enemySounds: {fileID: 2014574867706111165}
+--- !u!114 &7480858498808461844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888504833498500954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5bd178da002b54985519ec646cda89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8251078113082738105
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +329,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a61c6d1b770664245b08dc506ebae4f8, type: 3}
       propertyPath: m_Name
       value: Police Drone
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a61c6d1b770664245b08dc506ebae4f8, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1583790810270591530, guid: a61c6d1b770664245b08dc506ebae4f8, type: 3}
       propertyPath: m_Materials.Array.data[0]
