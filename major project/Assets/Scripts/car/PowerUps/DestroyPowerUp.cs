@@ -6,7 +6,7 @@ public class DestroyPowerUp : MonoBehaviour
 {
     // public float radiusExplosion = 16f;
   //  public respawn pow;
-  //  public powerup_respawn pow;
+    public powerup_respawn pow;
     // Start is called before the first frame update
       public void Start()
     {
@@ -24,7 +24,7 @@ public class DestroyPowerUp : MonoBehaviour
                 //   power_up_state._state = powers_manage.blast;
                 // power_up_state.powers_manage.blast;
                 // pow.timer();
-               // pow.timer();
+                pow.timer();
                 Destroy(gameObject);
             }
             }
