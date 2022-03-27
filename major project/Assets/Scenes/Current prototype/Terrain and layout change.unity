@@ -31243,7 +31243,7 @@ MonoBehaviour:
   Running: 0
   paused: 0
   timeText: {fileID: 1272481753}
-  fptimetext: {fileID: 0}
+  fptimetext: {fileID: 1076783609}
 --- !u!4 &1074843827
 Transform:
   m_ObjectHideFlags: 0
@@ -31275,7 +31275,7 @@ MonoBehaviour:
   specialpoints: 0
   speiclaunlock: 0
   scoreText: {fileID: 1064759477}
-  fpscoretext: {fileID: 0}
+  fpscoretext: {fileID: 830375131}
   targetsalive: 0
   NonEnemy: 53
   spawnEnemies: 1
@@ -44718,6 +44718,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 690106047850165013, guid: 3238225393eaaeb4cb0dcfa7ed38c1c8, type: 3}
+--- !u!208 &1373646768
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373646766}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 5.0230002, y: 12.733001, z: 23.414001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.023000002, y: 6.617, z: 23.414001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1374066956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44885,6 +44901,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5060444177187149915, guid: d743b7aa9d868074cb02d5628c1d0515, type: 3}
+--- !u!208 &1378798295
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378798293}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 9.318001, y: 27.505001, z: 23.434002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 5.9680004, y: 0.108, z: 23.434002}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1380059873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58475,6 +58507,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2232952877369940510, guid: dbab7d7352d84814fa93a257c4ab7057, type: 3}
+--- !u!208 &1908760375
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908760373}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 28.003002, y: 5, z: 23.472002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 22.349, y: -0.034, z: 23.472002}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1909578124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80478,7 +80526,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5294551991525930386
 Transform:
   m_ObjectHideFlags: 0
@@ -80631,7 +80679,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551991526731845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80938,7 +80986,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551991656068795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81077,7 +81125,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551991801147209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81346,7 +81394,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!136 &5294551991844927024
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -81360,7 +81408,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551991844927025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81600,7 +81648,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &5294551991944424552
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -81816,7 +81864,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551991962669481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81936,7 +81984,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5294551992019078738
 Transform:
   m_ObjectHideFlags: 0
@@ -82190,7 +82238,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992123939529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82415,7 +82463,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992183096539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82497,7 +82545,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5294551992217570950
 Transform:
   m_ObjectHideFlags: 0
@@ -82789,7 +82837,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992243650831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82957,7 +83005,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992281898059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83043,7 +83091,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992484455139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83274,7 +83322,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992486735725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83495,7 +83543,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5294551992589745086
 Transform:
   m_ObjectHideFlags: 0
@@ -83667,7 +83715,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992746140601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83873,7 +83921,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992788374799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83940,7 +83988,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992808184307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84142,7 +84190,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5294551992927899254
 Transform:
   m_ObjectHideFlags: 0
@@ -84333,7 +84381,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551992990629383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84501,7 +84549,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551993086638357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84726,7 +84774,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551993140496503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84995,7 +85043,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551993240299855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85096,7 +85144,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551993269456041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85249,7 +85297,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2.1884308
   m_Direction: 1
-  m_Center: {x: 0, y: -0.09421539, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5294551993292382531
 MonoBehaviour:
   m_ObjectHideFlags: 0
