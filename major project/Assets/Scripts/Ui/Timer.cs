@@ -14,6 +14,7 @@ public class Timer : MonoBehaviour
         public bool paused = false;
     //public Text timeText;
     public TextMeshProUGUI timeText;
+    public TextMeshProUGUI fptimetext;
 
         private void Start()
         {
@@ -49,6 +50,7 @@ public class Timer : MonoBehaviour
             float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
             timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-        }
+        fptimetext.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
 }
 
