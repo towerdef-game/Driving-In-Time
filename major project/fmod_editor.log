@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002B49225A0B8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000025E1D5C92A8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,49 +18,6 @@
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SoundI::release                          :  (000002B4BE6397F8)
-[LOG] SoundI::release                          :     speed up power (000002B4941F2228)
-[LOG] SoundI::release                          : Background_world (000002B57151D4A8)
-[LOG] SoundI::release                          :     Background_world (000002B52B4D1428)
-[LOG] SoundI::release                          :     Background_world (000002B570E60A88)
-[LOG] SoundI::release                          :  (000002B4B74BF928)
-[LOG] SoundI::release                          :     shotgun - Trimmed (7) (000002B5727F0708)
-[LOG] SoundI::release                          :  (000002B4B74BF368)
-[LOG] SoundI::release                          :     shotgun - Trimmed (5) (000002B5727F03C8)
-[LOG] SoundI::release                          :  (000002B4B74BF7B8)
-[LOG] SoundI::release                          :     shotgun - Trimmed (8) (000002B4940F8898)
-[LOG] SoundI::release                          :  (000002B4B74BFD78)
-[LOG] SoundI::release                          :     shotgun - Trimmed (6) (000002B53BB31B28)
-[LOG] SoundI::release                          :  (000002B4B74BF088)
-[LOG] SoundI::release                          :     newmotorloop (000002B4940F8A38)
-[LOG] SoundI::release                          :  (000002B4B74BF648)
-[LOG] SoundI::release                          :     low (000002B5727F08A8)
-[LOG] SoundI::release                          :  (000002B4B74BFA98)
-[LOG] SoundI::release                          :     371853__iamgiorgio__j1-car-horn-[AudioTrimmer.com] (000002B4940F83B8)
-[LOG] SoundI::release                          :  (000002B4BE639688)
-[LOG] SoundI::release                          :     217542__medartimus__car-breaking-skid-01 (1) (000002B4941F2568)
-[LOG] SoundI::release                          :  (000002B4B74BFC08)
-[LOG] SoundI::release                          :     sonar (000002B4940F8D78)
-[LOG] SoundI::release                          :  (000002B4BE639AD8)
-[LOG] SoundI::release                          :     glitching effect - Trimmed (000002B4941F28A8)
-[LOG] SoundI::release                          :  (000002B4B74BF4D8)
-[LOG] SoundI::release                          :     glitching effect - Trimmed (2) (000002B53C325658)
-[LOG] SoundI::release                          :  (000002B570EC4B38)
-[LOG] SoundI::release                          :     glitching effect - Trimmed (3) (000002B4941F2A48)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -68,5 +25,3 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
