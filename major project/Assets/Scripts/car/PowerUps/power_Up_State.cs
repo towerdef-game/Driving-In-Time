@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
 using UnityEngine.ParticleSystemJobs;
+using FMODUnity;
 
 public class power_Up_State : MonoBehaviour
 {
@@ -31,6 +32,8 @@ public class power_Up_State : MonoBehaviour
     public bool fstperview;
   //  public GameObject[] ob;
     public ParticleSystem[] pillars;
+
+    public StudioEventEmitter powerupSound;
     private void Start()
     {
         //  arua.GetVector4("color");
@@ -62,6 +65,8 @@ public class power_Up_State : MonoBehaviour
                 {
                     speedlight.SetActive(true);
                 }
+               
+
                 Debug.Log("hi from the speed up state");
                 break;
             case powers_manage.blast:
@@ -72,6 +77,8 @@ public class power_Up_State : MonoBehaviour
                 {
                     blastlight.SetActive(true);
                 }
+
+               
                 Debug.Log("hi from the blast state");
                 break;
             case powers_manage.slowdown:
@@ -86,6 +93,7 @@ public class power_Up_State : MonoBehaviour
                 break;
             case powers_manage.pillar:
                 see();
+            
                 break;
 
         }
@@ -95,7 +103,7 @@ public class power_Up_State : MonoBehaviour
 
     void see()
     {
-  
+       
         for (int i = 0; i < pillars.Length; i++)
         {
             pillars[i].Play();
@@ -104,6 +112,8 @@ public class power_Up_State : MonoBehaviour
     }
     void speedup()
     {
+
+        
         canpickup = false;
         if (Input.GetKeyDown("e"))
         {
@@ -112,12 +122,18 @@ public class power_Up_State : MonoBehaviour
             _state = powers_manage.nopower;
            // boosters.SetActive(true);
             Debug.Log("speeding up");
+            powerupSound.Play();
+            powerupSound.SetParameter("powerUpType", 1);
+
         }
     }
     
     void blast()
     {
         canpickup = false;
+
+      
+
         if (Input.GetKeyDown("e"))
         {
 
@@ -138,6 +154,8 @@ public class power_Up_State : MonoBehaviour
                     }
                 }
             }
+            powerupSound.Play();
+            powerupSound.SetParameter("powerUpType", 2);
             _state = powers_manage.nopower;
 
         }
@@ -145,17 +163,22 @@ public class power_Up_State : MonoBehaviour
 
     void slowdown()
     {
+
+       
+
         canpickup = false;
         if (Input.GetKeyDown("e"))
         {
             StartCoroutine(PickUp());
             Debug.Log("slowing down");
             _state = powers_manage.nopower;
-
+            powerupSound.Play();
+            powerupSound.SetParameter("powerUpType", 3);
         }
     }
     IEnumerator PickUp()
     {
+
         GameObject.FindObjectOfType<Timer>().paused = true;
         //GameManager.GetComponent<Timer>().paused = true;
         //timer = GameManager.GetComponent<Timer>();

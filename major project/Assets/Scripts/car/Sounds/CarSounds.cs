@@ -37,7 +37,7 @@ public class CarSounds : MonoBehaviour
     
     void Update() 
     {
-        motor.SetParameter("velocity", car.velocity.magnitude);
+        motor.SetParameter("velocity", car.velocity.magnitude/5);
         carSounds.SetParameter("velocity", car.velocity.magnitude);
         timer -= 1 * Time.deltaTime;
        // Debug.Log(car.velocity.magnitude);
@@ -99,9 +99,7 @@ public class CarSounds : MonoBehaviour
         if (other.gameObject.CompareTag("PowerUp"))
         {
             Debug.Log("im real please save me");
-            int shotgun = Random.Range(1, 4);
-            powerUps.SetParameter("random", shotgun);
-            powerUps.Play();
+            
         }
     }
 

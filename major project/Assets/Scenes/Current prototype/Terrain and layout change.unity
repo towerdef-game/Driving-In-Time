@@ -17495,7 +17495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8251078113082738105, guid: 550acb81b7ecfdc49bb405678ee0ee4f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 550acb81b7ecfdc49bb405678ee0ee4f, type: 3}
@@ -37692,7 +37692,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074843825}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -55845,6 +55845,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 851743234184090685, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
   m_PrefabInstance: {fileID: 3276666556600087692}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1475517936 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8212441207754859390, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+  m_PrefabInstance: {fileID: 3276666556600087692}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475517935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1476325771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84393,6 +84404,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8212441207754859390, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 43399209668497031, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -84453,6 +84468,10 @@ PrefabInstance:
       propertyPath: speedlight
       value: 
       objectReference: {fileID: 2079776431}
+    - target: {fileID: 851743234184090672, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+      propertyPath: powerupSound
+      value: 
+      objectReference: {fileID: 1475517936}
     - target: {fileID: 851743234184090672, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
       propertyPath: pillars.Array.data[0]
       value: 
