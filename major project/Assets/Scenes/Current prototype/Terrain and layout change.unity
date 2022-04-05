@@ -17495,7 +17495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8251078113082738105, guid: 550acb81b7ecfdc49bb405678ee0ee4f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 550acb81b7ecfdc49bb405678ee0ee4f, type: 3}
@@ -55856,6 +55856,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1475517937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475517935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -986570945
+      Data2: 1283749814
+      Data3: 1293656460
+      Data4: -1925883422
+    Path: event:/hitObject
+  Event: 
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1476325771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84500,6 +84530,10 @@ PrefabInstance:
       propertyPath: wheelmesh.Array.data[0]
       value: 
       objectReference: {fileID: 1452853219}
+    - target: {fileID: 851743234184090682, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+      propertyPath: hitSounds
+      value: 
+      objectReference: {fileID: 1475517937}
     - target: {fileID: 851743234184090683, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
       propertyPath: manager
       value: 

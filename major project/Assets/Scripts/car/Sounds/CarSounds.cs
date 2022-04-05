@@ -26,6 +26,7 @@ public class CarSounds : MonoBehaviour
     public StudioEventEmitter motor;
     public StudioEventEmitter carSounds;
     public StudioEventEmitter powerUps;
+    public StudioEventEmitter hitSounds;
     void Start()
     {
         
@@ -100,6 +101,18 @@ public class CarSounds : MonoBehaviour
         {
             Debug.Log("im real please save me");
             
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("NonEnemy"))
+        {
+            Debug.Log("im real please save me");
+            int voice = Random.Range(1, 5);
+            hitSounds.SetParameter("Random", voice);
+            hitSounds.SetParameter("objectType", 1);
+            hitSounds.Play();
+
         }
     }
 
