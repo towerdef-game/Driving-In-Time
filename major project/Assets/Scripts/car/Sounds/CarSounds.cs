@@ -108,10 +108,10 @@ public class CarSounds : MonoBehaviour
         if (collision.gameObject.CompareTag("NonEnemy"))
         {
             Debug.Log("im real please save me");
-            int voice = Random.Range(1, 5);
+            int voice = Random.Range(1, 8);
             hitSounds.SetParameter("Random", voice);
             hitSounds.SetParameter("objectType", 1);
-            hitSounds.Play();
+           hitSounds.Play();
 
         }
     }
