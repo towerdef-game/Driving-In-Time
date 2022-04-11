@@ -5,11 +5,12 @@ using UnityEngine;
 public class DestroyPowerUp : MonoBehaviour
 {
     // public float radiusExplosion = 16f;
-    public respawn pow;
+  //  public respawn pow;
+    public powerup_respawn pow;
     // Start is called before the first frame update
       public void Start()
     {
-        pow = GetComponentInParent<respawn>();
+      //  pow = GetComponentInParent<respawn>();
     }
 
        public  void OnTriggerEnter(Collider other)
