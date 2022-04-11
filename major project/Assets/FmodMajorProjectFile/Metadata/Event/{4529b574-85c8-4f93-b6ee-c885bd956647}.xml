@@ -56,7 +56,11 @@
 			<destination>{e12be245-d31b-4474-9507-457bda3a8590}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{0784439e-6e3a-4305-8359-d490dda4bb6e}" />
+	<object class="EventAutomatableProperties" id="{0784439e-6e3a-4305-8359-d490dda4bb6e}">
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{1e062931-b861-4a5c-aaf0-456a4f33d585}" />
 	<object class="GroupTrack" id="{38263c29-02e4-4c21-bf63-9cc0521c1cca}">
 		<relationship name="modules">
@@ -117,7 +121,7 @@
 			<value>30</value>
 		</property>
 		<property name="length">
-			<value>0.98299319727891143</value>
+			<value>0.90000000000000002</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{ecac78d0-debd-42bf-86f3-bde27f5373a0}</destination>
@@ -131,7 +135,7 @@
 			<value>50</value>
 		</property>
 		<property name="start">
-			<value>0.98297052154195008</value>
+			<value>0.90000000000000002</value>
 		</property>
 		<property name="length">
 			<value>1.4999999999999996</value>
@@ -165,7 +169,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>2.4829478458049885</value>
+			<value>2.3999773242630384</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{f4ebc2af-463a-4711-a97f-f005180bc8db}</destination>
@@ -206,16 +210,21 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{0fe1e22a-e1ed-4404-ac82-35e37deecf9b}">
 		<relationship name="effects">
+			<destination>{5f5a7772-c8d6-4c21-8801-9755f4d69de4}</destination>
 			<destination>{995023c0-b252-4607-adc5-170fb861c07e}</destination>
 			<destination>{9451b92f-af3a-432b-9362-5e2a570a0873}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6c61060d-8dcb-4c46-9330-363496c716b8}" />
 	<object class="MixerBusFader" id="{0295b4da-1b82-4e01-92f8-4cdb8d152721}" />
-	<object class="SpatialiserEffect" id="{64490905-4de7-4b44-b073-597281577446}" />
+	<object class="SpatialiserEffect" id="{64490905-4de7-4b44-b073-597281577446}">
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{b5406831-9500-47ce-a5b4-5b82d9e657b2}">
 		<property name="position">
-			<value>0.98297052154195008</value>
+			<value>0.90000000000000002</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -234,7 +243,7 @@
 	</object>
 	<object class="AutomationPoint" id="{20a3a1f5-37b0-40db-b446-e6b8224faa23}">
 		<property name="position">
-			<value>0.98297052154195008</value>
+			<value>0.90000000000000002</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -251,6 +260,7 @@
 			<value>1</value>
 		</property>
 	</object>
+	<object class="ThreeEQEffect" id="{5f5a7772-c8d6-4c21-8801-9755f4d69de4}" />
 	<object class="MixerBusFader" id="{995023c0-b252-4607-adc5-170fb861c07e}" />
 	<object class="PitchShifterEffect" id="{9451b92f-af3a-432b-9362-5e2a570a0873}">
 		<property name="pitch">
