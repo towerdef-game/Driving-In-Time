@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 851743234184090686}
   - component: {fileID: -692101361181978872}
   - component: {fileID: -8212441207754859390}
+  - component: {fileID: -3970959555240237113}
   m_Layer: 0
   m_Name: CarUpdate
   m_TagString: Player
@@ -196,6 +197,7 @@ MonoBehaviour:
   pillars:
   - {fileID: 0}
   - {fileID: 0}
+  powerupSound: {fileID: -8212441207754859390}
 --- !u!114 &851743234184090679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,6 +335,7 @@ MonoBehaviour:
   motor: {fileID: 851743234184090680}
   carSounds: {fileID: 851743234184090687}
   powerUps: {fileID: -8212441207754859390}
+  hitSounds: {fileID: -3970959555240237113}
 --- !u!114 &851743234184090681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,6 +474,36 @@ MonoBehaviour:
       Data3: 90738576
       Data4: 1212863382
     Path: event:/powerUp
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &-3970959555240237113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851743234184090685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -986570945
+      Data2: 1283749814
+      Data3: 1293656460
+      Data4: -1925883422
+    Path: event:/hitObject
   Event: 
   PlayEvent: 1
   StopEvent: 0
