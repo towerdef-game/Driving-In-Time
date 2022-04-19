@@ -200,13 +200,16 @@ public class car_mk3 : MonoBehaviour
             WheelHit wheelHit;
 
             wheels[i].GetGroundHit(out wheelHit);
-
+            if (wheelHit.sidewaysSlip >= 0.3f || wheelHit.sidewaysSlip <= -0.3f || wheelHit.forwardSlip >= .3f || wheelHit.forwardSlip <= -0.3f)
+                playpausesmoke = true;
+            else playpausesmoke = false;
             if (wheelHit.sidewaysSlip < 0) driftFactor = (1 + -IM.horizontonal) * Mathf.Abs(wheelHit.sidewaysSlip);
 
             if (wheelHit.sidewaysSlip > 0) driftFactor = (1 + IM.horizontonal) * Mathf.Abs(wheelHit.sidewaysSlip);
 
         }
     }
+    [HideInInspector] public bool playpausesmoke = false;
     void adjustfriction()
     {
         if (IM.handbrake)
