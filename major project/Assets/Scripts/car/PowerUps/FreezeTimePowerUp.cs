@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using FMODUnity;
 public class FreezeTimePowerUp : MonoBehaviour
 {
     //private GameObject GameManager;
@@ -9,6 +9,7 @@ public class FreezeTimePowerUp : MonoBehaviour
     public float pauseTime = 5f;
     public Timer timer;
 
+    public StudioEventEmitter powerup;
     private void Start()
     {
         //timer = GameManager.GetComponent<Timer>();
@@ -30,6 +31,9 @@ public class FreezeTimePowerUp : MonoBehaviour
                 // Explode();
                 if (other.gameObject.GetComponent<power_Up_State>().canpickup == true)
                 {
+                    int shotgun = Random.Range(1, 4);
+                    powerup.SetParameter("random", shotgun);
+                    powerup.Play();
                     other.gameObject.GetComponent<power_Up_State>()._state = power_Up_State.powers_manage.slowdown;
                     //   power_up_state._state = powers_manage.blast;
                     // power_up_state.powers_manage.blast;
