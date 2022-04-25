@@ -7,25 +7,32 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Garden floor_DefaultMaterial_BaseMap
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _NORMALMAP _PARALLAXMAP
+  m_Name: Wormhole
+  m_Shader: {fileID: -6465566751694194690, guid: a726851b5fa88594e8f1dac4ae49b941, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_3276af0153ae406ab569c7c015f8f9ed:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_88198e39e65a4db1a5100357ea5d94f0:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 832edb33188630f49947ba497e201e2c, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: bf9cbe3d1f5cfef4ab82750307f3541f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -45,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 832edb33188630f49947ba497e201e2c, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -57,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: bf9cbe3d1f5cfef4ab82750307f3541f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -77,6 +84,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_08885192bab241588c7f208625c5f804: 0
+    - Vector1_0ff5961e501d4e1198189c030a531ffa: 0
+    - Vector1_18d80e3a5f7d439e84d92df5ce1e1a9e: 2
+    - Vector1_236337f3f30a4829bf644d24250bbd6b: 200
+    - Vector1_65a8dcb65aea4a9ab85c15668f743877: 5
+    - Vector1_c30b68575b9e487f828243e0a1aa897c: 10
+    - Vector1_e9f014ac860347768ade99c5446bcf14: 0.5
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -93,10 +107,10 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _Parallax: 0.08
+    - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.197
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -104,12 +118,17 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_305ceb96f00e41458e5e156e37d1fd72: {r: 0.2830189, g: 0, b: 0, a: 1}
+    - Color_3a383c464eaa455dafa2d01f178c3490: {r: 0, g: 429.6784, b: 1024, a: 1}
+    - Color_893a75f2fd154adda8c6d05c26e5b53a: {r: 0.46226418, g: 0.42912072, b: 0.42912072, a: 0}
+    - Vector2_59f1a863a203424abc024c5d4000ef06: {r: 0.05, g: 0.05, b: 0.5, a: 1}
+    - Vector2_6cfb6560f80f4fbd980c00ecfa5b6b07: {r: 0.2, g: 0.2, b: 0.2, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &5126893339598716315
+--- !u!114 &6725645649235392961
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
