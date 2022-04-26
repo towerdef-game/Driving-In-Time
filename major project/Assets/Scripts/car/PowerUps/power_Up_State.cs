@@ -23,8 +23,8 @@ public class power_Up_State : MonoBehaviour
   //  public GameObject boosters;
     public float radiusExplosion = 16f;
     public ParticleSystem explosion;
-    public GameObject aruaeffect;
-    public VisualEffect arua;
+  //  public GameObject aruaeffect;
+   // public VisualEffect arua;
     public Vector4 green;
     public Vector4 blue; 
     public Vector4 red;
@@ -47,7 +47,7 @@ public class power_Up_State : MonoBehaviour
         {
             case powers_manage.nopower:
                 canpickup = true;
-                aruaeffect.SetActive(false);
+              //  aruaeffect.SetActive(false);
                // boosters.SetActive(false);
               if(fstperview == true)
                 {
@@ -59,8 +59,8 @@ public class power_Up_State : MonoBehaviour
                 break;
             case powers_manage.speedup:
                 speedup();
-                aruaeffect.SetActive(true);             
-                arua.SetVector4("Color", blue);
+             //   aruaeffect.SetActive(true);             
+               // arua.SetVector4("Color", blue);
                 if (fstperview == true)
                 {
                     speedlight.SetActive(true);
@@ -70,9 +70,9 @@ public class power_Up_State : MonoBehaviour
                 Debug.Log("hi from the speed up state");
                 break;
             case powers_manage.blast:
-                arua.SetVector4("Color", red);
+              //  arua.SetVector4("Color", red);
                 blast();               
-                aruaeffect.SetActive(true);
+             //   aruaeffect.SetActive(true);
                 if (fstperview == true)
                 {
                     blastlight.SetActive(true);
@@ -82,9 +82,9 @@ public class power_Up_State : MonoBehaviour
                 Debug.Log("hi from the blast state");
                 break;
             case powers_manage.slowdown:
-                arua.SetVector4("Color", green);
+             //   arua.SetVector4("Color", green);
                 slowdown();
-                aruaeffect.SetActive(true);
+               // aruaeffect.SetActive(true);
                 if (fstperview == true){
                     clocklight.SetActive(true);
                 }
