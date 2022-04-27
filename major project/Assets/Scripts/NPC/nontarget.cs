@@ -27,11 +27,12 @@ public class nontarget : MonoBehaviour
             Debug.Log("Collided");
             
             manager.NonEnemy++;
-          //  Instantiate(body,transform.position,transform.rotation);
-         //   GameObject clone = Instantiate(body, transform.position , Quaternion.identity);
-          GameObject clone = Instantiate(body, new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z), Quaternion.identity);
+            //  Instantiate(body,transform.position,transform.rotation);
+            //   GameObject clone = Instantiate(body, transform.position , Quaternion.identity);
+            //    GameObject clone = Instantiate(body, new Vector3(transform.localPosition.x, transform.localPosition.y , transform.localPosition.z), Quaternion.identity);
+            //  Rigidbody rag = clone.GetComponent<Rigidbody>();
+            GameObject clone = Instantiate(body, transform.position, transform.rotation);
             Rigidbody rag = clone.GetComponent<Rigidbody>();
-            
             rag.AddForce(other.rigidbody.velocity*2);
             Destroy(gameObject);
 

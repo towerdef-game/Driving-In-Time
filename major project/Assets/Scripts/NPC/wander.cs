@@ -8,7 +8,11 @@ public class wander : MonoBehaviour
     public NavMeshAgent agent;
     [Range(0, 100)] public float speed;
     [Range(1,500)] public float walkradius;
-    // Start is called before the first frame update
+
+
+    float time = 5f;
+
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -36,10 +40,20 @@ public class wander : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        time -= 1 * Time.deltaTime;
       if(agent != null && agent.remainingDistance <= agent.stoppingDistance)
         {
             agent.SetDestination(randomnavmeshlocation());
-        }  
+            time = 5;
+        }
+
+        if (time <= 0)
+        {
+            agent.SetDestination(randomnavmeshlocation());
+            time = 5;
+        }
+
     }
     private void OnTriggerEnter(Collider other)
     {
