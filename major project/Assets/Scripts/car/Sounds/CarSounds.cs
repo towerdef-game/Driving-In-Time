@@ -99,19 +99,19 @@ public class CarSounds : MonoBehaviour
     {
         if (other.gameObject.CompareTag("PowerUp"))
         {
-            Debug.Log("im real please save me");
-            
+           
         }
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("NonEnemy"))
         {
-            Debug.Log("im real please save me");
-            int voice = Random.Range(1, 8);
-            hitSounds.SetParameter("Random", voice);
-            hitSounds.SetParameter("objectType", 1);
+           // Debug.Log("im real please save me");
+            //int voice = Random.Range(1, 8);
+           // hitSounds.SetParameter("Random", voice);
+           // hitSounds.SetParameter("objectType", 1);
            hitSounds.Play();
+           // RuntimeManager.PlayOneShot("Hitcharacter", transform.position);
 
         }
     }
