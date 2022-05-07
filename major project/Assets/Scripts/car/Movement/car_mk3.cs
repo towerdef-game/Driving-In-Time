@@ -19,7 +19,7 @@ public class car_mk3 : MonoBehaviour
   
     private input_manager IM;
     public WheelCollider[] wheels = new WheelCollider[4];
-    public GameObject[] wheelmesh = new GameObject[4];
+   // public GameObject[] wheelmesh = new GameObject[4];
     private Rigidbody rigid;
     public float KPH;
     private float tempo;
@@ -128,8 +128,8 @@ public class car_mk3 : MonoBehaviour
         for (int i = 0; i < 4; i++)
         {
             wheels[i].GetWorldPose(out wheelposition, out wheelrottaion);
-            wheelmesh[i].transform.position = wheelposition;
-            wheelmesh[i].transform.rotation = wheelrottaion;
+           // wheelmesh[i].transform.position = wheelposition;
+          //  wheelmesh[i].transform.rotation = wheelrottaion;
         }
     }
     private void getobjects()
@@ -200,13 +200,16 @@ public class car_mk3 : MonoBehaviour
             WheelHit wheelHit;
 
             wheels[i].GetGroundHit(out wheelHit);
-
+            if (wheelHit.sidewaysSlip >= 0.3f || wheelHit.sidewaysSlip <= -0.3f || wheelHit.forwardSlip >= .3f || wheelHit.forwardSlip <= -0.3f)
+                playpausesmoke = true;
+            else playpausesmoke = false;
             if (wheelHit.sidewaysSlip < 0) driftFactor = (1 + -IM.horizontonal) * Mathf.Abs(wheelHit.sidewaysSlip);
 
             if (wheelHit.sidewaysSlip > 0) driftFactor = (1 + IM.horizontonal) * Mathf.Abs(wheelHit.sidewaysSlip);
 
         }
     }
+    [HideInInspector] public bool playpausesmoke = false;
     void adjustfriction()
     {
         if (IM.handbrake)

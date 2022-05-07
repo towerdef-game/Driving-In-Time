@@ -25,6 +25,8 @@ public class CarSounds : MonoBehaviour
 
     public StudioEventEmitter motor;
     public StudioEventEmitter carSounds;
+    public StudioEventEmitter powerUps;
+    public StudioEventEmitter hitSounds;
     void Start()
     {
         
@@ -36,7 +38,7 @@ public class CarSounds : MonoBehaviour
     
     void Update() 
     {
-        motor.SetParameter("velocity", car.velocity.magnitude);
+        motor.SetParameter("velocity", car.velocity.magnitude/5);
         carSounds.SetParameter("velocity", car.velocity.magnitude);
         timer -= 1 * Time.deltaTime;
        // Debug.Log(car.velocity.magnitude);
@@ -76,11 +78,12 @@ public class CarSounds : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.V))
         {
             Debug.Log("works");
          carSounds.SetParameter("honk", 1);
-           // RuntimeManager.PlayOneShot("event:/Car",transform.position);
+            carSounds.SetParameter("honk", 0);
+            // RuntimeManager.PlayOneShot("event:/Car",transform.position);
             //audioSource.PlayOneShot(honk, 2F);
         }
 
@@ -92,6 +95,25 @@ public class CarSounds : MonoBehaviour
         }
     }
 
-  
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PowerUp"))
+        {
+            Debug.Log("im real please save me");
+            
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("NonEnemy"))
+        {
+            Debug.Log("im real please save me");
+            int voice = Random.Range(1, 8);
+            hitSounds.SetParameter("Random", voice);
+            hitSounds.SetParameter("objectType", 1);
+           hitSounds.Play();
+
+        }
+    }
 
 }

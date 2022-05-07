@@ -7,6 +7,7 @@ public class switchcamera : MonoBehaviour
     public bool firstperson = false;
     public Camera povcam;
     public Camera thirdperson;
+    public Camera rearcamera;
     public GameObject firstpersonui;
     public GameObject thirdpersonui;
     // Start is called before the first frame update
@@ -26,6 +27,7 @@ public class switchcamera : MonoBehaviour
             //   povcam.SetActive(true);
             //   thirdperson.SetActive(false);
             povcam.enabled = true;
+            rearcamera.enabled = true;
             thirdperson.enabled = false;
             firstpersonui.SetActive(true);
             thirdpersonui.SetActive(false);
@@ -36,6 +38,7 @@ public class switchcamera : MonoBehaviour
             //    povcam.SetActive(false);
             //   thirdperson.SetActive(true);
             povcam.enabled = false;
+            rearcamera.enabled = false;
             thirdperson.enabled = true;
             firstpersonui.SetActive(false);
             thirdpersonui.SetActive(true);

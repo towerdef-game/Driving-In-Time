@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4320478706991902066}
   - component: {fileID: 4320478706991902069}
   - component: {fileID: -3661351004428794569}
+  - component: {fileID: 2495115530572531258}
   m_Layer: 0
   m_Name: enemyBullet
   m_TagString: Bullet
@@ -110,7 +111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  boom: {fileID: 0}
   explosion: {fileID: -3661351004428794569}
 --- !u!114 &-3661351004428794569
 MonoBehaviour:
@@ -142,3 +142,33 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &2495115530572531258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320478706991902068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1503285363
+      Data2: 1175623312
+      Data3: 262355359
+      Data4: -87928507
+    Path: event:/EnemyBullet
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 100
