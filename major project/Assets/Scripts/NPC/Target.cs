@@ -5,6 +5,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public GameManager manager;
+    public ParticleSystem boop;
     public Material mat;
     public float pointvalue;
     private bool disolve = false; 
@@ -38,7 +39,7 @@ public class Target : MonoBehaviour
             manager.score += pointvalue;
             manager.targetsalive--;
             disolve = true;
-
+            boop.Play();
             // temporary change to instant while disolve isnt working
               Destroy(gameObject,3.5f);
            // Destroy(gameObject);
