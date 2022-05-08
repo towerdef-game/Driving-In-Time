@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{fb461dd2-91be-4bbc-bfa0-73602ec4783e}">
+		<property name="name">
+			<value>hasWormed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b4452065-5cf8-4ecb-a284-986700b5021c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{11f63292-86bc-4061-a13b-cd96bf8d7623}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{11f63292-86bc-4061-a13b-cd96bf8d7623}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Value A</value>
+			<value>Value B</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
