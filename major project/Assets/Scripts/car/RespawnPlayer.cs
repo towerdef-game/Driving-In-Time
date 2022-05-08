@@ -32,7 +32,7 @@ public class RespawnPlayer : MonoBehaviour
             }
             else
             {
-                remainingTime = 15;
+                remainingTime = 10;
                 // take the players vector 3 position
                
                respawnPosition = playerPosition.transform.position;
@@ -52,7 +52,7 @@ public class RespawnPlayer : MonoBehaviour
             }
             else
             {
-                remainingTime = 15;
+                remainingTime = 10;
                 remainingTimeTillSpawn = 3;
                 playerPosition.position = respawnPosition;
                 timerIsOn = true;
@@ -65,10 +65,11 @@ public class RespawnPlayer : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-       
+        Debug.Log("hit trigger");
+
         if (other.gameObject.tag == "DeathField")
         {
-            //Debug.Log("hit trigger");
+           // Debug.Log("hit trigger");
 
             timerIsOnToSpawn = true;
             timerIsOn = false;
