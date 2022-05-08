@@ -10,18 +10,17 @@ public class boxdestroy : MonoBehaviour
     {
         
     }
-    public void OnCollisionEnter(Collision other)
+  
+    public void OnTriggerEnter(Collider other)
     {
-
-
         if (other.gameObject.tag == "Player")
         {
-            Instantiate(boxpieces, transform.position, Quaternion.identity);
+            Instantiate(boxpieces, transform.position, transform.rotation);
             Destroy(gameObject);
 
 
 
         }
     }
-   
+
 }

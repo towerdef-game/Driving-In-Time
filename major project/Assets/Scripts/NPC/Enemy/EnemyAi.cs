@@ -7,7 +7,7 @@ public class EnemyAi : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Transform target;
-   
+    public Transform barrel;
     public float speed=10f;
     public float sightRadius;
     public float shootRadius;
@@ -52,7 +52,7 @@ public class EnemyAi : MonoBehaviour
             transform.LookAt(target.position);
             if (shotTime <= 0)
             {
-                Instantiate(enemyBullet, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
+                Instantiate(enemyBullet, barrel.transform.position + new Vector3(0, 0, 2), Quaternion.identity);
                 shotTime = 10f;
                     enemySounds.SetParameter("shooting", 1);
             }

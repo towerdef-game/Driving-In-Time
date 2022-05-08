@@ -22,7 +22,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3135798412149310793}
-  - component: {fileID: 6201091039157712725}
+  - component: {fileID: -7143597523064229043}
   m_Layer: 0
   m_Name: Breakable barrel
   m_TagString: Untagged
@@ -45,7 +45,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6201091039157712725
+--- !u!114 &-7143597523064229043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,27 +54,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6082342572451645620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e86d7362587913428d70ac803fc82fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1750296158
-      Data2: 1160647760
-      Data3: -1056142462
-      Data4: 1025467738
-    Path: event:/BarrelHit
-  Event: 
-  PlayEvent: 2
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  boxpieces: {fileID: 0}
 --- !u!64 &5163149713887414831
 MeshCollider:
   m_ObjectHideFlags: 0
