@@ -35,8 +35,8 @@ public class Bullet : MonoBehaviour
        Debug.Log(carPastPos);
         float step = speed * Time.deltaTime; // calculate distance to move
         transform.position = Vector3.MoveTowards(transform.position, carPastPos, step);
-
-
+        //  transform.rotation.SetLookRotation(carPastPos);
+        transform.LookAt(carPastPos); 
         Destroy(this.gameObject, 10f);
         //destroys after ten seconds
     }
@@ -44,19 +44,23 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-
+      //  Destroy(this.gameObject);
         Debug.Log("hit" + other.gameObject.name);
-              if (other.gameObject.CompareTag("Player"))
+              if (other.gameObject.tag == "Player")
         {
             //health loss code here ? 
                other.rigidbody.AddExplosionForce( 100000, transform.position, 10, 10, ForceMode.Force);
         }
-
-        //other.rigidbody.AddForce(enemy.velocity * 1000000);
-        //for some reason wont collide with floor maybe because of its mesh collider?
-        //explode.Play();
+        else if (other.gameObject.tag != "Player")
+        {
             Destroy(this.gameObject);
-        // one mil force? wot m8
+            Debug.Log("bullet hit ground");
+        }
+
+       
+
+ 
+ 
 
       
         
