@@ -27,6 +27,7 @@ public class CarSounds : MonoBehaviour
     public StudioEventEmitter carSounds;
     public StudioEventEmitter powerUps;
     public StudioEventEmitter hitSounds;
+    public StudioEventEmitter CarHit;
     void Start()
     {
         
@@ -40,6 +41,7 @@ public class CarSounds : MonoBehaviour
     {
         motor.SetParameter("velocity", car.velocity.magnitude/5);
         carSounds.SetParameter("velocity", car.velocity.magnitude);
+        CarHit.SetParameter("velocity", car.velocity.magnitude/5);
         timer -= 1 * Time.deltaTime;
        // Debug.Log(car.velocity.magnitude);
         if (car.velocity.magnitude >previousSpeed)

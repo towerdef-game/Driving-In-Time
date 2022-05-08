@@ -1651,6 +1651,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8151655908715875347, guid: de53dcf224af2f24e82e10c90cbacd66, type: 3}
   m_PrefabInstance: {fileID: 625457235}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &72252436 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8212441207754859390, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+  m_PrefabInstance: {fileID: 1589214901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &72596260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41422,6 +41433,10 @@ PrefabInstance:
       propertyPath: speedlight
       value: 
       objectReference: {fileID: 74299005}
+    - target: {fileID: 851743234184090672, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+      propertyPath: powerupSound
+      value: 
+      objectReference: {fileID: 72252436}
     - target: {fileID: 851743234184090676, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
       propertyPath: m_Enabled
       value: 1
