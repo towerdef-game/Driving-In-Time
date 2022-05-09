@@ -15,8 +15,8 @@ public class CarSounds : MonoBehaviour
     float timer;
     //AudioSource audioSource;
 
-    // AudioSource soundsource;
-    // for some reason didnt work even though itwas the exact same as The other one?
+   // AudioSource soundsource;
+   // for some reason didnt work even though itwas the exact same as The other one?
     //public AudioClip accel;
     //public AudioClip slow;
     //public AudioClip stanby;
@@ -28,34 +28,35 @@ public class CarSounds : MonoBehaviour
     public StudioEventEmitter powerUps;
     public StudioEventEmitter hitSounds;
     public StudioEventEmitter CarHit;
+
     void Start()
     {
-
+        
         //audioSource = GetComponent<AudioSource>();
-
+  
         car = GetComponent<Rigidbody>();
 
     }
-
-    void Update()
+    
+    void Update() 
     {
-        motor.SetParameter("velocity", car.velocity.magnitude / 5);
+        motor.SetParameter("velocity", car.velocity.magnitude/5);
         carSounds.SetParameter("velocity", car.velocity.magnitude);
-        CarHit.SetParameter("velocity", car.velocity.magnitude / 5);
+        CarHit.SetParameter("velocity", car.velocity.magnitude/5);
         timer -= 1 * Time.deltaTime;
-        // Debug.Log(car.velocity.magnitude);
-        if (car.velocity.magnitude > previousSpeed)
+       // Debug.Log(car.velocity.magnitude);
+        if (car.velocity.magnitude >previousSpeed)
         {
             previousSpeed = car.velocity.magnitude;
             if (timer <= 0)
             {
                 //audioSource.clip = accel;
-                // motor.Play();
+               // motor.Play();
                 timer = 2;
             }
 
         }
-        else if (car.velocity.magnitude < previousSpeed)
+        else   if (car.velocity.magnitude< previousSpeed)
         {
             previousSpeed = car.velocity.magnitude;
 
@@ -68,7 +69,7 @@ public class CarSounds : MonoBehaviour
                 timer = 2;
             }
 
-        } else if (car.velocity.magnitude <= 0.3f)
+        } else if(car.velocity.magnitude<=0.3f)
         {
             if (timer <= 0)
             {
@@ -83,7 +84,7 @@ public class CarSounds : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.V))
         {
             Debug.Log("works");
-            carSounds.SetParameter("honk", 1);
+         carSounds.SetParameter("honk", 1);
             carSounds.SetParameter("honk", 0);
             // RuntimeManager.PlayOneShot("event:/Car",transform.position);
             //audioSource.PlayOneShot(honk, 2F);
@@ -92,7 +93,7 @@ public class CarSounds : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             //  audioSource.PlayOneShot(ablity, 0.7F);
-
+            
 
         }
     }
@@ -101,7 +102,7 @@ public class CarSounds : MonoBehaviour
     {
         if (other.gameObject.CompareTag("PowerUp"))
         {
-
+           
         }
     }
     private void OnCollisionEnter(Collision collision)
@@ -117,10 +118,20 @@ public class CarSounds : MonoBehaviour
 
         }
 
+
         if (collision.gameObject.CompareTag("Solid"))
         {
             CarHit.Play();
-        }
 
+
+            if (CarHit.IsPlaying())
+            {
+                Debug.Log(" car hit is playing");
+            }
+
+
+        }
+      
     }
+
     }
