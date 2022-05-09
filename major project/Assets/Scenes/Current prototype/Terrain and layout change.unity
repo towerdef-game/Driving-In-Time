@@ -33032,8 +33032,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 000
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a1315614456a8474eaed33a94f615892, type: 2}
+  m_sharedMaterial: {fileID: 57807295566898162, guid: a1315614456a8474eaed33a94f615892, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -44809,8 +44809,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 000
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a1315614456a8474eaed33a94f615892, type: 2}
+  m_sharedMaterial: {fileID: 57807295566898162, guid: a1315614456a8474eaed33a94f615892, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -54530,6 +54530,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 851743234184090682, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+      propertyPath: CarHit
+      value: 
+      objectReference: {fileID: 1601128307}
+    - target: {fileID: 851743234184090682, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
       propertyPath: hitSounds
       value: 
       objectReference: {fileID: 1601128301}
@@ -54600,6 +54604,17 @@ MonoBehaviour:
 --- !u!114 &1601128304 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -8212441207754859390, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+  m_PrefabInstance: {fileID: 1601128295}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601128296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1601128307 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 851743234184090680, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
   m_PrefabInstance: {fileID: 1601128295}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601128296}
