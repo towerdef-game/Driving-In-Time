@@ -53,7 +53,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 59726
+  Length: 32000
 --- !u!114 &-7428611992563759445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,10 +69,10 @@ MonoBehaviour:
   Path: Assets/MPsoundfiles/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637876524834641039
+  lastModified: 637876267317936262
   FileSizes:
   - Name: Desktop
-    Value: 6481920
+    Value: 2649984
   Exists: 1
 --- !u!114 &-7371716518298226505
 MonoBehaviour:
@@ -113,12 +113,12 @@ MonoBehaviour:
   Path: Assets/MPsoundfiles/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637876524834671044
+  lastModified: 637876267317986133
   FileSizes:
   - Name: Desktop
-    Value: 1846
+    Value: 1634
   Exists: 1
---- !u!114 &-6139280348892653875
+--- !u!114 &-6591207995223189824
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,23 +127,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/lvl2music/hasWormed
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music
   m_EditorClassIdentifier: 
-  Name: hasWormed
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1702409292
-    data2: 114418009
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Value A
-  - Value B
-  Exists: 1
+  Path: event:/music
+  Guid:
+    Data1: 1277280414
+    Data2: 1127965781
+    Data3: 509471896
+    Data4: 1679623831
+  Banks:
+  - {fileID: -7428611992563759445}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2396000209202256341}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5325509953883456306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,33 +309,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 50
   Length: 2400
---- !u!114 &-1457829536432057657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TutorialMusix
-  m_EditorClassIdentifier: 
-  Path: event:/TutorialMusix
-  Guid:
-    Data1: 1668031473
-    Data2: 1178743066
-    Data3: 1001360026
-    Data4: -168552489
-  Banks:
-  - {fileID: -7428611992563759445}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 35000
 --- !u!114 &-697515397797408487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,16 +366,14 @@ MonoBehaviour:
   - {fileID: -697515397797408487}
   - {fileID: 8045305217538938867}
   - {fileID: 3793608410377148455}
-  - {fileID: 1415494443018027940}
-  - {fileID: 2746867343693036636}
-  - {fileID: -1457829536432057657}
+  - {fileID: -6591207995223189824}
   EditorParameters:
   - {fileID: -5033207415250335076}
   MasterBanks:
   - {fileID: -7428611992563759445}
   StringsBanks:
   - {fileID: -6761447574523438593}
-  cacheTime: 637876524834671044
+  cacheTime: 637876267317986133
   cacheVersion: 10
 --- !u!114 &35381292678635819
 MonoBehaviour:
@@ -455,35 +428,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &1415494443018027940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/wormmusic
-  m_EditorClassIdentifier: 
-  Path: event:/wormmusic
-  Guid:
-    Data1: -1875334805
-    Data2: 1240476779
-    Data3: 1399492769
-    Data4: -1160581597
-  Banks:
-  - {fileID: -7428611992563759445}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 8523728614025053867}
-  - {fileID: 4748704399731641438}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 73000
 --- !u!114 &2239771915236010984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,7 +455,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2664
---- !u!114 &2746867343693036636
+--- !u!114 &2396000209202256341
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -520,25 +464,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/lvl2music
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music/music
   m_EditorClassIdentifier: 
-  Path: event:/lvl2music
-  Guid:
-    Data1: 1865292731
-    Data2: 1110815724
-    Data3: 686641590
-    Data4: -2116464472
-  Banks:
-  - {fileID: -7428611992563759445}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -6139280348892653875}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 136000
+  Name: music
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1953839239
+    data2: 3716078136
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Value A
+  - Value B
+  - Value C
+  - Value D
+  Exists: 1
 --- !u!114 &2999289812047785666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,33 +617,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 69755
---- !u!114 &4748704399731641438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/wormmusic/switchSong
-  m_EditorClassIdentifier: 
-  Name: switchSong
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3881114118
-    data2: 2980205994
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Value A
-  - Value B
-  Exists: 1
+  Length: 70582
 --- !u!114 &5867866437571572080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -780,32 +698,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1537
---- !u!114 &8523728614025053867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/wormmusic/hasWormed
-  m_EditorClassIdentifier: 
-  Name: hasWormed
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1702409292
-    data2: 114418009
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Value A
-  - Value B
-  Exists: 1
 --- !u!114 &8790473854722527904
 MonoBehaviour:
   m_ObjectHideFlags: 0
