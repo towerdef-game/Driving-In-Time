@@ -198,7 +198,7 @@ MonoBehaviour:
   pillars:
   - {fileID: 0}
   - {fileID: 0}
-  powerupSound: {fileID: 0}
+  powerupSound: {fileID: -8212441207754859390}
 --- !u!114 &851743234184090679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,6 +339,7 @@ MonoBehaviour:
   carSounds: {fileID: 851743234184090687}
   powerUps: {fileID: -8212441207754859390}
   hitSounds: {fileID: -8279615383119415749}
+  CarHit: {fileID: 8048292614961506328}
 --- !u!114 &851743234184090681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +532,7 @@ MonoBehaviour:
       Data4: 1444611053
     Path: event:/CarHit
   Event: 
-  PlayEvent: 1
+  PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0

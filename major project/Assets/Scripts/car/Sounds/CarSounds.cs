@@ -28,6 +28,7 @@ public class CarSounds : MonoBehaviour
     public StudioEventEmitter powerUps;
     public StudioEventEmitter hitSounds;
     public StudioEventEmitter CarHit;
+
     void Start()
     {
         
@@ -108,14 +109,29 @@ public class CarSounds : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("NonEnemy"))
         {
-           // Debug.Log("im real please save me");
+            // Debug.Log("im real please save me");
             //int voice = Random.Range(1, 8);
-           // hitSounds.SetParameter("Random", voice);
-           // hitSounds.SetParameter("objectType", 1);
-           hitSounds.Play();
-           // RuntimeManager.PlayOneShot("Hitcharacter", transform.position);
+            // hitSounds.SetParameter("Random", voice);
+            // hitSounds.SetParameter("objectType", 1);
+            hitSounds.Play();
+            // RuntimeManager.PlayOneShot("Hitcharacter", transform.position);
 
         }
+
+
+        if (collision.gameObject.CompareTag("Solid"))
+        {
+            CarHit.Play();
+
+
+            if (CarHit.IsPlaying())
+            {
+                Debug.Log(" car hit is playing");
+            }
+
+
+        }
+      
     }
 
-}
+    }
