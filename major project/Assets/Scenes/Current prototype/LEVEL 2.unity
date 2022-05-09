@@ -195,6 +195,10 @@ PrefabInstance:
       value: River Bank Wall (37)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -373,6 +377,10 @@ PrefabInstance:
       value: River Bank Wall (17)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -478,6 +486,10 @@ PrefabInstance:
       value: Under Water Walls (19)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -546,6 +558,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -757,6 +773,10 @@ PrefabInstance:
       value: River Bank Wall (138)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -872,6 +892,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1052,6 +1076,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1245,7 +1273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 47586137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.337, y: -1.333, z: 1.69}
+  m_LocalPosition: {x: 0.337, y: -1.2, z: 1.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2039101383}
@@ -1269,6 +1297,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 851743234184090685, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
   m_PrefabInstance: {fileID: 1589214901}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &48278020 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8048292614961506328, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+  m_PrefabInstance: {fileID: 1589214901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48278018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &48278033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1286,7 +1325,7 @@ MonoBehaviour:
   remainingTimeTillSpawn: 1.5
   timerIsOnToSpawn: 0
   playerPosition: {fileID: 1589214902}
-  respawnPosition: {x: 0, y: 0, z: 0}
+  respawnPosition: {x: 84, y: 2, z: -145}
   grounded: 0
 --- !u!1001 &48625992
 PrefabInstance:
@@ -1542,7 +1581,7 @@ GameObject:
   - component: {fileID: 61002206}
   m_Layer: 0
   m_Name: Sphere (1)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1764,6 +1803,10 @@ PrefabInstance:
       value: Under Water Walls (26)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -1868,6 +1911,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2451,6 +2498,10 @@ PrefabInstance:
       value: Under Water Walls (13)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -2565,6 +2616,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2695,6 +2750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bridge 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1635574816639542815, guid: 5696076845d075845bd2cb7863fb55fb, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8424073627695423409, guid: 5696076845d075845bd2cb7863fb55fb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2806,6 +2865,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3009,6 +3072,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5696076845d075845bd2cb7863fb55fb, type: 3}
       propertyPath: m_Name
       value: Bridge 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635574816639542815, guid: 5696076845d075845bd2cb7863fb55fb, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8424073627695423409, guid: 5696076845d075845bd2cb7863fb55fb, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3288,6 +3355,10 @@ PrefabInstance:
       value: River Bank Wall (47)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -3403,6 +3474,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3582,6 +3657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbers Spiral
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
 --- !u!4 &138897656 stripped
@@ -3659,6 +3738,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3806,7 +3889,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1586187835114632646, guid: 8553ddb9a8e65cf4187c1a66564381c5, type: 3}
       propertyPath: m_Name
-      value: Cians_Boat (4)
+      value: THE SS Cian
       objectReference: {fileID: 0}
     - target: {fileID: 2110101085908496252, guid: 8553ddb9a8e65cf4187c1a66564381c5, type: 3}
       propertyPath: m_RootOrder
@@ -3814,15 +3897,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2110101085908496252, guid: 8553ddb9a8e65cf4187c1a66564381c5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.29
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2110101085908496252, guid: 8553ddb9a8e65cf4187c1a66564381c5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.24
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110101085908496252, guid: 8553ddb9a8e65cf4187c1a66564381c5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2110101085908496252, guid: 8553ddb9a8e65cf4187c1a66564381c5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -280.1
+      value: -340.7
       objectReference: {fileID: 0}
     - target: {fileID: 2110101085908496252, guid: 8553ddb9a8e65cf4187c1a66564381c5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3830,7 +3917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2110101085908496252, guid: 8553ddb9a8e65cf4187c1a66564381c5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -183
+      value: -181
       objectReference: {fileID: 0}
     - target: {fileID: 2110101085908496252, guid: 8553ddb9a8e65cf4187c1a66564381c5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3873,9 +3960,10 @@ GameObject:
   - component: {fileID: 147369930}
   - component: {fileID: 147369929}
   - component: {fileID: 147369928}
+  - component: {fileID: 147369931}
   m_Layer: 0
   m_Name: Box001 (2)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3943,6 +4031,20 @@ Transform:
   m_Father: {fileID: 1678782908}
   m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 89.287}
+--- !u!64 &147369931
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147369927}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5060444177187149915, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
 --- !u!1001 &148155607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4013,6 +4115,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4213,6 +4319,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4424,6 +4534,10 @@ PrefabInstance:
       value: Elaborate fence (6)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -4602,6 +4716,10 @@ PrefabInstance:
       value: River Bank Wall (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -4659,9 +4777,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018349822}
     m_Modifications:
+    - target: {fileID: 1509928010376512329, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413297925850830456, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2691221367099051725, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595459013778677511, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068405311876089897, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460735631042669872, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5867749278724633483, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_Name
       value: Crane Base (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373950816481595866, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 6726656802104329213, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_RootOrder
@@ -4786,6 +4932,10 @@ PrefabInstance:
       value: River Bank Wall (113)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -4845,7 +4995,7 @@ MeshCollider:
   m_GameObject: {fileID: 161333336}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -4946,7 +5096,7 @@ GameObject:
   - component: {fileID: 163000297}
   m_Layer: 0
   m_Name: Box001 (1)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4976,7 +5126,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5060444177187149915, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
 --- !u!23 &163000298
@@ -5118,6 +5268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small Shop 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: efa3becf9132ea841a6b6a8e2f77b6f1, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 8835409689826365435, guid: efa3becf9132ea841a6b6a8e2f77b6f1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5145,7 +5299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &171947453
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5254,6 +5408,10 @@ PrefabInstance:
       value: River Bank Wall (85)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -5336,9 +5494,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018349822}
     m_Modifications:
+    - target: {fileID: 1509928010376512329, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413297925850830456, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2691221367099051725, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595459013778677511, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068405311876089897, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460735631042669872, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5867749278724633483, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_Name
       value: Crane Base (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373950816481595866, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 6726656802104329213, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_RootOrder
@@ -5874,6 +6060,10 @@ PrefabInstance:
       value: River Bank Wall (33)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -5988,6 +6178,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2420550224886724638, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721884269213268643, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918770852057153, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5325796547241497415, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6055,6 +6257,10 @@ PrefabInstance:
     - target: {fileID: 6241610174720534135, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
       propertyPath: m_Name
       value: Small Shop Pref (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343122153854709552, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
@@ -6128,6 +6334,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6247,6 +6457,10 @@ PrefabInstance:
       value: River Bank Wall (98)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -6339,7 +6553,7 @@ GameObject:
   - component: {fileID: 208263917}
   m_Layer: 0
   m_Name: Book shop
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6459,6 +6673,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6758,6 +6976,10 @@ PrefabInstance:
       value: River Bank Wall (63)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -6953,6 +7175,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: efa3becf9132ea841a6b6a8e2f77b6f1, type: 3}
       propertyPath: m_Name
       value: Small Shop 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: efa3becf9132ea841a6b6a8e2f77b6f1, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 8835409689826365435, guid: efa3becf9132ea841a6b6a8e2f77b6f1, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7248,6 +7474,10 @@ PrefabInstance:
       value: River Bank Wall (47)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -7363,6 +7593,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7667,6 +7901,10 @@ PrefabInstance:
       value: River Bank Wall (127)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -7712,6 +7950,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5060444177187149915, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+--- !u!1 &272958771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7742780737561719692, guid: 5696076845d075845bd2cb7863fb55fb, type: 3}
+  m_PrefabInstance: {fileID: 952726290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &272958775
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272958771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5060444177187149915, guid: 5696076845d075845bd2cb7863fb55fb, type: 3}
 --- !u!1001 &276492121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7770,6 +8027,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7852,6 +8113,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8063,6 +8328,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8355,6 +8624,10 @@ PrefabInstance:
       value: River Bank Wall (22)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -8603,6 +8876,10 @@ PrefabInstance:
       value: River Bank Wall (97)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -8785,6 +9062,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8983,7 +9264,7 @@ GameObject:
   - component: {fileID: 315927331}
   m_Layer: 0
   m_Name: Dentist (1)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9097,6 +9378,10 @@ PrefabInstance:
       value: Under Water Walls (17)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -9177,6 +9462,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9570,6 +9859,10 @@ PrefabInstance:
       value: Elaborate fence (15)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -9760,6 +10053,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10011,6 +10308,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10554,6 +10855,10 @@ PrefabInstance:
       value: Elaborate fence (9)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10611,9 +10916,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018349822}
     m_Modifications:
+    - target: {fileID: 1509928010376512329, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413297925850830456, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2691221367099051725, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595459013778677511, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068405311876089897, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460735631042669872, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5867749278724633483, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_Name
       value: Crane Base (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373950816481595866, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 6726656802104329213, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_RootOrder
@@ -10876,6 +11209,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
       propertyPath: m_Name
       value: Barbers Spiral (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
@@ -11318,6 +11655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large building (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
 --- !u!4 &393049905 stripped
@@ -11395,6 +11736,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11637,6 +11982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbers Spiral (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
 --- !u!4 &411689854 stripped
@@ -11714,6 +12063,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11831,6 +12184,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12215,6 +12572,10 @@ PrefabInstance:
       value: Under Water Walls (8)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -12295,6 +12656,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12495,6 +12860,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12810,6 +13179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doc Or Dent
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a3bc57de7a4b11d499d0b1b9e6db1af5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3bc57de7a4b11d499d0b1b9e6db1af5, type: 3}
 --- !u!4 &455927244 stripped
@@ -12887,6 +13260,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13043,6 +13420,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13238,6 +13619,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13452,6 +13837,10 @@ PrefabInstance:
       value: River Bank Wall (41)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -13641,6 +14030,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13892,6 +14285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dress (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
 --- !u!4 &491054813 stripped
@@ -13913,7 +14310,7 @@ MeshCollider:
   m_GameObject: {fileID: 492735925}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -14057,6 +14454,10 @@ PrefabInstance:
       value: River Bank Wall (29)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14174,6 +14575,10 @@ PrefabInstance:
       value: River Bank Wall (43)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14279,6 +14684,10 @@ PrefabInstance:
       value: Under Water Walls (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14361,6 +14770,10 @@ PrefabInstance:
       value: River Bank Wall (34)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14413,9 +14826,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018349822}
     m_Modifications:
+    - target: {fileID: 1509928010376512329, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413297925850830456, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2691221367099051725, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595459013778677511, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068405311876089897, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460735631042669872, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5867749278724633483, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_Name
       value: Crane Base (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373950816481595866, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 6726656802104329213, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_RootOrder
@@ -14479,7 +14920,7 @@ GameObject:
   - component: {fileID: 507496691}
   m_Layer: 0
   m_Name: Barbers (1)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14630,6 +15071,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14876,6 +15321,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15135,6 +15584,10 @@ PrefabInstance:
       value: River Bank Wall (39)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15194,7 +15647,7 @@ MeshCollider:
   m_GameObject: {fileID: 537700444}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -15269,6 +15722,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15577,6 +16034,10 @@ PrefabInstance:
       value: River Bank Wall (25)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15881,6 +16342,10 @@ PrefabInstance:
       value: River Bank Wall (119)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15986,6 +16451,10 @@ PrefabInstance:
       value: Under Water Walls (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -16087,7 +16556,7 @@ GameObject:
   - component: {fileID: 585877953}
   m_Layer: 0
   m_Name: Book shop (1)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16208,6 +16677,10 @@ PrefabInstance:
       value: River Bank Wall (104)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -16323,6 +16796,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16555,7 +17032,7 @@ MeshCollider:
   m_GameObject: {fileID: 590199798}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -16839,6 +17316,10 @@ PrefabInstance:
       value: River Bank Wall (16)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -16898,7 +17379,7 @@ MeshCollider:
   m_GameObject: {fileID: 603797314}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -17214,6 +17695,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
       propertyPath: m_Name
       value: Large building (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
@@ -17746,7 +18231,7 @@ GameObject:
   - component: {fileID: 638950901}
   m_Layer: 0
   m_Name: Dentist
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17836,6 +18321,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17987,6 +18476,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18439,6 +18932,10 @@ PrefabInstance:
       value: Under Water Walls (15)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -18744,6 +19241,10 @@ PrefabInstance:
       value: River Bank Wall (31)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -18998,6 +19499,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19301,6 +19806,10 @@ PrefabInstance:
       value: Elaborate fence (16)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -19438,6 +19947,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
       propertyPath: m_Name
       value: Dress (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
@@ -19728,6 +20241,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7862391691550088030, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: -7639331209684527813, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: -3477821731311062464, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -19736,10 +20257,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Construction
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 4407187375235809858, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d568d6dbd2b42b246af13b5a2176836e, type: 2}
+    - target: {fileID: 7742780737561719692, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 8424073627695423409, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -20041,6 +20570,10 @@ PrefabInstance:
       value: Elaborate fence (10)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -20234,6 +20767,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20875,6 +21412,10 @@ PrefabInstance:
       value: River Bank Wall (32)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -20996,7 +21537,7 @@ GameObject:
   - component: {fileID: 777667093}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21135,6 +21676,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21291,6 +21836,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
       propertyPath: m_Name
       value: Dress (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
@@ -21546,6 +22095,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2420550224886724638, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721884269213268643, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918770852057153, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5325796547241497415, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -21613,6 +22174,10 @@ PrefabInstance:
     - target: {fileID: 6241610174720534135, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
       propertyPath: m_Name
       value: Small Shop Pref (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343122153854709552, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
@@ -21762,6 +22327,10 @@ PrefabInstance:
       value: Elaborate fence (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -21877,6 +22446,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22149,6 +22722,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22632,6 +23209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Outside
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
 --- !u!4 &863554103 stripped
@@ -22907,6 +23488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dress (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
 --- !u!4 &873076115 stripped
@@ -22984,6 +23569,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23101,6 +23690,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23711,6 +24304,10 @@ PrefabInstance:
       value: River Bank Wall (55)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -23826,6 +24423,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23950,6 +24551,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24082,6 +24687,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1b2e1eca42bbc93499f4adad35938467, type: 3}
       propertyPath: m_Name
       value: Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b2e1eca42bbc93499f4adad35938467, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b2e1eca42bbc93499f4adad35938467, type: 3}
@@ -24307,6 +24916,10 @@ PrefabInstance:
       value: Under Water Walls (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -24417,6 +25030,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24536,6 +25153,10 @@ PrefabInstance:
       value: River Bank Wall (83)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -24651,6 +25272,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24770,6 +25395,10 @@ PrefabInstance:
       value: River Bank Wall (49)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -24885,6 +25514,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -25102,6 +25735,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
       propertyPath: m_Name
       value: Outside
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
@@ -25482,6 +26119,10 @@ PrefabInstance:
       value: Under Water Walls (7)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -25550,6 +26191,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1b2e1eca42bbc93499f4adad35938467, type: 3}
       propertyPath: m_Name
       value: Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b2e1eca42bbc93499f4adad35938467, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b2e1eca42bbc93499f4adad35938467, type: 3}
@@ -25956,6 +26601,10 @@ PrefabInstance:
       value: River Bank Wall (79)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -26247,6 +26896,10 @@ PrefabInstance:
       value: River Bank Wall (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -26362,6 +27015,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26589,6 +27246,10 @@ PrefabInstance:
       value: River Bank Wall (17)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -26704,6 +27365,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26899,6 +27564,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -27185,7 +27854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995582536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.661, y: -1.333, z: -3.93}
+  m_LocalPosition: {x: -3.661, y: -1.2, z: -3.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2039101383}
@@ -27521,6 +28190,10 @@ PrefabInstance:
       value: River Bank Wall (122)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -27580,7 +28253,7 @@ MeshCollider:
   m_GameObject: {fileID: 1006701548}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -27895,6 +28568,10 @@ PrefabInstance:
       value: Under Water Walls (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -27919,7 +28596,7 @@ MeshCollider:
   m_GameObject: {fileID: 1016734955}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -27935,7 +28612,7 @@ GameObject:
   - component: {fileID: 1018349822}
   m_Layer: 0
   m_Name: Cranes
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27974,7 +28651,7 @@ GameObject:
   - component: {fileID: 1018739316}
   m_Layer: 0
   m_Name: Vegetable shop (1)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28082,6 +28759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dress (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
 --- !u!4 &1020203973 stripped
@@ -28159,6 +28840,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28719,6 +29404,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29318,6 +30007,10 @@ PrefabInstance:
       value: River Bank Wall (46)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -29825,6 +30518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dress (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
 --- !u!4 &1084016435 stripped
@@ -30125,6 +30822,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30747,6 +31448,10 @@ PrefabInstance:
       value: River Bank Wall (84)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -30974,6 +31679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doc Or Dent
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a3bc57de7a4b11d499d0b1b9e6db1af5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3bc57de7a4b11d499d0b1b9e6db1af5, type: 3}
 --- !u!4 &1119926815 stripped
@@ -31184,6 +31893,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2420550224886724638, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721884269213268643, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918770852057153, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5423842933946476778, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -31243,6 +31964,10 @@ PrefabInstance:
     - target: {fileID: 6241610174720534135, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
       propertyPath: m_Name
       value: Small Shop Pref (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343122153854709552, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c99b4d732a5c64a9f4900eb0180227, type: 3}
@@ -31316,6 +32041,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -31458,7 +32187,7 @@ GameObject:
   - component: {fileID: 1135066616}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31609,6 +32338,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -31801,6 +32534,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -32013,6 +32750,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -32407,17 +33148,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1187718851 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 851743234184090680, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
-  m_PrefabInstance: {fileID: 1589214901}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48278018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1189588915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32566,6 +33296,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -32841,6 +33575,10 @@ PrefabInstance:
       value: River Bank Wall (126)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -33051,6 +33789,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -33319,6 +34061,10 @@ PrefabInstance:
       value: River Bank Wall (48)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -33514,6 +34260,10 @@ PrefabInstance:
       value: River Bank Wall (24)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -33690,6 +34440,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -33887,6 +34641,10 @@ PrefabInstance:
       value: River Bank Wall (26)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -33991,6 +34749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dress
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
 --- !u!4 &1232454872 stripped
@@ -34068,6 +34830,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34246,6 +35012,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34874,7 +35644,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264448351}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.333, z: -4.51}
+  m_LocalPosition: {x: 0, y: -1.2, z: -4.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2039101383}
@@ -35087,6 +35857,10 @@ PrefabInstance:
       value: River Bank Wall (106)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -35202,6 +35976,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -35387,6 +36165,10 @@ PrefabInstance:
       value: Under Water Walls (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -35532,7 +36314,7 @@ GameObject:
   - component: {fileID: 1284370324}
   m_Layer: 0
   m_Name: Under Water Walls
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35733,6 +36515,10 @@ PrefabInstance:
       value: River Bank Wall (21)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -35855,6 +36641,10 @@ PrefabInstance:
       value: River Bank Wall (52)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -35958,6 +36748,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36120,6 +36914,10 @@ PrefabInstance:
       value: River Bank Wall (90)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -36235,6 +37033,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36354,6 +37156,10 @@ PrefabInstance:
       value: River Bank Wall (77)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -36469,6 +37275,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36914,6 +37724,10 @@ PrefabInstance:
       value: River Bank Wall (56)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -37031,6 +37845,10 @@ PrefabInstance:
       value: River Bank Wall (61)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -37135,6 +37953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dress
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
 --- !u!4 &1333812270 stripped
@@ -37226,7 +38048,7 @@ MeshCollider:
   m_GameObject: {fileID: 1338583020}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -37301,6 +38123,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -37717,6 +38543,10 @@ PrefabInstance:
       value: Elaborate fence (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -37912,6 +38742,10 @@ PrefabInstance:
       value: River Bank Wall (117)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -38102,6 +38936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doc Or Dent
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a3bc57de7a4b11d499d0b1b9e6db1af5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3bc57de7a4b11d499d0b1b9e6db1af5, type: 3}
 --- !u!4 &1369082004 stripped
@@ -38184,6 +39022,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -38301,6 +39143,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
       propertyPath: m_Name
       value: Large building (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
@@ -38618,6 +39464,10 @@ PrefabInstance:
       value: River Bank Wall (70)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -38818,6 +39668,10 @@ PrefabInstance:
       value: River Bank Wall (109)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -38994,6 +39848,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39174,6 +40032,10 @@ PrefabInstance:
       value: River Bank Wall (30)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -39291,6 +40153,10 @@ PrefabInstance:
       value: River Bank Wall (116)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -39406,6 +40272,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39633,6 +40503,10 @@ PrefabInstance:
       value: River Bank Wall (66)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -39750,6 +40624,10 @@ PrefabInstance:
       value: River Bank Wall (99)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -39865,6 +40743,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -40032,6 +40914,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -40252,6 +41138,10 @@ PrefabInstance:
       value: River Bank Wall (64)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -40367,6 +41257,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -40486,6 +41380,10 @@ PrefabInstance:
       value: River Bank Wall (48)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -40601,6 +41499,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -40915,6 +41817,10 @@ PrefabInstance:
       value: River Bank Wall (57)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -41031,6 +41937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large building (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
 --- !u!4 &1480514657 stripped
@@ -41101,6 +42011,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7862391691550088030, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: -7639331209684527813, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: -3477821731311062464, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -41109,10 +42027,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Construction (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 4407187375235809858, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d568d6dbd2b42b246af13b5a2176836e, type: 2}
+    - target: {fileID: 7742780737561719692, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 8424073627695423409, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -41333,6 +42259,10 @@ PrefabInstance:
       value: River Bank Wall (53)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -41511,6 +42441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large building (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
 --- !u!4 &1490341664 stripped
@@ -41531,7 +42465,7 @@ GameObject:
   - component: {fileID: 1492481888}
   m_Layer: 0
   m_Name: Vegetable shop
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41711,6 +42645,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -42183,6 +43121,10 @@ PrefabInstance:
       value: River Bank Wall (9)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -42298,6 +43240,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -42680,6 +43626,10 @@ PrefabInstance:
       value: Under Water Walls (25)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -42779,6 +43729,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -42961,6 +43915,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -43448,6 +44406,10 @@ PrefabInstance:
       value: River Bank Wall (30)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -43879,6 +44841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Outside
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
 --- !u!4 &1563797970 stripped
@@ -43949,6 +44915,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -44033,6 +45003,10 @@ PrefabInstance:
       value: River Bank Wall (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -44096,7 +45070,7 @@ GameObject:
   - component: {fileID: 1576387316}
   m_Layer: 0
   m_Name: Red Shop
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44331,6 +45305,10 @@ PrefabInstance:
       value: River Bank Wall (32)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -44526,6 +45504,10 @@ PrefabInstance:
       value: River Bank Wall (36)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -44673,7 +45655,7 @@ PrefabInstance:
     - target: {fileID: 851743234184090682, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
       propertyPath: CarHit
       value: 
-      objectReference: {fileID: 1187718851}
+      objectReference: {fileID: 48278020}
     - target: {fileID: 851743234184090683, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -45130,7 +46112,7 @@ GameObject:
   - component: {fileID: 1604797608}
   m_Layer: 0
   m_Name: Sphere (1)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45281,6 +46263,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45460,6 +46446,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45651,6 +46641,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45846,6 +46840,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -46102,6 +47100,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -46392,6 +47394,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -46788,6 +47794,10 @@ PrefabInstance:
       value: River Bank Wall (25)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -47041,6 +48051,10 @@ PrefabInstance:
       value: River Bank Wall (51)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -47161,6 +48175,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -47827,6 +48845,10 @@ PrefabInstance:
       value: River Bank Wall (89)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -47944,6 +48966,10 @@ PrefabInstance:
       value: River Bank Wall (125)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -48049,6 +49075,10 @@ PrefabInstance:
       value: Under Water Walls (6)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -48129,6 +49159,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -48249,7 +49283,7 @@ GameObject:
   - component: {fileID: 1678782908}
   m_Layer: 0
   m_Name: Industry Buildings
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48430,6 +49464,10 @@ PrefabInstance:
       value: River Bank Wall (33)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -48591,6 +49629,10 @@ PrefabInstance:
       value: River Bank Wall
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -48699,6 +49741,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7862391691550088030, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: -7639331209684527813, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: -3477821731311062464, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -48707,10 +49757,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building Construction (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 4407187375235809858, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d568d6dbd2b42b246af13b5a2176836e, type: 2}
+    - target: {fileID: 7742780737561719692, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 8424073627695423409, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -48941,6 +49999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large building (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df980598bd60d4547bf0c686b9d41155, type: 3}
 --- !u!4 &1702609087 stripped
@@ -49018,6 +50080,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -49199,6 +50265,10 @@ PrefabInstance:
       value: River Bank Wall (110)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -49376,6 +50446,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -49588,6 +50662,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -49986,6 +51064,10 @@ PrefabInstance:
       value: River Bank Wall (94)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -50101,6 +51183,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -50442,6 +51528,10 @@ PrefabInstance:
       value: River Bank Wall (135)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -50736,6 +51826,10 @@ PrefabInstance:
       value: River Bank Wall (102)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -51015,9 +52109,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018349822}
     m_Modifications:
+    - target: {fileID: 1509928010376512329, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413297925850830456, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2691221367099051725, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595459013778677511, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068405311876089897, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460735631042669872, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5867749278724633483, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_Name
       value: Crane Base (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373950816481595866, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 6726656802104329213, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_RootOrder
@@ -51128,6 +52250,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_Name
       value: Under Water Walls (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -51284,6 +52410,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -51461,9 +52591,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018349822}
     m_Modifications:
+    - target: {fileID: 1509928010376512329, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413297925850830456, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2691221367099051725, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595459013778677511, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068405311876089897, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460735631042669872, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5867749278724633483, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_Name
       value: Crane Base (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373950816481595866, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 6726656802104329213, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_RootOrder
@@ -51660,6 +52818,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -51882,7 +53044,7 @@ GameObject:
   - component: {fileID: 1784378828}
   m_Layer: 0
   m_Name: Box001 (1)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51961,7 +53123,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5060444177187149915, guid: 5d5dd576752a7fe40bbe553ddb6a95d5, type: 3}
 --- !u!1001 &1794109861
@@ -52034,6 +53196,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -52151,6 +53317,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -52577,6 +53747,10 @@ PrefabInstance:
       value: River Bank Wall (51)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -52694,6 +53868,10 @@ PrefabInstance:
       value: River Bank Wall (35)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -52809,6 +53987,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -53401,6 +54583,10 @@ PrefabInstance:
       value: River Bank Wall (95)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -53585,6 +54771,10 @@ PrefabInstance:
       value: River Bank Wall (78)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -53700,6 +54890,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -53916,6 +55110,10 @@ PrefabInstance:
       value: River Bank Wall (42)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -54031,6 +55229,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
       propertyPath: m_Name
       value: Barbers Spiral
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5358d04b31af7b4478cf1917a9e3446c, type: 3}
@@ -54345,7 +55547,7 @@ GameObject:
   - component: {fileID: 1869965319}
   m_Layer: 0
   m_Name: Red Shop (1)
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54419,6 +55621,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5060444177187149915, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+--- !u!1 &1881053615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7742780737561719692, guid: 5696076845d075845bd2cb7863fb55fb, type: 3}
+  m_PrefabInstance: {fileID: 757667988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1881053619
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881053615}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5060444177187149915, guid: 5696076845d075845bd2cb7863fb55fb, type: 3}
 --- !u!1001 &1883147423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54489,6 +55710,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -54668,6 +55893,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -54898,6 +56127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dress (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
 --- !u!4 &1900658131 stripped
@@ -54971,6 +56204,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a3bc57de7a4b11d499d0b1b9e6db1af5, type: 3}
       propertyPath: m_Name
       value: Doc Or Dent
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a3bc57de7a4b11d499d0b1b9e6db1af5, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3bc57de7a4b11d499d0b1b9e6db1af5, type: 3}
@@ -55049,6 +56286,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -55187,7 +56428,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -55219,7 +56460,7 @@ MonoBehaviour:
   m_margin: {x: -22.55223, y: 0, z: -29.31253, w: 11.27927}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1905778248
@@ -55377,6 +56618,10 @@ PrefabInstance:
       value: River Bank Wall (34)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -55494,6 +56739,10 @@ PrefabInstance:
       value: River Bank Wall (52)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -55609,6 +56858,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -55922,6 +57175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Outside
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
 --- !u!4 &1925819469 stripped
@@ -56066,6 +57323,10 @@ PrefabInstance:
       value: Under Water Walls (24)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -56165,6 +57426,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -56362,6 +57627,10 @@ PrefabInstance:
       value: River Bank Wall (130)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -56539,6 +57808,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -56801,7 +58074,7 @@ GameObject:
   - component: {fileID: 1974407229}
   m_Layer: 0
   m_Name: Barbers
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56981,6 +58254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dress (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a47990b8170571349a4c68e04749f52b, type: 3}
 --- !u!4 &1981905605 stripped
@@ -57138,6 +58415,10 @@ PrefabInstance:
       value: River Bank Wall (124)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -57253,6 +58534,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -57511,6 +58796,10 @@ PrefabInstance:
       value: Under Water Walls (16)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -57655,6 +58944,10 @@ PrefabInstance:
       value: River Bank Wall (103)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -57777,6 +59070,10 @@ PrefabInstance:
       value: River Bank Wall (49)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -57833,7 +59130,7 @@ GameObject:
   - component: {fileID: 2007665268}
   m_Layer: 0
   m_Name: Water Banks
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58671,6 +59968,10 @@ PrefabInstance:
       value: River Bank Wall (46)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -59078,6 +60379,10 @@ PrefabInstance:
       value: River Bank Wall (50)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -59193,6 +60498,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -59353,7 +60662,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 240, y: -202}
+  m_AnchoredPosition: {x: 240, y: -196}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2058209713
@@ -59410,7 +60719,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -59442,7 +60751,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 13.287542, z: -51.101532, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2058209714
@@ -59608,7 +60917,7 @@ GameObject:
   - component: {fileID: 2068173438}
   m_Layer: 0
   m_Name: Industry Buildings
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60025,6 +61334,10 @@ PrefabInstance:
       value: River Bank Wall (44)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -60142,6 +61455,10 @@ PrefabInstance:
       value: River Bank Wall (24)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -60257,6 +61574,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -60408,6 +61729,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: efa3becf9132ea841a6b6a8e2f77b6f1, type: 3}
       propertyPath: m_Name
       value: Small Shop 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: efa3becf9132ea841a6b6a8e2f77b6f1, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 8835409689826365435, guid: efa3becf9132ea841a6b6a8e2f77b6f1, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -60648,6 +61973,10 @@ PrefabInstance:
       value: River Bank Wall (28)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -60763,6 +62092,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -61080,6 +62413,10 @@ PrefabInstance:
       value: River Bank Wall (108)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -61195,6 +62532,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -61436,6 +62777,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_Name
       value: Elaborate fence (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b91683b4e8cb542449f62a2887ab5047, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -61802,6 +63147,10 @@ PrefabInstance:
       value: River Bank Wall (136)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -61957,6 +63306,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -62121,6 +63474,10 @@ PrefabInstance:
       value: Under Water Walls (21)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2cafbee81a02f243bb46d92089c786f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -62201,6 +63558,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_Name
       value: River Bank Wall (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -62320,6 +63681,10 @@ PrefabInstance:
       value: River Bank Wall (133)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e057f2e0a32f86e48a9da776ef6d1c1a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -62372,9 +63737,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018349822}
     m_Modifications:
+    - target: {fileID: 1509928010376512329, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413297925850830456, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2691221367099051725, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595459013778677511, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068405311876089897, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460735631042669872, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
     - target: {fileID: 5867749278724633483, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_Name
       value: Crane Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373950816481595866, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 6726656802104329213, guid: a4be46d34b5631141a9bc3ff5a9f710d, type: 3}
       propertyPath: m_RootOrder

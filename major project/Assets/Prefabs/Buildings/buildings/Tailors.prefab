@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 583660893106020853}
   m_Layer: 0
   m_Name: Tailors
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -135,6 +135,10 @@ PrefabInstance:
       value: Outside
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8cc86351da1ed4f449a2c5e8051fc2ae, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -220,6 +224,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1b2e1eca42bbc93499f4adad35938467, type: 3}
       propertyPath: m_Name
       value: Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b2e1eca42bbc93499f4adad35938467, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1b2e1eca42bbc93499f4adad35938467, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -309,6 +317,10 @@ PrefabInstance:
       value: Dress (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -391,6 +403,10 @@ PrefabInstance:
       value: Dress
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47990b8170571349a4c68e04749f52b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -471,6 +487,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 00566558ed2b7e74eac6192de91ad836, type: 3}
       propertyPath: m_Name
       value: Inside
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 00566558ed2b7e74eac6192de91ad836, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 00566558ed2b7e74eac6192de91ad836, type: 3}
       propertyPath: m_StaticEditorFlags

@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!64 &1313586488239297950
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2232556308326995099}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2232952877369940510, guid: dbab7d7352d84814fa93a257c4ab7057, type: 3}
---- !u!208 &1313586488239297951
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2232556308326995099}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 28.003002, y: 5, z: 23.472002}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 22.349, y: -0.034, z: 23.472002}
-  m_TimeToStationary: 0.5
 --- !u!64 &1313586488778482951
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59,6 +29,36 @@ NavMeshObstacle:
   m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.023000002, y: 6.617, z: 23.414001}
+  m_TimeToStationary: 0.5
+--- !u!64 &1313586488239297950
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2232556308326995099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2232952877369940510, guid: dbab7d7352d84814fa93a257c4ab7057, type: 3}
+--- !u!208 &1313586488239297951
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2232556308326995099}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 28.003002, y: 5, z: 23.472002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 22.349, y: -0.034, z: 23.472002}
   m_TimeToStationary: 0.5
 --- !u!64 &1313586488799789182
 MeshCollider:
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 4956928255821210956}
   m_Layer: 0
   m_Name: Fancy building
-  m_TagString: Untagged
+  m_TagString: Solid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -195,6 +195,10 @@ PrefabInstance:
       value: Massive Fancy Building front
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d743b7aa9d868074cb02d5628c1d0515, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d743b7aa9d868074cb02d5628c1d0515, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
       objectReference: {fileID: 0}
@@ -282,6 +286,10 @@ PrefabInstance:
       value: Massive Fancy Building Sides
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dbab7d7352d84814fa93a257c4ab7057, type: 3}
+      propertyPath: m_TagString
+      value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dbab7d7352d84814fa93a257c4ab7057, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
       objectReference: {fileID: 0}
@@ -367,6 +375,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3238225393eaaeb4cb0dcfa7ed38c1c8, type: 3}
       propertyPath: m_Name
       value: Massive Fancy Building back
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3238225393eaaeb4cb0dcfa7ed38c1c8, type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3238225393eaaeb4cb0dcfa7ed38c1c8, type: 3}
       propertyPath: m_StaticEditorFlags

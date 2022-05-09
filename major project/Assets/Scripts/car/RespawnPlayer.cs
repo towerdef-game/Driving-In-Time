@@ -53,7 +53,7 @@ public class RespawnPlayer : MonoBehaviour
             else
             {
                 remainingTime = 10;
-                remainingTimeTillSpawn = 3;
+                remainingTimeTillSpawn = 1.5f;
                 playerPosition.position = respawnPosition;
                 timerIsOn = true;
                 timerIsOnToSpawn = false;
