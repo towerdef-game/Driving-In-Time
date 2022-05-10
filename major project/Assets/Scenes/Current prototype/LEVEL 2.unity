@@ -54502,6 +54502,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8279615383119415749, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+      propertyPath: Preload
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 43399209668497031, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -54622,6 +54626,10 @@ PrefabInstance:
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: e334842672eec6d4ca717825cc3dfe67, type: 2}
+    - target: {fileID: 8048292614961506328, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
+      propertyPath: Preload
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9054997132440311965, guid: 37232eb3b5277bb4692a04968dbb19bd, type: 3}
       propertyPath: m_IsActive
       value: 1
