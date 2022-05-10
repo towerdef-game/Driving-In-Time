@@ -30,7 +30,7 @@ public class ending : MonoBehaviour
     IEnumerator Fade()
     {
        // Debug.Log("Running");
-        fadIn.CrossFadeAlpha(1, 8, false);
+        fadIn.CrossFadeAlpha(1, 12, false);
         //yield return new WaitForSeconds(8f);
         Button.SetActive(true);
         yield return new WaitForSeconds(44f);

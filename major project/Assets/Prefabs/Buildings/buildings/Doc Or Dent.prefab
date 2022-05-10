@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6736997958147934420}
   - component: {fileID: 7697008450110195569}
   - component: {fileID: 5563549926177076155}
+  - component: {fileID: 2560422401877356008}
   m_Layer: 0
   m_Name: Doc Or Dent
   m_TagString: Solid
@@ -81,3 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2560422401877356008
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211958528207278702}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 25.000002, y: 21.500002, z: 21.071001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 8.5, z: 21.071001}
+  m_TimeToStationary: 0.5

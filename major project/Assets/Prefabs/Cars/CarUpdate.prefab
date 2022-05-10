@@ -102,12 +102,13 @@ GameObject:
   - component: {fileID: 851743234184090681}
   - component: {fileID: 851743234184090680}
   - component: {fileID: 851743234184090687}
-  - component: {fileID: 851743234184090686}
   - component: {fileID: -692101361181978872}
   - component: {fileID: -8212441207754859390}
   - component: {fileID: 4932539116742958137}
   - component: {fileID: 8048292614961506328}
   - component: {fileID: -8279615383119415749}
+  - component: {fileID: -6950315788794237853}
+  - component: {fileID: 1974515068385790164}
   m_Layer: 0
   m_Name: CarUpdate
   m_TagString: Player
@@ -414,20 +415,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &851743234184090686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 851743234184090685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 851743234184090685}
-  ListenerNumber: -1
 --- !u!114 &-692101361181978872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,6 +558,38 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &-6950315788794237853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851743234184090685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 0
+  Banks:
+  - Master
+  CollisionTag: 
+  PreloadSamples: 1
+--- !u!114 &1974515068385790164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851743234184090685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 851743234184090685}
+  ListenerNumber: -1
 --- !u!1 &1803573397523932905
 GameObject:
   m_ObjectHideFlags: 0
@@ -10450,7 +10469,6 @@ GameObject:
   - component: {fileID: 3276666555159917780}
   - component: {fileID: 3276666555159917783}
   - component: {fileID: 3276666555159917781}
-  - component: {fileID: 1642206319863014927}
   m_Layer: 0
   m_Name: Camera fp car
   m_TagString: Untagged
@@ -10547,20 +10565,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &1642206319863014927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3276666555159917787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
-  ListenerNumber: -1
 --- !u!1 &3276666555218830705
 GameObject:
   m_ObjectHideFlags: 0
@@ -25764,7 +25768,6 @@ GameObject:
   - component: {fileID: 4086050203599472037}
   - component: {fileID: 6093599195006281681}
   - component: {fileID: 4072591172904035062}
-  - component: {fileID: 2532579536663358339}
   m_Layer: 0
   m_Name: rear camera
   m_TagString: Untagged
@@ -25861,17 +25864,3 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &2532579536663358339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9054997132440311965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
-  ListenerNumber: -1
