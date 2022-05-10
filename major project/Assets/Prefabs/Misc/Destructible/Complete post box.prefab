@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7820989393475879476}
   - component: {fileID: 4880711455235924084}
   - component: {fileID: 4454048358038252301}
+  - component: {fileID: 4291063548362156416}
   m_Layer: 0
   m_Name: Complete post box
   m_TagString: Untagged
@@ -73,6 +74,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 25, y: 35, z: 25}
   m_Center: {x: 0, y: 20, z: 0}
+--- !u!114 &4291063548362156416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204795672053936136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1596340168
+      Data2: 1120854526
+      Data3: 946881682
+      Data4: -139730559
+    Path: event:/postboxHit
+  Event: 
+  PlayEvent: 2
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &3946597105420860855
 GameObject:
   m_ObjectHideFlags: 0
