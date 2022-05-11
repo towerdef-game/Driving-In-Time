@@ -128,7 +128,7 @@ MonoBehaviour:
   Path: Assets/MPsoundfiles/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637878845916262694
+  lastModified: 637878199806724379
   FileSizes:
   - Name: Desktop
     Value: 1896
@@ -175,10 +175,10 @@ MonoBehaviour:
   Path: Assets/MPsoundfiles/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637878845916232692
+  lastModified: 637878199806684485
   FileSizes:
   - Name: Desktop
-    Value: 6498400
+    Value: 6497920
   Exists: 1
 --- !u!114 &-6031818631887669108
 MonoBehaviour:
@@ -208,7 +208,7 @@ MonoBehaviour:
   - {fileID: 3057455871564875826}
   MinDistance: 1
   MaxDistance: 20
-  Length: 71000
+  Length: 73000
 --- !u!114 &-5970117332050443596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,7 +261,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 90
+  MaxDistance: 50
   Length: 4600
 --- !u!114 &-3873542225882646747
 MonoBehaviour:
@@ -489,7 +489,7 @@ MonoBehaviour:
   - {fileID: -7029706388326965689}
   StringsBanks:
   - {fileID: -7785624891059678065}
-  cacheTime: 637878845916262694
+  cacheTime: 637878199806724379
   cacheVersion: 10
 --- !u!114 &648683307966851597
 MonoBehaviour:
@@ -542,7 +542,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 200
+  MaxDistance: 50
   Length: 2400
 --- !u!114 &1701566096184359505
 MonoBehaviour:
@@ -645,8 +645,8 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 500
-  Length: 49000
+  MaxDistance: 10000
+  Length: 51184
 --- !u!114 &4223196698485601975
 MonoBehaviour:
   m_ObjectHideFlags: 0
