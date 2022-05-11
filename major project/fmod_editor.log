@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000255D450C3D8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000255D4510F38 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,101 +18,6 @@
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SoundI::release                          : Level 1 (0000025624B3AD18)
-[LOG] SoundI::release                          :     Level 1 (00000255AC7EDB38)
-[LOG] SoundI::release                          :     Level 1 (00000254E0932DF8)
-[LOG] SoundI::release                          :  (00000255A7825C68)
-[LOG] SoundI::release                          :     Slow downTIME (0000025515505338)
-[LOG] SoundI::release                          :  (000002550EDB4708)
-[LOG] SoundI::release                          :     speed up power (0000025623EA3C08)
-[LOG] SoundI::release                          :  (0000025544E45668)
-[LOG] SoundI::release                          :     bomb sound - Trimmed (00000255A7BDD978)
-[LOG] SoundI::release                          :  (000002562B2B0328)
-[LOG] SoundI::release                          :     shotgun - Trimmed (7) (0000025624A21208)
-[LOG] SoundI::release                          :  (000002562B2B0498)
-[LOG] SoundI::release                          :     shotgun - Trimmed (5) (00000255431F1D48)
-[LOG] SoundI::release                          :  (000002565439C658)
-[LOG] SoundI::release                          :     shotgun - Trimmed (8) (00000255A7BDD2F8)
-[LOG] SoundI::release                          :  (0000025544E450A8)
-[LOG] SoundI::release                          :     shotgun - Trimmed (6) (00000255A7BDD638)
-[LOG] SoundI::release                          :  (000002565439C098)
-[LOG] SoundI::release                          :     468837__christianand__25-metal-chocando (00000255AC1523B8)
-[LOG] SoundI::release                          :  (000002565439CAA8)
-[LOG] SoundI::release                          :     443838__checholio__52-golpe (00000255AC152558)
-[LOG] SoundI::release                          :  (0000025544E45C28)
-[LOG] SoundI::release                          :     104697__grunz__grunz-ow (0000025515504CB8)
-[LOG] SoundI::release                          :  (000002550EDB4B58)
-[LOG] SoundI::release                          :     44430__thecheeseman__hurt3 (0000025623EA3F48)
-[LOG] SoundI::release                          :  (000002565439C7C8)
-[LOG] SoundI::release                          :     516766__gentlemanwalrus__death-rattle (0000025623D7DC88)
-[LOG] SoundI::release                          :  (000002550EDB4148)
-[LOG] SoundI::release                          :     voice - Trimmed (0000025623EA3A68)
-[LOG] SoundI::release                          :  (000002550EDB4598)
-[LOG] SoundI::release                          :     voice2 - Trimmed (00000255134A63C8)
-[LOG] SoundI::release                          :  (000002562B2B0778)
-[LOG] SoundI::release                          :     voice3 - Trimmed (0000025624A20D28)
-[LOG] SoundI::release                          :  (000002565439C938)
-[LOG] SoundI::release                          :     voice4 - Trimmed (0000025623D7D608)
-[LOG] SoundI::release                          :  (00000255A7826678)
-[LOG] SoundI::release                          :     voice5 - Trimmed (000002562B2BC138)
-[LOG] SoundI::release                          :  (000002550EDB49E8)
-[LOG] SoundI::release                          :     569563__smokey9977__rocketmp3 - Trimmed (00000255134A6228)
-[LOG] SoundI::release                          :  (00000255A7826958)
-[LOG] SoundI::release                          :     250201__selector__rocket-launch - Trimmed - Trimmed (000002562B2BB918)
-[LOG] SoundI::release                          :  (000002550EDB3E68)
-[LOG] SoundI::release                          :     glitching effect - Trimmed (0000025623EA3588)
-[LOG] SoundI::release                          :  (000002562B2B0EA8)
-[LOG] SoundI::release                          :     glitching effect - Trimmed (2) (0000025624A20848)
-[LOG] SoundI::release                          :  (000002550EDB42B8)
-[LOG] SoundI::release                          :     glitching effect - Trimmed (3) (0000025623EA4288)
-[LOG] SoundI::release                          :  (000002565439CC18)
-[LOG] SoundI::release                          :     newmotorloop (00000255AC152898)
-[LOG] SoundI::release                          :  (000002562B2B01B8)
-[LOG] SoundI::release                          :     low (00000255431F1528)
-[LOG] SoundI::release                          :  (000002562B2B0D38)
-[LOG] SoundI::release                          :     66777__kevinkace__crate-break-1 (0000025624A206A8)
-[LOG] SoundI::release                          :  (000002565439CD88)
-[LOG] SoundI::release                          :     66778__kevinkace__crate-break-2 (00000255AC152078)
-[LOG] SoundI::release                          :  (000002562B2B0A58)
-[LOG] SoundI::release                          :     66779__kevinkace__crate-break-3 (00000255431F1868)
-[LOG] SoundI::release                          :  (0000025544E454F8)
-[LOG] SoundI::release                          :     66780__kevinkace__crate-break-4 (0000025515505678)
-[LOG] SoundI::release                          :  (000002550EDB4878)
-[LOG] SoundI::release                          :     66769__kevinkace__barrel-break-1 (00000255134A6A48)
-[LOG] SoundI::release                          :  (000002562B2B08E8)
-[LOG] SoundI::release                          :     66770__kevinkace__barrel-break-2 (000002562B2BBAB8)
-[LOG] SoundI::release                          :  (00000255A7825DD8)
-[LOG] SoundI::release                          :     66771__kevinkace__barrel-break-3 (00000255155054D8)
-[LOG] SoundI::release                          :  (000002565439C208)
-[LOG] SoundI::release                          :     66772__kevinkace__barrel-break-4 (00000255AC152D78)
-[LOG] SoundI::release                          :  (0000025544E457D8)
-[LOG] SoundI::release                          :     371853__iamgiorgio__j1-car-horn-[AudioTrimmer.com] (00000255A7BDCE18)
-[LOG] SoundI::release                          :  (000002565439C4E8)
-[LOG] SoundI::release                          :     217542__medartimus__car-breaking-skid-01 (1) (0000025623D7D7A8)
-[LOG] SoundI::release                          :  (000002565439C378)
-[LOG] SoundI::release                          :     sonar (0000025623D7DFC8)
-[LOG] SoundI::release                          :  (000002550EDB4428)
-[LOG] SoundI::release                          :     446135__justinvoke__car-land-hit (00000255134A6568)
-[LOG] SoundI::release                          :  (00000255A78260B8)
-[LOG] SoundI::release                          :     151624__qubodup__clank-car-crash-collision (000002562B2BBF98)
-[LOG] SoundI::release                          :  (00000255A7825F48)
-[LOG] SoundI::release                          :     207488__soundscape-leuphana__20131118-spoon-hits-trash-can-zoomh2nxy (0000025515504FF8)
-[LOG] SoundI::release                          :  (000002562B2B0608)
-[LOG] SoundI::release                          :     250202__selector__rocket-launch - Trimmed - Trimmed (0000025624A20EC8)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -120,5 +25,3 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
