@@ -51,7 +51,7 @@ public class Bullet : MonoBehaviour
             //health loss code here ? 
                other.rigidbody.AddExplosionForce( 100000, transform.position, 10, 10, ForceMode.Force);
         }
-        else if (other.gameObject.tag != "Player")
+        else if (other.gameObject.tag != "Player" || other.gameObject.tag != "Enemy")
         {
             Destroy(this.gameObject);
             Debug.Log("bullet hit ground");
