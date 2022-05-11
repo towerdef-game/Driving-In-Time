@@ -117,7 +117,7 @@
 	<object class="MixerBusPanner" id="{35b647f4-eca9-4504-998d-03afb11542fb}" />
 	<object class="SingleSound" id="{5af3c79e-fd0f-476b-b1ee-2c89977d5cff}">
 		<property name="length">
-			<value>73</value>
+			<value>71</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{571b5141-59cb-42ce-adcb-7b6c8db808ad}</destination>
@@ -178,17 +178,11 @@
 		<property name="length">
 			<value>26.25</value>
 		</property>
-		<property name="looping">
-			<value>2</value>
-		</property>
 		<relationship name="timeline">
 			<destination>{af33f515-7b9c-459a-b8c2-396ecbe50b44}</destination>
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{391656f1-74fb-4d27-bc45-6f0b1b9522ab}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{76988205-5796-4ac1-8401-c2793b384d91}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{a32c813a-79a4-43c8-985f-a6231ee9ad15}">
@@ -222,17 +216,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b519e81f-6c0c-45be-8baf-77a246d80c48}" />
-	<object class="ParameterCondition" id="{76988205-5796-4ac1-8401-c2793b384d91}">
-		<property name="minimum">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{11f63292-86bc-4061-a13b-cd96bf8d7623}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{73a9526d-b69a-4b32-889c-773b5e7735df}" />
 	<object class="SFXReverbEffect" id="{0a65961a-e26e-4461-9e23-ff448de69f4b}">
 		<property name="decayTime">
