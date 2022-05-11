@@ -1482,7 +1482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   remainingTime: 10
   timerIsOn: 0
-  remainingTimeTillSpawn: 1.5
+  remainingTimeTillSpawn: 1
   timerIsOnToSpawn: 0
   playerPosition: {fileID: 1589214902}
   respawnPosition: {x: 84, y: 2, z: -145}
@@ -34048,7 +34048,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1003762900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34132,7 +34132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003762899}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -21.7, y: 17.9, z: 4.9}
+  m_LocalPosition: {x: -21.7, y: 9.4, z: 4.9}
   m_LocalScale: {x: 50, y: 50, z: 15.25}
   m_Children: []
   m_Father: {fileID: 0}
